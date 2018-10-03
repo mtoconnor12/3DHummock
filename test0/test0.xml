@@ -3,7 +3,7 @@
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="mesh type" type="string" value="read mesh file" />
       <ParameterList name="read mesh file parameters" type="ParameterList">
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-peat8cm.exo" />
+        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MinAc_MinCt.exo" />
         <Parameter name="format" type="string" value="Exodus II" />
       </ParameterList>
     </ParameterList>
@@ -16,26 +16,34 @@
         <Parameter name="high coordinate" type="Array(double)" value="{1000000.0,1000000.0,10000000000.0}" />
       </ParameterList>
     </ParameterList>
-    <ParameterList name="computational domain moss" type="ParameterList">
+    <ParameterList name="computational domain acrotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1001" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-peat8cm.exo" />
+        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MinAc_MinCt.exo" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
     </ParameterList>
-    <ParameterList name="computational domain peat" type="ParameterList">
+    <ParameterList name="computational domain catotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1002" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-peat8cm.exo" />
+        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MinAc_MinCt.exo" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
     </ParameterList>
-    <ParameterList name="computational domain upper mineral" type="ParameterList">
+    <ParameterList name="computational domain mineral" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1003" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-peat8cm.exo" />
+        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MinAc_MinCt.exo" />
+        <Parameter name="format" type="string" value="Exodus II" />
+        <Parameter name="entity" type="string" value="Cell" />
+      </ParameterList>
+    </ParameterList>
+	<ParameterList name="computational domain bedrock" type="ParameterList">
+      <ParameterList name="region: labeled set" type="ParameterList">
+        <Parameter name="label" type="string" value="1004" />
+        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MinAc_MinCt.exo" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -43,7 +51,7 @@
     <ParameterList name="surface" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="2" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-peat8cm.exo" />
+        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MinAc_MinCt.exo" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -51,7 +59,7 @@
     <ParameterList name="bottom face" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-peat8cm.exo" />
+        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MinAc_MinCt.exo" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -167,29 +175,37 @@
       <ParameterList name="water retention evaluator" type="ParameterList">
         <Parameter name="minimum rel perm cutoff" type="double" value="0.0" />
         <ParameterList name="WRM parameters" type="ParameterList">
-          <ParameterList name="moss" type="ParameterList">
-            <Parameter name="region" type="string" value="computational domain moss" />
+          <ParameterList name="acrotelm" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain acrotelm" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
             <Parameter name="van Genuchten alpha" type="double" value="0.0023" />
             <Parameter name="van Genuchten m" type="double" value="0.2754" />
             <Parameter name="residual saturation" type="double" value="0.05" />
-	    <Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
+			<Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
           </ParameterList>
-	  <ParameterList name="peat" type="ParameterList"><!-- David Graham-->
-            <Parameter name="region" type="string" value="computational domain peat" />
+	  <ParameterList name="catotelm" type="ParameterList"><!-- David Graham-->
+            <Parameter name="region" type="string" value="computational domain catotelm" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
             <Parameter name="van Genuchten alpha" type="double" value="0.00051" />
             <Parameter name="van Genuchten m" type="double" value="0.19" />
             <Parameter name="residual saturation" type="double" value="0.05" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
           </ParameterList>
-          <ParameterList name="upper mineral" type="ParameterList">
-            <Parameter name="region" type="string" value="computational domain upper mineral" />
+	  <ParameterList name="mineral" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain mineral" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
             <Parameter name="van Genuchten alpha" type="double" value="0.00033" />
             <Parameter name="van Genuchten m" type="double" value="0.2481" />
             <Parameter name="residual saturation" type="double" value="0.199" />
-	    <Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
+			<Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
+          </ParameterList>
+	  <ParameterList name="bedrock" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain mineral" />
+            <Parameter name="WRM Type" type="string" value="van Genuchten" />
+            <Parameter name="van Genuchten alpha" type="double" value="0.000545" />
+            <Parameter name="van Genuchten m" type="double" value="0.1909" />
+            <Parameter name="residual saturation" type="double" value="0.199" />
+			<Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
           </ParameterList>
         </ParameterList>
         <ParameterList name="verbose object" type="ParameterList">
@@ -273,8 +289,8 @@
               </ParameterList>
             </ParameterList>
           </ParameterList>
-          <ParameterList name="moss" type="ParameterList">
-            <Parameter name="region" type="string" value="computational domain moss" />
+          <ParameterList name="acrotelm" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain acrotelm" />
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
@@ -282,8 +298,8 @@
               </ParameterList>
             </ParameterList>
           </ParameterList>
-          <ParameterList name="peat" type="ParameterList">
-            <Parameter name="region" type="string" value="computational domain peat" />
+          <ParameterList name="catotelm" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain catotelm" />
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
@@ -300,17 +316,21 @@
       <ParameterList name="porosity" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="compressible porosity" />
         <ParameterList name="compressible porosity model parameters" type="ParameterList">
-          <ParameterList name="moss" type="ParameterList">
-            <Parameter name="region" type="string" value="computational domain moss" />
+          <ParameterList name="acrotelm" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain acrotelm" />
             <Parameter name="pore compressibility [Pa^-1]" type="double" value="5e-07" />
           </ParameterList>
-          <ParameterList name="peat" type="ParameterList">
-            <Parameter name="region" type="string" value="computational domain peat" />
+          <ParameterList name="catotelm" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain catotelm" />
             <Parameter name="pore compressibility [Pa^-1]" type="double" value="1e-07" />
           </ParameterList>
-          <ParameterList name="upper mineral" type="ParameterList">
-            <Parameter name="region" type="string" value="computational domain upper mineral" />
+          <ParameterList name="mineral" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain mineral" />
             <Parameter name="pore compressibility [Pa^-1]" type="double" value="1e-08" />
+          </ParameterList>
+		  <ParameterList name="bedrock" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain mineral" />
+            <Parameter name="pore compressibility [Pa^-1]" type="double" value="1e-09" />
           </ParameterList>
         </ParameterList>
       </ParameterList>
@@ -327,8 +347,8 @@
               </ParameterList>
             </ParameterList>
           </ParameterList>
-          <ParameterList name="moss" type="ParameterList">
-            <Parameter name="region" type="string" value="computational domain moss" />
+          <ParameterList name="acrotelm" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain acrotelm" />
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
@@ -336,8 +356,8 @@
               </ParameterList>
             </ParameterList>
           </ParameterList>
-          <ParameterList name="peat" type="ParameterList">
-            <Parameter name="region" type="string" value="computational domain peat" />
+          <ParameterList name="catotelm" type="ParameterList">
+            <Parameter name="region" type="string" value="computational domain catotelm" />
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
