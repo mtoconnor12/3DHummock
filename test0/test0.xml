@@ -178,24 +178,24 @@
           <ParameterList name="acrotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain acrotelm" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
-            <Parameter name="van Genuchten alpha" type="double" value="0.0023" />
-            <Parameter name="van Genuchten m" type="double" value="0.2754" />
+            <Parameter name="van Genuchten alpha" type="double" value="0.000587" />
+            <Parameter name="van Genuchten n" type="double" value="1.39" />
             <Parameter name="residual saturation" type="double" value="0.05" />
 			<Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
           </ParameterList>
 	  <ParameterList name="catotelm" type="ParameterList"><!-- David Graham-->
             <Parameter name="region" type="string" value="computational domain catotelm" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
-            <Parameter name="van Genuchten alpha" type="double" value="0.00051" />
-            <Parameter name="van Genuchten m" type="double" value="0.19" />
+            <Parameter name="van Genuchten alpha" type="double" value="0.000114" />
+            <Parameter name="van Genuchten n" type="double" value="1.52" />
             <Parameter name="residual saturation" type="double" value="0.05" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
           </ParameterList>
 	  <ParameterList name="mineral" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain mineral" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
-            <Parameter name="van Genuchten alpha" type="double" value="0.00033" />
-            <Parameter name="van Genuchten m" type="double" value="0.2481" />
+            <Parameter name="van Genuchten alpha" type="double" value="0.00002" />
+            <Parameter name="van Genuchten n" type="double" value="1.58" />
             <Parameter name="residual saturation" type="double" value="0.199" />
 			<Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
           </ParameterList>
@@ -285,7 +285,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="0.596" />
+                <Parameter name="value" type="double" value="0.57" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -294,7 +294,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="0.9" />
+                <Parameter name="value" type="double" value="0.91" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -303,7 +303,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="0.876" />
+                <Parameter name="value" type="double" value="0.85" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -343,7 +343,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-		<Parameter name="value" type="double" value="3.4e-12" />
+		<Parameter name="value" type="double" value="3.78e-14" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -352,7 +352,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="1.75e-11" />
+                <Parameter name="value" type="double" value="1.02e-10" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -361,7 +361,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="9.38e-12" />
+                <Parameter name="value" type="double" value="1.41e-12" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
