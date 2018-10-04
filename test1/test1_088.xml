@@ -3,7 +3,7 @@
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="mesh type" type="string" value="read mesh file" />
       <ParameterList name="read mesh file parameters" type="ParameterList">
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column_mesh3layers.exo" />
+        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MeanAc_MeanCt.exo" />
         <Parameter name="format" type="string" value="Exodus II" />
       </ParameterList>
     </ParameterList>
