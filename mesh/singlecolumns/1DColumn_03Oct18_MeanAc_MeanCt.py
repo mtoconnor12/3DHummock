@@ -59,7 +59,7 @@ for i in range(n3): # mineral loess
     Z.append(z)
 print (z)
 
-for i in range(n4): # bedrock
+for i in range(n4): # mineral loess
     dz *= 1.2
     layer_types.append("constant")
     layer_data.append(dz)
@@ -81,6 +81,9 @@ for i in range(n5): # bedrock
     Z.append(z)
 	
 print (z)
+print(len(layer_types),layer_types[-1])
+print(len(layer_mat_ids),layer_mat_ids[-1])
+
 #layer_types.append('snapped')
 #layer_data.append(-40.0) # bottom location
 #layer_ncells.append(2)
@@ -91,4 +94,4 @@ m3 = meshing_ats.Mesh3D.extruded_Mesh2D(m2, layer_types,
                                         layer_ncells, 
                                         layer_mat_ids)
 
-m3.write_exodus("column-03Oct18_MeanAc_MeanCt.exo")
+m3.write_exodus("column-04Oct18_MeanAc_MeanCt.exo")
