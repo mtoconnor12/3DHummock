@@ -1,7 +1,7 @@
 import sys, os
 
 sys.path.append(os.path.join(os.environ['ATS_SRC_DIR'],'tools','meshing_ats'))
-print(sys.path)
+#print(sys.path)
 import meshing_ats
 import numpy as np
 import pandas as pd
@@ -63,7 +63,7 @@ for i in range(2):
     layer_mat_ids.append(1001)
     z = z + 0.01
     Z.append(z)
-print (z)
+#print (z)
 
 for i in range(n1): #8cm peat n=4, 20cm peat n=10
     layer_types.append('constant')
@@ -72,7 +72,7 @@ for i in range(n1): #8cm peat n=4, 20cm peat n=10
     layer_mat_ids.append(1002)
     z = z + 0.02
     Z.append(z)
-print (z)  
+#print (z)  
 for i in range(n2): #8cm peat, n=20, 20cm peat n = 14
     layer_types.append('constant')
     layer_data.append(0.02)
@@ -80,7 +80,7 @@ for i in range(n2): #8cm peat, n=20, 20cm peat n = 14
     layer_mat_ids.append(1003)
     z = z + 0.02
     Z.append(z)
-print (z)
+#print (z)
 dz = .02
 for i in range(21):
     dz *= 1.05
@@ -91,7 +91,7 @@ for i in range(21):
     #print ('3rd layer',z)
     z = z + dz
     Z.append(z)
-print (z)
+#print (z)
 
 for i in range(17):
     dz *= 1.2
@@ -102,10 +102,10 @@ for i in range(17):
     #print ('3rd layer',z)
     z = z + dz
     Z.append(z)
-print (z)
+#print (z)
 
 
-for i in range(8):
+for i in range(9):
     dz *= 1.2
     layer_types.append("constant")
     layer_data.append(dz)
@@ -114,7 +114,7 @@ for i in range(8):
     #print ('5th layer',z)
     z = z + dz
     Z.append(z)
-print (z)
+#print (z)
 #layer_types.append('snapped') #snapped is to flat the bottom
 #layer_data.append(-40.0) # bottom location
 #layer_ncells.append(2) # these two cells will make the bottom at 40 m
