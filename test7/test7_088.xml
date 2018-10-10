@@ -45,7 +45,7 @@
     <ParameterList name="computational domain acrotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1001" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MeanAc_MeanCt.exo" />
+        <Parameter name="file" type="string" value="../../mesh/hillslopemeshes/4/hillslope-09Oct18_MeanAc_MeanCt.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -53,7 +53,7 @@
     <ParameterList name="computational domain catotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1002" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MeanAc_MeanCt.exo" />
+        <Parameter name="file" type="string" value="../../mesh/hillslopemeshes/4/hillslope-09Oct18_MeanAc_MeanCt.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -61,7 +61,7 @@
     <ParameterList name="computational domain mineral" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1003" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MeanAc_MeanCt.exo" />
+        <Parameter name="file" type="string" value="../../mesh/hillslopemeshes/4/hillslope-09Oct18_MeanAc_MeanCt.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -69,7 +69,7 @@
     <ParameterList name="computational domain bedrock" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1004" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MeanAc_MeanCt.exo" />
+        <Parameter name="file" type="string" value="../../mesh/hillslopemeshes/4/hillslope-09Oct18_MeanAc_MeanCt.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -77,7 +77,7 @@
     <ParameterList name="surface" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="2" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MeanAc_MeanCt.exo" />
+        <Parameter name="file" type="string" value="../../mesh/hillslopemeshes/4/hillslope-09Oct18_MeanAc_MeanCt.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -113,7 +113,7 @@
     <ParameterList name="bottom face" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1" />
-        <Parameter name="file" type="string" value="../../mesh/singlecolumns/column-03Oct18_MeanAc_MeanCt.exo" />
+        <Parameter name="file" type="string" value="../../mesh/hillslopemeshes/4/hillslope-09Oct18_MeanAc_MeanCt.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
