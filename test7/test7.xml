@@ -442,7 +442,7 @@
       <ParameterList name="initial condition" type="ParameterList">
         <Parameter name="initialize faces from cells" type="bool" value="true" />
         <ParameterList name="initialize from 1D column" type="ParameterList">
-          <Parameter name="file" type="string" value="../../test1/run02_09Oct18/column_data.h5" />
+          <Parameter name="file" type="string" value="../../init/column_data_run02_09Oct18.h5" />
           <Parameter name="z header" type="string" value="/z" />
           <Parameter name="f header" type="string" value="/pressure" />
           <Parameter name="coordinate orientation" type="string" value="depth" />
@@ -533,7 +533,7 @@
        <ParameterList name="initial condition" type="ParameterList">
         <Parameter name="initialize faces from cells" type="bool" value="true" />
         <ParameterList name="initialize from 1D column" type="ParameterList">
-          <Parameter name="file" type="string" value="../../test1/run02_09Oct18/column_data.h5" />
+          <Parameter name="file" type="string" value="../../init/column_data_run02_09Oct18.h5" />
           <Parameter name="z header" type="string" value="/z" />
           <Parameter name="f header" type="string" value="/temperature" />
           <Parameter name="coordinate orientation" type="string" value="depth" />
