@@ -184,8 +184,8 @@
 
     <ParameterList name="snow distribution" type="ParameterList">
       <Parameter name="PK type" type="string" value="snow distribution" />
-      <Parameter name="primary variable key" type="string" value="surface-precipitation_snow" />
-      <Parameter name="conserved quantity key" type="string" value="surface-precipitation_snow" />
+      <Parameter name="primary variable key" type="string" value="snow-precipitation" />
+      <Parameter name="conserved quantity key" type="string" value="snow-precipitation" />
       <Parameter name="domain name" type="string" value="surface" />
       <Parameter name="initial time step" type="double" value="3600.0" />
       <Parameter name="upwind conductivity method" type="string" value="upwind by potential difference" />
@@ -805,7 +805,7 @@
         </ParameterList>
       </ParameterList>
 
-      <ParameterList name="surface-manning_coefficient_snow" type="ParameterList">
+      <ParameterList name="snow-manning_coefficient" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="independent variable" />
         <ParameterList name="function" type="ParameterList">
           <ParameterList name="domain" type="ParameterList">
@@ -820,19 +820,19 @@
         </ParameterList>
       </ParameterList>
 
-      <ParameterList name="surface-snow_skin_potential" type="ParameterList">
+      <ParameterList name="snow-skin_potential" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="snow skin potential" />
         <Parameter name="dt factor" type="double" value="86400.0" />
       </ParameterList>
 
-      <ParameterList name="surface-snow_conductivity" type="ParameterList">
+      <ParameterList name="snow-conductivity" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="overland conductivity" />
         <Parameter name="include dt factor" type="bool" value="true" />
         <Parameter name="dt factor" type="double" value="86400.0" />
         <Parameter name="include density factor" type="bool" value="false" />
-        <Parameter name="height key" type="string" value="surface-precipitation_snow" />
+        <Parameter name="height key" type="string" value="snow-precipitation" />
         <Parameter name="slope key" type="string" value="surface-slope_magnitude" />
-        <Parameter name="coefficient key" type="string" value="surface-manning_coefficient_snow" />
+        <Parameter name="coefficient key" type="string" value="snow-manning_coefficient" />
         <ParameterList name="overland conductivity model" type="ParameterList">
           <Parameter name="Manning exponent" type="double" value="0.666666666667" />
           <Parameter name="slope regularization epsilon" type="double" value="0.01" />
