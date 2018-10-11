@@ -129,24 +129,30 @@
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
     <ParameterList name="PK tree">
-      <ParameterList name="coupled SEB and permafrost" type="ParameterList">
-        <Parameter name="PK type" type="string" value="strong MPC" />
-        <ParameterList name="SEB" type="ParameterList">
-          <Parameter name="PK type" type="string" value="surface balance implicit subgrid" />
+      <ParameterList name="Top level MPC" type="ParameterList">
+        <Parameter name="PK type" type="string" value="weak MPC" />
+        <ParameterList name="snow distribution" type="ParameterList">
+          <Parameter name="PK type" type="string" value="snow distribution" />
         </ParameterList>
-        <ParameterList name="PSS" type="ParameterList">
-          <Parameter name="PK type" type="string" value="permafrost model" />
-          <ParameterList name="SSF" type="ParameterList">
-            <Parameter name="PK type" type="string" value="permafrost flow" />
+        <ParameterList name="coupled SEB and permafrost" type="ParameterList">
+          <Parameter name="PK type" type="string" value="strong MPC" />
+          <ParameterList name="SEB" type="ParameterList">
+            <Parameter name="PK type" type="string" value="surface balance implicit subgrid" />
           </ParameterList>
-          <ParameterList name="SSE" type="ParameterList">
-            <Parameter name="PK type" type="string" value="three-phase energy" />
-          </ParameterList>
-          <ParameterList name="SF" type="ParameterList">
-            <Parameter name="PK type" type="string" value="overland flow with ice" />
-          </ParameterList>
-          <ParameterList name="SE" type="ParameterList">
-            <Parameter name="PK type" type="string" value="surface energy" />
+          <ParameterList name="PSS" type="ParameterList">
+            <Parameter name="PK type" type="string" value="permafrost model" />
+            <ParameterList name="SSF" type="ParameterList">
+              <Parameter name="PK type" type="string" value="permafrost flow" />
+            </ParameterList>
+            <ParameterList name="SSE" type="ParameterList">
+              <Parameter name="PK type" type="string" value="three-phase energy" />
+            </ParameterList>
+            <ParameterList name="SF" type="ParameterList">
+              <Parameter name="PK type" type="string" value="overland flow with ice" />
+            </ParameterList>
+            <ParameterList name="SE" type="ParameterList">
+              <Parameter name="PK type" type="string" value="surface energy" />
+            </ParameterList>
           </ParameterList>
         </ParameterList>
       </ParameterList>
@@ -169,6 +175,111 @@
   </ParameterList>
 
   <ParameterList name="PKs" type="ParameterList">
+
+    <ParameterList name="Top level MPC" type="ParameterList">
+      <Parameter name="PK type" type="string" value="weak MPC" />
+      <Parameter name="PKs order" type="Array(string)" value="{snow distribution, coupled SEB and permafrost}" />
+
+    </ParameterList>
+
+    <ParameterList name="snow distribution" type="ParameterList">
+      <Parameter name="PK type" type="string" value="snow distribution" />
+      <Parameter name="primary variable key" type="string" value="snow-precipitation" />
+      <Parameter name="conserved quantity key" type="string" value="snow-precipitation" />
+      <Parameter name="domain name" type="string" value="snow" />
+      <Parameter name="initial time step" type="double" value="3600.0" />
+      <Parameter name="upwind conductivity method" type="string" value="upwind by potential difference" />
+      <Parameter name="distribution time" type="double" value="86400.0" />
+      <ParameterList name="precipitation function" type="ParameterList">
+        <ParameterList name="function-tabular" type="ParameterList">
+          <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_20yr_spinup_09Oct18.h5" />
+          <Parameter name="x header" type="string" value="time [s]" />
+          <Parameter name="y header" type="string" value="precipitation snow [m SWE s^-1]" />
+        </ParameterList>
+      </ParameterList>
+
+      <ParameterList name="time integrator" type="ParameterList">
+        <Parameter name="extrapolate initial guess" type="bool" value="false" />
+        <Parameter name="solver type" type="string" value="nka_bt_ats" />
+        <Parameter name="timestep controller type" type="string" value="smarter" />
+        <ParameterList name="nka_bt_ats parameters" type="ParameterList">
+          <Parameter name="nka lag iterations" type="int" value="0" />
+          <Parameter name="max backtrack steps" type="int" value="3" />
+          <Parameter name="max total backtrack steps" type="int" value="20" />
+          <Parameter name="backtrack lag" type="int" value="0" />
+          <Parameter name="last backtrack iteration" type="int" value="4" />
+          <Parameter name="backtrack factor" type="double" value="0.5" />
+          <Parameter name="backtrack tolerance" type="double" value="0.01" />
+          <Parameter name="nonlinear tolerance" type="double" value="0.001" />
+          <Parameter name="diverged tolerance" type="double" value="1000000.0" />
+          <Parameter name="limit iterations" type="int" value="21" />
+          <ParameterList name="verbose object" type="ParameterList">
+            <Parameter name="verbosity level" type="string" value="high" />
+          </ParameterList>
+        </ParameterList>
+        <ParameterList name="verbose object" type="ParameterList">
+          <Parameter name="verbosity level" type="string" value="high" />
+        </ParameterList>
+        <ParameterList name="timestep controller smarter parameters" type="ParameterList">
+          <Parameter name="max iterations" type="int" value="20" />
+          <Parameter name="min iterations" type="int" value="10" />
+          <Parameter name="time step reduction factor" type="double" value="0.25" />
+          <Parameter name="time step increase factor" type="double" value="1.5" />
+          <Parameter name="max time step" type="double" value="21600.0" />
+          <Parameter name="min time step" type="double" value="1e-10" />
+          <Parameter name="growth wait after fail" type="int" value="2" />
+          <Parameter name="count before increasing increase factor" type="int" value="2" />
+        </ParameterList>
+      </ParameterList>
+
+      <ParameterList name="diffusion" type="ParameterList">
+        <Parameter name="MFD method" type="string" value="fv: default" />
+      </ParameterList>
+
+      <ParameterList name="diffusion preconditioner" type="ParameterList">
+        <Parameter name="MFD method" type="string" value="fv: default" />
+      </ParameterList>
+
+      <ParameterList name="preconditioner" type="ParameterList">
+        <Parameter name="preconditioner type" type="string" value="boomer amg" />
+        <ParameterList name="boomer amg parameters" type="ParameterList">
+          <Parameter name="cycle applications" type="int" value="2" />
+          <Parameter name="smoother sweeps" type="int" value="2" />
+          <Parameter name="strong threshold" type="double" value="0.65" />
+          <Parameter name="tolerance" type="double" value="0.0" />
+        </ParameterList>
+      </ParameterList>
+
+      <ParameterList name="linear solver" type="ParameterList">
+        <Parameter name="iterative method" type="string" value="nka" />
+        <ParameterList name="nka parameters" type="ParameterList">
+          <Parameter name="error tolerance" type="double" value="1e-06" />
+          <Parameter name="maximum number of iterations" type="int" value="10" />
+          <ParameterList name="verbose object" type="ParameterList">
+            <Parameter name="verbosity level" type="string" value="high" />
+          </ParameterList>
+        </ParameterList>
+      </ParameterList>
+
+      <ParameterList name="verbose object" type="ParameterList">
+        <Parameter name="verbosity level" type="string" value="high" />
+      </ParameterList>
+
+      <ParameterList name="initial condition" type="ParameterList">
+        <ParameterList name="function" type="ParameterList">
+          <ParameterList name="initial head" type="ParameterList">
+            <Parameter name="region" type="string" value="surface domain" />
+            <Parameter name="component" type="string" value="cell" />
+            <ParameterList name="function" type="ParameterList">
+              <ParameterList name="function-constant" type="ParameterList">
+                <Parameter name="value" type="double" value="0.0" />
+              </ParameterList>
+            </ParameterList>
+          </ParameterList>
+        </ParameterList>
+      </ParameterList>
+
+    </ParameterList>
 
     <ParameterList name="coupled SEB and permafrost" type="ParameterList">
       <Parameter name="PK type" type="string" value="strong MPC" />
@@ -694,6 +805,40 @@
         </ParameterList>
       </ParameterList>
 
+      <ParameterList name="snow-manning_coefficient" type="ParameterList">
+        <Parameter name="field evaluator type" type="string" value="independent variable" />
+        <ParameterList name="function" type="ParameterList">
+          <ParameterList name="domain" type="ParameterList">
+            <Parameter name="region" type="string" value="surface domain" />
+            <Parameter name="component" type="string" value="cell" />
+            <ParameterList name="function" type="ParameterList">
+              <ParameterList name="function-constant" type="ParameterList">
+                <Parameter name="value" type="double" value="500.0" />
+              </ParameterList>
+            </ParameterList>
+          </ParameterList>
+        </ParameterList>
+      </ParameterList>
+
+      <ParameterList name="snow-skin_potential" type="ParameterList">
+        <Parameter name="field evaluator type" type="string" value="snow skin potential" />
+        <Parameter name="dt factor" type="double" value="86400.0" />
+      </ParameterList>
+
+      <ParameterList name="snow-conductivity" type="ParameterList">
+        <Parameter name="field evaluator type" type="string" value="overland conductivity" />
+        <Parameter name="include dt factor" type="bool" value="true" />
+        <Parameter name="dt factor" type="double" value="86400.0" />
+        <Parameter name="include density factor" type="bool" value="false" />
+        <Parameter name="height key" type="string" value="snow-precipitation" />
+        <Parameter name="slope key" type="string" value="surface-slope_magnitude" />
+        <Parameter name="coefficient key" type="string" value="snow-manning_coefficient" />
+        <ParameterList name="overland conductivity model" type="ParameterList">
+          <Parameter name="Manning exponent" type="double" value="0.666666666667" />
+          <Parameter name="slope regularization epsilon" type="double" value="0.01" />
+        </ParameterList>
+      </ParameterList>
+
       <ParameterList name="surface-effective_pressure" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="effective_pressure" />
       </ParameterList>
@@ -794,23 +939,6 @@
                 <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_20yr_spinup_09Oct18.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="precipitation rain [m s^-1]" />
-              </ParameterList>
-            </ParameterList>
-          </ParameterList>
-        </ParameterList>
-      </ParameterList>
-
-      <ParameterList name="snow-precipitation" type="ParameterList">
-        <Parameter name="field evaluator type" type="string" value="independent variable" />
-        <ParameterList name="function" type="ParameterList">
-          <ParameterList name="domain" type="ParameterList">
-            <Parameter name="region" type="string" value="surface domain" />
-            <Parameter name="component" type="string" value="cell" />
-            <ParameterList name="function" type="ParameterList">
-              <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_20yr_spinup_09Oct18.h5" />
-                <Parameter name="x header" type="string" value="time [s]" />
-                <Parameter name="y header" type="string" value="precipitation snow [m SWE s^-1]" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
