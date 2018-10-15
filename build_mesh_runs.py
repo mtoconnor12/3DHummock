@@ -4,10 +4,10 @@ sys.path.append(os.path.join(os.environ['AMANZI_SRC_DIR'],'tools','amanzi_xml'))
 sys.path.append(os.path.join(os.environ['ATS_SRC_DIR'],'tools','utils','atsxml'))
 import atsxml
 sys.path.append(os.path.join(os.environ['ATS_SRC_DIR'],'tools','meshing_ats'))
-import meshing_ats
+#import meshing_ats
 import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 import math
 
 ## This should be run from the TEST folder.  It will cd into each run folder for each.
@@ -105,38 +105,38 @@ homedir = os.getcwd() ## This should be run from the HOME folder for the whole s
 branchName = "hillslope-30mSuite"
 
 ## Pick the slopes and thicknesses 
-m = [0.01,0.1]
+slope = [0.01,0.1]
 bac = [0.05,0.1,0.15]
 bct = [0.06,0.12,0.18]
 
 ## Run the loop to build the meshes
-os.chdir(homedir + "/mesh")
-os.mkdir(branchName)
-os.chdir(homedir)
+#os.chdir(homedir + "/mesh")
+#os.mkdir(branchName)
+#os.chdir(homedir)
 
-for i in range(2):
-	for j in range(3):
-		for k in range(3):
-			fname = branchName + "-" + str(m[i]) + "m_" + str(bac[j]) + "bac_" + str(bct[k]) + "bct"
-			os.chdir(homedir + "/mesh/" + branchName)
-			make_30m_mesh(m[i],bac[j],bct[k],fname)
+#for i in range(2):
+#	for j in range(3):
+#		for k in range(3):
+#			fname = branchName + "-" + str(m[i]) + "m_" + str(bac[j]) + "bac_" + str(bct[k]) + "bct"
+#			os.chdir(homedir + "/mesh/" + branchName)
+#			make_30m_mesh(m[i],bac[j],bct[k],fname)
 
 os.chdir(homedir + "/test7")
 					
 for i in range(2):
 	for j in range(3):
 		for k in range(3):
-			fname = branchName + "-" + str(m[i]) + "m_" + str(bac[j]) + "bac_" + str(bct[k]) + "bct"
+			fname = branchName + "-" + str(slope[i]) + "m_" + str(bac[j]) + "bac_" + str(bct[k]) + "bct"
+			m = atsxml.get_root('test7_hillslope-30mSuite_template.xml')
+			atsxml.replace_by_path(m,['mesh','domain','read mesh file parameters','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
+			atsxml.replace_by_path(m,['regions','computational domain acrotelm','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
+			atsxml.replace_by_path(m,['regions','computational domain catotelm','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
+			atsxml.replace_by_path(m,['regions','computational domain mineral','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
+			atsxml.replace_by_path(m,['regions','computational domain bedrock','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
+			atsxml.replace_by_path(m,['regions','surface','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
+			atsxml.replace_by_path(m,['regions','bottom face','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 			os.mkdir(fname)
 			os.chdir(fname)
-			m = atsxml.get_root('../test7_hillslope-30mSuite_template.xml')
-			atsxml.replace_by_path(m,['mesh','domain','read mesh file parameters','file'],'../../mesh/' + fname + '.exo')
-			atsxml.replace_by_path(m,['regions','computational domain acrotelm','region: labeled set','file'],'../../mesh/' + fname + '.exo')
-			atsxml.replace_by_path(m,['regions','computational domain catotelm','region: labeled set','file'],'../../mesh/' + fname + '.exo')
-			atsxml.replace_by_path(m,['regions','computational domain mineral','region: labeled set','file'],'../../mesh/' + fname + '.exo')
-			atsxml.replace_by_path(m,['regions','computational domain bedrock','region: labeled set','file'],'../../mesh/' + fname + '.exo')
-			atsxml.replace_by_path(m,['regions','surface','region: labeled set','file'],'../../mesh/' + fname + '.exo')
-			atsxml.replace_by_path(m,['regions','bottom face','region: labeled set','file'],'../../mesh/' + fname + '.exo')
 			atsxml.run(m)
 			os.chdir(homedir + "/test7")
 
