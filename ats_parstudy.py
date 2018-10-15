@@ -14,7 +14,7 @@ def model(pars,hostname='dum',processor=4):
     # ATS ##############################################################################
     # Modify base ats xml input file and run ats
     m = atsxml.get_root('../test7-v_fwd.xml')
-    atsxml.replace_by_path(m,['base_porosity','rest domain','value'],pars['poro_m'])
+    atsxml.replace_by_path(m,['mesh','domain','read mesh file parameters','file'],fname + '.exo')
     atsxml.replace_by_path(m,['base_porosity','peat','value'],pars['poro_p'])
     atsxml.replace_by_path(m,['permeability','rest domain','value'],10**pars['perm_m'])
     atsxml.replace_by_path(m,['permeability','peat','value'],10**pars['perm_p'])
