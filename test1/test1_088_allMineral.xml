@@ -196,17 +196,17 @@
           <ParameterList name="acrotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain acrotelm" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
-            <Parameter name="van Genuchten alpha" type="double" value="0.000587" />
-            <Parameter name="van Genuchten n" type="double" value="1.39" />
-            <Parameter name="residual saturation" type="double" value="0.05" />
+            <Parameter name="van Genuchten alpha" type="double" value="2e-05" />
+            <Parameter name="van Genuchten n" type="double" value="1.58" />
+            <Parameter name="residual saturation" type="double" value="0.199" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
           </ParameterList>
           <ParameterList name="catotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain catotelm" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
-            <Parameter name="van Genuchten alpha" type="double" value="0.000114" />
-            <Parameter name="van Genuchten n" type="double" value="1.52" />
-            <Parameter name="residual saturation" type="double" value="0.05" />
+            <Parameter name="van Genuchten alpha" type="double" value="2e-05" />
+            <Parameter name="van Genuchten n" type="double" value="1.58" />
+            <Parameter name="residual saturation" type="double" value="0.199" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
           </ParameterList>
           <ParameterList name="mineral" type="ParameterList">
@@ -285,18 +285,18 @@
           <ParameterList name="acrotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain acrotelm" />
             <Parameter name="thermal conductivity type" type="string" value="three-phase wet/dry" />
-            <Parameter name="thermal conductivity, saturated (unfrozen) [W/(m-K)]" type="double" value="0.56" />
-            <Parameter name="thermal conductivity, dry [W/(m-K)]" type="double" value="0.08" />
-            <Parameter name="unsaturated alpha frozen [-]" type="double" value="1.0" />
-            <Parameter name="unsaturated alpha unfrozen [-]" type="double" value="0.5" />
+            <Parameter name="thermal conductivity, saturated (unfrozen) [W/(m-K)]" type="double" value="1.65" />
+            <Parameter name="thermal conductivity, dry [W/(m-K)]" type="double" value="0.4" />
+            <Parameter name="unsaturated alpha frozen [-]" type="double" value="0.73" />
+            <Parameter name="unsaturated alpha unfrozen [-]" type="double" value="0.8" />
           </ParameterList>
           <ParameterList name="computational domain catotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain catotelm" />
             <Parameter name="thermal conductivity type" type="string" value="three-phase wet/dry" />
-            <Parameter name="thermal conductivity, saturated (unfrozen) [W/(m-K)]" type="double" value="0.67" />
-            <Parameter name="thermal conductivity, dry [W/(m-K)]" type="double" value="0.09" />
-            <Parameter name="unsaturated alpha frozen [-]" type="double" value="2.0" />
-            <Parameter name="unsaturated alpha unfrozen [-]" type="double" value="0.4" />
+            <Parameter name="thermal conductivity, saturated (unfrozen) [W/(m-K)]" type="double" value="1.65" />
+            <Parameter name="thermal conductivity, dry [W/(m-K)]" type="double" value="0.4" />
+            <Parameter name="unsaturated alpha frozen [-]" type="double" value="0.73" />
+            <Parameter name="unsaturated alpha unfrozen [-]" type="double" value="0.8" />
           </ParameterList>
           <ParameterList name="computational domain mineral" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain mineral" />
@@ -479,18 +479,18 @@
           <ParameterList name="acrotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain acrotelm" />
             <Parameter name="component" type="string" value="cell" />
-            <ParameterList name="function" type="ParameterList">
+			<ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="0.91" />
+                <Parameter name="value" type="double" value="0.57" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
           <ParameterList name="catotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain catotelm" />
             <Parameter name="component" type="string" value="cell" />
-            <ParameterList name="function" type="ParameterList">
+			<ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="0.85" />
+                <Parameter name="value" type="double" value="0.57" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -505,11 +505,11 @@
         <ParameterList name="compressible porosity model parameters" type="ParameterList">
           <ParameterList name="acrotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain acrotelm" />
-            <Parameter name="pore compressibility [Pa^-1]" type="double" value="5e-07" />
+            <Parameter name="pore compressibility [Pa^-1]" type="double" value="1e-08" />
           </ParameterList>
           <ParameterList name="catotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain catotelm" />
-            <Parameter name="pore compressibility [Pa^-1]" type="double" value="1e-07" />
+            <Parameter name="pore compressibility [Pa^-1]" type="double" value="1e-08" />
           </ParameterList>
           <ParameterList name="mineral" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain mineral" />
@@ -539,7 +539,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="1.02e-10" />
+                <Parameter name="value" type="double" value="3.78e-14" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -548,7 +548,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="1.41e-12" />
+                <Parameter name="value" type="double" value="3.78e-14" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -573,18 +573,18 @@
           <ParameterList name="acrotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain acrotelm" />
             <Parameter name="component" type="string" value="cell" />
-            <ParameterList name="function" type="ParameterList">
+			<ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="400.0" />
+                <Parameter name="value" type="double" value="2170.0" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
           <ParameterList name="catotelm" type="ParameterList">
             <Parameter name="region" type="string" value="computational domain catotelm" />
             <Parameter name="component" type="string" value="cell" />
-            <ParameterList name="function" type="ParameterList">
+			<ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="1400.0" />
+                <Parameter name="value" type="double" value="2170.0" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
