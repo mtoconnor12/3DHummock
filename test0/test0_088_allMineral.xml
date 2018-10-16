@@ -149,7 +149,7 @@
             <Parameter name="regions" type="Array(string)" value="{surface}" />
             <ParameterList name="boundary pressure" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="25875.0" />
+                <Parameter name="value" type="double" value="24864.0" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -165,7 +165,7 @@
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-linear" type="ParameterList">
                 <Parameter name="x0" type="Array(double)" value="{0.0,0.0,0.0,0.0}" />
-                <Parameter name="y0" type="double" value="25875.0" />
+                <Parameter name="y0" type="double" value="24864.0" />
                 <Parameter name="gradient" type="Array(double)" value="{0.0,0.0,0.0,-9806.65}" />
               </ParameterList>
             </ParameterList>
