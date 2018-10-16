@@ -1235,16 +1235,16 @@
   <ParameterList name="visualization" type="ParameterList">
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump" />
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,31536000.0,-1.0}" />
     </ParameterList>
     <ParameterList name="surface" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump_surface" />
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,31536000.0,-1.0}" />
       <Parameter name="visualize on 3D mesh" type="bool" value="true" />
     </ParameterList>
     <ParameterList name="snow" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump_snow" />
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,31536000.0,-1.0}" />
       <Parameter name="visualize on 3D mesh" type="bool" value="true" />
     </ParameterList>
   </ParameterList>

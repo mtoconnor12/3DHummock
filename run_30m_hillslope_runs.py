@@ -101,6 +101,15 @@ def make_30m_mesh(m,bac,bct,fname):
 
 	m3.write_exodus(meshName)
 	
+def write_xml(xml,filename):
+    #self.tree.write(filename)
+    m_str = ET.tostring(xml)
+    m_str_strip = m_str.replace('\n','')
+    m_str_strip = re.sub('>\s*<','><',m_str_strip)
+    m_reparsed = minidom.parseString(m_str_strip)
+    with open(filename, "w") as f:
+        f.write(m_reparsed.toprettyxml(indent="  "))
+	
 homedir = os.getcwd() ## This should be run from the HOME folder for the whole shebang.  It will cd into each run folder for each.
 branchName = "hillslope-30mSuite"
 
@@ -136,9 +145,9 @@ for i in range(2):
 			atsxml.replace_by_path(m,['regions','surface','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 			atsxml.replace_by_path(m,['regions','bottom face','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 			os.mkdir(fname)
-			os.chdir(fname)
-			atsxml.run(m)
-			os.chdir(homedir + "/test7")
+			#os.chdir(fname)
+			write_xml(xml,fname + '.xml')
+			#os.chdir(homedir + "/test7")
 
 
 			
