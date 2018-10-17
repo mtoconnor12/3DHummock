@@ -7,7 +7,7 @@ for NUM in ${NUMBERS}
 do
    job_name=sim_${NUM}
    file_name=run${NUM}
-   dir_name="${file_name}_dir"
+   dir_name="${file_name}dir"
    echo "Submitting Job: ${NAME}"
    mkdir ${dir_name}
    cd ${dir_name}
