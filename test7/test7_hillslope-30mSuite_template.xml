@@ -1,4 +1,3 @@
-<?xml version="1.0" ?>
 <ParameterList name="Main" type="ParameterList">
   <ParameterList name="mesh" type="ParameterList">
     <ParameterList name="surface" type="ParameterList">
@@ -19,14 +18,14 @@
       </ParameterList>
       <ParameterList name="expert" type="ParameterList">
         <Parameter name="verify mesh" type="bool" value="true"/>
-      </ParameterList>
-      <ParameterList name="snow" type="ParameterList">
-        <Parameter name="mesh type" type="string" value="aliased"/>
+      </ParameterList>	  
+    </ParameterList>
+	<ParameterList name="snow" type="ParameterList">
+		<Parameter name="mesh type" type="string" value="aliased"/>
         <ParameterList name="aliased parameters" type="ParameterList">
           <Parameter name="alias" type="string" value="surface"/>
         </ParameterList>
-      </ParameterList>
-    </ParameterList>
+	</ParameterList>
   </ParameterList>
   <ParameterList name="regions" type="ParameterList">
     <ParameterList name="computational domain" type="ParameterList">
