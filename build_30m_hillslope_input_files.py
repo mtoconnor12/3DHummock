@@ -9,6 +9,13 @@ import numpy as np
 import pandas as pd
 #from matplotlib import pyplot as plt
 import math
+try:
+	import xml.etree.cElementTree as ET
+except:
+	import xml.etree.ElementTree as ET
+from amanzi_xml.utils.search import *
+import re
+from xml.dom import minidom
 
 ## This should be run from the TEST folder.  It will cd into each run folder for each.
 
@@ -131,7 +138,9 @@ bct = [0.06,0.12,0.18]
 #			make_30m_mesh(m[i],bac[j],bct[k],fname)
 
 os.chdir(homedir + "/test7")
-					
+
+c = 1
+
 for i in range(2):
 	for j in range(3):
 		for k in range(3):
@@ -144,9 +153,10 @@ for i in range(2):
 			atsxml.replace_by_path(m,['regions','computational domain bedrock','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 			atsxml.replace_by_path(m,['regions','surface','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 			atsxml.replace_by_path(m,['regions','bottom face','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
-			os.mkdir(fname)
+			#os.mkdir(fname)
 			#os.chdir(fname)
-			write_xml(xml,fname + '.xml')
+			write_xml(m,'run' + str(c) + '.xml')
+			c = c + 1
 			#os.chdir(homedir + "/test7")
 
 

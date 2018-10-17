@@ -1,0 +1,30 @@
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Mesh snow does not exist in the state.
+[or-condo-c76:54120] *** Process received signal ***
+[or-condo-c76:54120] Signal: Aborted (6)
+[or-condo-c76:54120] Signal code:  (-6)
+[or-condo-c76:54120] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ba283cbf6d0]
+[or-condo-c76:54120] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ba283f02277]
+[or-condo-c76:54120] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ba283f03968]
+[or-condo-c76:54120] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ba2834a98cd]
+[or-condo-c76:54120] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ba2834a7906]
+[or-condo-c76:54120] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ba2834a7951]
+[or-condo-c76:54120] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ba2834a7b69]
+[or-condo-c76:54120] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x47)[0x82a79e]
+[or-condo-c76:54120] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/Debug/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZNK6Amanzi5State7GetMeshENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x254)[0x2ba27568708c]
+[or-condo-c76:54120] [ 9] ats(_ZN6Amanzi19PK_Physical_Default5SetupERKN7Teuchos3PtrINS_5StateEEE+0x66)[0xd05446]
+[or-condo-c76:54120] [10] ats(_ZN6Amanzi22PK_PhysicalBDF_Default5SetupERKN7Teuchos3PtrINS_5StateEEE+0x39)[0xd09f2b]
+[or-condo-c76:54120] [11] ats(_ZN6Amanzi14SurfaceBalance18SurfaceBalanceBase5SetupERKN7Teuchos3PtrINS_5StateEEE+0x35)[0xca5143]
+[or-condo-c76:54120] [12] ats(_ZN6Amanzi14SurfaceBalance15ImplicitSubgrid5SetupERKN7Teuchos3PtrINS_5StateEEE+0x33)[0xcb25b1]
+[or-condo-c76:54120] [13] ats(_ZN6Amanzi3MPCINS_14PK_BDF_DefaultEE5SetupERKN7Teuchos3PtrINS_5StateEEE+0x7d)[0x854431]
+[or-condo-c76:54120] [14] ats(_ZN6Amanzi9StrongMPCINS_14PK_BDF_DefaultEE5SetupERKN7Teuchos3PtrINS_5StateEEE+0x2c8)[0x853e58]
+[or-condo-c76:54120] [15] ats(_ZN3ATS11Coordinator5setupEv+0x152)[0x891a3c]
+[or-condo-c76:54120] [16] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x73)[0x89736b]
+[or-condo-c76:54120] [17] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x50a)[0x888a0c]
+[or-condo-c76:54120] [18] ats(main+0x1d1)[0x81ae47]
+[or-condo-c76:54120] [19] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ba283eee445]
+[or-condo-c76:54120] [20] ats[0x81aba9]
+[or-condo-c76:54120] *** End of error message ***
+/var/spool/torque/mom_priv/jobs/425223.or-condo-pbs01.SC: line 13: 54120 Aborted                 ats --xml_file=../run1.xml

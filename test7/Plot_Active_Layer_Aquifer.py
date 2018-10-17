@@ -20,8 +20,8 @@ keys, times, dat = parse_ats.readATS(directory, "visdump_data.h5", timeunits='yr
 
 ## SELECT TIME INTERVAL TO PULL AND PLOT:
 # Visdumps are spit out every 30 days.  Index 0 is January of year 1; 12 is January year 2; etc...
-ind_start = -2
-ind_end = -1 # if you want it to run to the end of the list, type '-1' for the last item on the list.
+ind_start = 180 + 270
+ind_end = 181 + 720 # if you want it to run to the end of the list, type '-1' for the last item on the list.
 ind_int = 1 # there is one checkpoint file every 30 days
 
 col_dat = transect_data.transect_data(['saturation_gas','saturation_ice'], keys=np.s_[ind_start:ind_end:ind_int], directory=directory)
