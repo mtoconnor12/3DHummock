@@ -14,7 +14,7 @@ dt = datetime.fromordinal(733828)
 dt
 dt.strftime('%Y%m%d')
 
-directory = "./hillslope-test-allMinColumn"
+directory = "./run9dir"
 
 keys, times, dat = parse_ats.readATS(directory, "visdump_data.h5", timeunits='yr')
 
@@ -22,7 +22,7 @@ keys, times, dat = parse_ats.readATS(directory, "visdump_data.h5", timeunits='yr
 # Visdumps are spit out every 30 days.  Index 0 is January of year 1; 12 is January year 2; etc...
 ind_start = 0
 ind_end = -1 # if you want it to run to the end of the list, type '-1' for the last item on the list.
-ind_int = 90 # there is one checkpoint file every 30 days
+ind_int = 180 # there is one checkpoint file every 30 days
 
 col_dat = transect_data.transect_data(['saturation_gas'], keys=np.s_[ind_start:ind_end:ind_int], directory=directory)
 times_subset = times[ind_start:ind_end:ind_int]
