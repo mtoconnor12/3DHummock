@@ -1,4 +1,3 @@
-<?xml version="1.0" ?>
 <ParameterList name="Main" type="ParameterList">
   <ParameterList name="mesh" type="ParameterList">
     <ParameterList name="surface" type="ParameterList">
@@ -14,19 +13,19 @@
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="mesh type" type="string" value="read mesh file"/>
       <ParameterList name="read mesh file parameters" type="ParameterList">
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.05bac_0.06bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
       </ParameterList>
       <ParameterList name="expert" type="ParameterList">
         <Parameter name="verify mesh" type="bool" value="true"/>
-      </ParameterList>
+      </ParameterList>	  
     </ParameterList>
-    <ParameterList name="snow" type="ParameterList">
-      <Parameter name="mesh type" type="string" value="aliased"/>
-      <ParameterList name="aliased parameters" type="ParameterList">
-        <Parameter name="alias" type="string" value="surface"/>
-      </ParameterList>
-    </ParameterList>
+	<ParameterList name="snow" type="ParameterList">
+		<Parameter name="mesh type" type="string" value="aliased"/>
+        <ParameterList name="aliased parameters" type="ParameterList">
+          <Parameter name="alias" type="string" value="surface"/>
+        </ParameterList>
+	</ParameterList>
   </ParameterList>
   <ParameterList name="regions" type="ParameterList">
     <ParameterList name="computational domain" type="ParameterList">
@@ -44,7 +43,7 @@
     <ParameterList name="computational domain acrotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1001"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.05bac_0.06bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -52,7 +51,7 @@
     <ParameterList name="computational domain catotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1002"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.05bac_0.06bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -60,7 +59,7 @@
     <ParameterList name="computational domain mineral" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1003"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.05bac_0.06bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -68,7 +67,7 @@
     <ParameterList name="computational domain bedrock" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1004"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.05bac_0.06bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -76,7 +75,7 @@
     <ParameterList name="surface" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="2"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.05bac_0.06bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Face"/>
       </ParameterList>
@@ -84,10 +83,58 @@
     <ParameterList name="surface boundary" type="ParameterList">
       <ParameterList name="region: boundary" type="ParameterList"/>
     </ParameterList>
+    <ParameterList name="east" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{30.0,0.0}"/>
+        <Parameter name="normal" type="Array(double)" value="{1.0,0.0}"/>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="east subsurface" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{30.0,0.0,0.0}"/>
+        <Parameter name="normal" type="Array(double)" value="{1.0,0.0,0.0}"/>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="midpoint" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{15.0,0.0}"/>
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0}"/>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="midpoint subsurface" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{15.0,0.0,0.0}"/>
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0,0.0}"/>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="near west" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{5.0,0.0}"/>
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0}"/>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="near west subsurface" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{5.0,0.0,0.0}"/>
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0,0.0}"/>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="west" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{0.0,0.0}"/>
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0}"/>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="west subsurface" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{0.0,0.0,0.0}"/>
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0,0.0}"/>
+      </ParameterList>
+    </ParameterList>
     <ParameterList name="surface outletbox" type="ParameterList">
       <ParameterList name="region: box" type="ParameterList">
         <Parameter name="low coordinate" type="Array(double)" value="{0.0,-3.0}"/>
-        <Parameter name="high coordinate" type="Array(double)" value="{0.6,3.0}"/>
+        <Parameter name="high coordinate" type="Array(double)" value="{0.5,50.0}"/>
       </ParameterList>
     </ParameterList>
     <ParameterList name="surface outlet" type="ParameterList">
@@ -96,22 +143,10 @@
         <Parameter name="regions" type="Array(string)" value="{surface outletbox, surface boundary}"/>
       </ParameterList>
     </ParameterList>
-    <ParameterList name="surface inletbox" type="ParameterList">
-      <ParameterList name="region: box" type="ParameterList">
-        <Parameter name="low coordinate" type="Array(double)" value="{0.0,-5.0}"/>
-        <Parameter name="high coordinate" type="Array(double)" value="{0.001,5.0}"/>
-      </ParameterList>
-    </ParameterList>
-    <ParameterList name="surface inlet" type="ParameterList">
-      <ParameterList name="region: logical" type="ParameterList">
-        <Parameter name="operation" type="string" value="intersect"/>
-        <Parameter name="regions" type="Array(string)" value="{surface inletbox, surface boundary}"/>
-      </ParameterList>
-    </ParameterList>
     <ParameterList name="bottom face" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.05bac_0.06bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Face"/>
       </ParameterList>
@@ -120,7 +155,7 @@
   <ParameterList name="cycle driver" type="ParameterList">
     <Parameter name="start time" type="double" value="0.0"/>
     <Parameter name="start time units" type="string" value="s"/>
-    <Parameter name="end time" type="double" value="1095.0"/>
+    <Parameter name="end time" type="double" value="7300.0"/>
     <Parameter name="end time units" type="string" value="d"/>
     <ParameterList name="required times" type="ParameterList">
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
@@ -159,6 +194,88 @@
       <Parameter name="write interval" type="int" value="1"/>
       <Parameter name="observation output filename" type="string" value="surface_flux-outlet-day.dat"/>
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
+    </ParameterList>
+    <ParameterList name="surface outlet flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="surface-mass_flux"/>
+      <Parameter name="direction normalized flux" type="bool" value="true"/>
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0}"/>
+      <Parameter name="region" type="string" value="west"/>
+      <Parameter name="functional" type="string" value="observation data: extensive integral"/>
+      <Parameter name="delimiter" type="string" value=" "/>
+      <Parameter name="location name" type="string" value="face"/>
+      <Parameter name="write interval" type="int" value="1"/>
+      <Parameter name="observation output filename" type="string" value="surface_outlet_flux.dat"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
+    </ParameterList>
+    <ParameterList name="subsurface outlet flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="mass_flux"/>
+      <Parameter name="direction normalized flux" type="bool" value="true"/>
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0,0.0}"/>
+      <Parameter name="region" type="string" value="west subsurface"/>
+      <Parameter name="functional" type="string" value="observation data: extensive integral"/>
+      <Parameter name="delimiter" type="string" value=" "/>
+      <Parameter name="location name" type="string" value="face"/>
+      <Parameter name="write interval" type="int" value="1"/>
+      <Parameter name="observation output filename" type="string" value="subsurface_outlet_flux.dat"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
+    </ParameterList>
+    <ParameterList name="surface nearwest flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="surface-mass_flux"/>
+      <Parameter name="direction normalized flux" type="bool" value="true"/>
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0}"/>
+      <Parameter name="region" type="string" value="near west"/>
+      <Parameter name="functional" type="string" value="observation data: extensive integral"/>
+      <Parameter name="delimiter" type="string" value=" "/>
+      <Parameter name="location name" type="string" value="face"/>
+      <Parameter name="write interval" type="int" value="1"/>
+      <Parameter name="observation output filename" type="string" value="surface_nearwest_flux.dat"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
+    </ParameterList>
+    <ParameterList name="subsurface nearwest flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="mass_flux"/>
+      <Parameter name="direction normalized flux" type="bool" value="true"/>
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0,0.0}"/>
+      <Parameter name="region" type="string" value="near west subsurface"/>
+      <Parameter name="functional" type="string" value="observation data: extensive integral"/>
+      <Parameter name="delimiter" type="string" value=" "/>
+      <Parameter name="location name" type="string" value="face"/>
+      <Parameter name="write interval" type="int" value="1"/>
+      <Parameter name="observation output filename" type="string" value="subsurface_nearwest_flux.dat"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
+    </ParameterList>
+    <ParameterList name="surface mid flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="surface-mass_flux"/>
+      <Parameter name="direction normalized flux" type="bool" value="true"/>
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0}"/>
+      <Parameter name="region" type="string" value="midpoint"/>
+      <Parameter name="functional" type="string" value="observation data: extensive integral"/>
+      <Parameter name="delimiter" type="string" value=" "/>
+      <Parameter name="location name" type="string" value="face"/>
+      <Parameter name="write interval" type="int" value="1"/>
+      <Parameter name="observation output filename" type="string" value="surface_midrip_flux.dat"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
+    </ParameterList>
+    <ParameterList name="subsurface mid flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="mass_flux"/>
+      <Parameter name="direction normalized flux" type="bool" value="true"/>
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0,0.0}"/>
+      <Parameter name="region" type="string" value="midpoint subsurface"/>
+      <Parameter name="functional" type="string" value="observation data: extensive integral"/>
+      <Parameter name="delimiter" type="string" value=" "/>
+      <Parameter name="location name" type="string" value="face"/>
+      <Parameter name="write interval" type="int" value="1"/>
+      <Parameter name="observation output filename" type="string" value="subsurface_midrip_flux.dat"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
+    </ParameterList>
+    <ParameterList name="subsurface water content" type="ParameterList">
+      <Parameter name="variable" type="string" value="water_content"/>
+      <Parameter name="region" type="string" value="computational domain"/>
+      <Parameter name="functional" type="string" value="observation data: extensive integral"/>
+      <Parameter name="delimiter" type="string" value=" "/>
+      <Parameter name="location name" type="string" value="cell"/>
+      <Parameter name="observation output filename" type="string" value="subsurface_water_content.dat"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
+      <Parameter name="write interval" type="int" value="30"/>
     </ParameterList>
   </ParameterList>
   <ParameterList name="checkpoint" type="ParameterList">
@@ -266,7 +383,25 @@
       <ParameterList name="diffusion" type="ParameterList">
         <Parameter name="discretization primary" type="string" value="mfd: two-point flux approximation"/>
       </ParameterList>
-      <ParameterList name="boundary conditions" type="ParameterList"/>
+      <ParameterList name="boundary conditions" type="ParameterList">
+	  
+	  
+		<ParameterList name="seepage face" type="ParameterList">
+		  <ParameterList name="seepage" type="ParameterList">
+			<Parameter name="regions" type="Array(string)" value="{west subsurface}" />
+			<ParameterList name="boundary pressure" type="ParameterList">
+			  <ParameterList name="function-linear" type="ParameterList">
+				<Parameter name="x0" type="Array(double)" value="{0.0,0.0,0.0,-0.6}" />
+				<Parameter name="y0" type="double" value="101325.0" />
+				<Parameter name="gradient" type="Array(double)" value="{0.0,0.0,0.0,-9806.65}" />
+			  </ParameterList>
+			</ParameterList>
+		  </ParameterList>
+		</ParameterList>
+	  </ParameterList>
+	  
+	  
+	  
       <ParameterList name="initial condition" type="ParameterList">
         <Parameter name="initialize faces from cells" type="bool" value="true"/>
         <ParameterList name="initialize from 1D column" type="ParameterList">
