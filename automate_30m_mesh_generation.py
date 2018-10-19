@@ -106,8 +106,8 @@ branchName = "hillslope-30mSuite"
 
 ## Pick the slopes and thicknesses 
 m = [0.01,0.1]
-bac = [0.05,0.1,0.15]
-bct = [0.06,0.12,0.18]
+bac = [0.01,0.1,0.22]
+bct = [0.02,0.14,0.4]
 
 ## Run the loop to build the meshes
 os.chdir(homedir + "/mesh")
