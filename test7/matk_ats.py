@@ -1,14 +1,13 @@
 import matplotlib
 matplotlib.use('agg')
 
-import matk
+from matk import matk
 import parse_ats
 import atsxml
 
 def model(pars, hostname='dum', processor=1):
 	# ATS ##############################################################################
-    # Modify base ats xml input file and run ats
-	
+    	# Modify base ats xml input file and run ats
 	branchName = "hillslope-30mSuite"
 	fname = branchName + "-" + str(pars['slope']) + "m_" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
@@ -22,8 +21,8 @@ def model(pars, hostname='dum', processor=1):
 	atsxml.replace_by_path(m,['regions','surface','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 	atsxml.replace_by_path(m,['regions','bottom face','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 
-    atsxml.run(m, nproc=1, mpiexec='mpirun', stdout='stdout.out', stderr='stdout.err', cpuset=processor)
-    return True
+    	atsxml.run(m, nproc=1, mpiexec='mpirun', stdout='stdout.out', stderr='stdout.err', cpuset=processor)
+	return True
 
 
 # Create cpusets, 4 cpus to a set
