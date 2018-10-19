@@ -10,7 +10,9 @@
 #PBS -l nodes=1:ppn=32 ### requested number of processors 
 #PBS -l walltime=48:00:00 ### wall time (max time = 48h)
 
-cd $PBS_O_WORKDIR
+cd \$PBS_O_WORKDIR\n\
+module load ats/0.88/Debug\n\
+module load matk
 
 myApp="python matk_ats.py"
 
