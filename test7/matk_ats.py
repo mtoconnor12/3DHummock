@@ -39,8 +39,8 @@ p = matk(model=model)
 
 # Add parameters that you want to sample over and their ranges
 p.add_par('slope',min=0.01, max=0.1, value=0.05)
-p.add_par('bac', min=0.05, max=0.15, value=0.1)
-p.add_par('bct',min=0.06, max=0.18, value=0.12)
+p.add_par('bac', min=0.01, max=0.22, value=0.1)
+p.add_par('bct',min=0.02, max=0.4, value=0.14)
 
 # Create parameter study of all combinations of min and max values for each parameter
 s = p.parstudy(nvals=[2,3,3])
