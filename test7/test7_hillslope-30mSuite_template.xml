@@ -161,6 +161,7 @@
     <Parameter name="start time units" type="string" value="s" />
     <Parameter name="end time" type="double" value="7300.0" />
     <Parameter name="end time units" type="string" value="d" />
+	<Parameter name="restart from checkpoint file" type="string" value="checkpoint_last.h5" />
     <ParameterList name="required times" type="ParameterList">
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
@@ -1226,16 +1227,16 @@
   <ParameterList name="visualization" type="ParameterList">
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump" />
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,2592000.0,-1.0}" />
     </ParameterList>
     <ParameterList name="surface" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump_surface" />
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,2592000.0,-1.0}" />
       <Parameter name="visualize on 3D mesh" type="bool" value="true" />
     </ParameterList>
     <ParameterList name="snow" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump_snow" />
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,2592000.0,-1.0}" />
       <Parameter name="visualize on 3D mesh" type="bool" value="true" />
     </ParameterList>
   </ParameterList>
