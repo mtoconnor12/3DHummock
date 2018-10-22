@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #PBS -q batch
 #PBS -M oconnormt@ornl.gov  ### my ornl email
@@ -10,8 +10,8 @@
 #PBS -l nodes=1:ppn=32 ### requested number of processors 
 #PBS -l walltime=48:00:00 ### wall time (max time = 48h)
 
-cd \$PBS_O_WORKDIR\n\
-module load ats/0.88/Debug\n\
+cd $PBS_O_WORKDIR
+module load ats/0.88/Debug
 module load matk
 
 myApp="python matk_ats.py"

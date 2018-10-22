@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NUMBERS=$(seq 3 18)
+NUMBERS=$(seq 1)
 echo ${NUMBERS}
 for NUM in ${NUMBERS}
 
