@@ -18,7 +18,7 @@ num_runs = 18
 
 directory = "./run.1"
 keys, times, dat = parse_ats.readATS(directory, "visdump_data.h5", timeunits='yr')
-ind = 270
+ind = 9
 col_dat = transect_data.transect_data(['saturation_ice'], keys=np.s_[ind], directory=directory)
 nvar, nt, nx, nz = col_dat.shape
 
@@ -30,7 +30,7 @@ for j in range(1,num_runs):
 
 	## SELECT TIME INTERVAL TO PULL AND PLOT:
 	# Visdumps are spit out every 30 days.  Index 0 is January of year 1; 12 is January year 2; etc...
-	ind = 270
+	ind = 9
 
 	col_dat = transect_data.transect_data(['saturation_ice'], keys=np.s_[ind], directory=directory)
 	times_subset = times[ind]

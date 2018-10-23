@@ -4,7 +4,7 @@ myApp="python matk_ats.py"
 echo ${myApp} > out.log
 $myApp >>out.log
 
-PBS="#!/bin/bash\n\
+PBS=#!/bin/bash\n\
 #PBS -q batch\n\
 #PBS -M oconnormt@ornl.gov\n\
 #PBS -A ccsi\n\
@@ -18,4 +18,4 @@ PBS="#!/bin/bash\n\
 cd \$PBS_O_WORKDIR\n\
 module load ats/0.88/Debug\n\
 module load matk\n\
-$myApp"
+$myApp
