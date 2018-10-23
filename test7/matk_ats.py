@@ -42,8 +42,14 @@ p.add_par('slope',min=0.01, max=0.1, value=0.05)
 p.add_par('bac', min=0.01, max=0.22, value=0.1)
 p.add_par('bct',min=0.02, max=0.4, value=0.14)
 
+# Create matrix of parameter combinations
+d = [[0,1],[1,0]]
+
+# Create MATK sampleset
+s = p.create_sampleset(d)
+
 # Create parameter study of all combinations of min and max values for each parameter
-s = p.parstudy(nvals=[2,3,3])
+# s = p.parstudy(nvals=[2,3,3])
 # Save samples to file for inspection
 s.savetxt('sample.txt')
 # Run sampleset using "hosts" dictionary defined above. 
