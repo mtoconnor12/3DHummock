@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf>
+  <Domain>
+    <Grid Name="Mesh 21610">
+      <Topology Name="mixedtopo" NumberOfElements="1590" TopologyType="Mixed">
+        <DataItem DataType="Int" Dimensions="14310" Format="HDF">
+          visdump_mesh.h5:/0/Mesh/MixedElements
+        </DataItem>
+      </Topology>
+      <Geometry Name="geo" Type="XYZ">
+        <DataItem DataType="Float" Dimensions="3348  3" Format="HDF">
+          visdump_mesh.h5:/0/Mesh/Nodes
+        </DataItem>
+      </Geometry>
+      <Time Value="9.99315537303217027e+00"/>
+    </Grid>
+  </Domain>
+</Xdmf>
+
