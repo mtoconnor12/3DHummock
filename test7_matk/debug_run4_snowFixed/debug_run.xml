@@ -14,7 +14,7 @@
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="mesh type" type="string" value="read mesh file"/>
       <ParameterList name="read mesh file parameters" type="ParameterList">
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.01bac_0.02bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
       </ParameterList>
       <ParameterList name="expert" type="ParameterList">
@@ -44,7 +44,7 @@
     <ParameterList name="computational domain acrotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1001"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.01bac_0.02bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -52,7 +52,7 @@
     <ParameterList name="computational domain catotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1002"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.01bac_0.02bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -60,7 +60,7 @@
     <ParameterList name="computational domain mineral" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1003"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.01bac_0.02bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -68,7 +68,7 @@
     <ParameterList name="computational domain bedrock" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1004"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.01bac_0.02bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -76,7 +76,7 @@
     <ParameterList name="surface" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="2"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.01bac_0.02bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Face"/>
       </ParameterList>
@@ -147,7 +147,7 @@
     <ParameterList name="bottom face" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.01bac_0.02bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Face"/>
       </ParameterList>
@@ -158,6 +158,7 @@
     <Parameter name="start time units" type="string" value="s"/>
     <Parameter name="end time" type="double" value="7300.0"/>
     <Parameter name="end time units" type="string" value="d"/>
+    <Parameter name ="restart from checkpoint file" type="string" value="../run.4/checkpoint_last.h5"/>
     <ParameterList name="required times" type="ParameterList">
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
     </ParameterList>
@@ -1102,6 +1103,7 @@
         <Parameter name="field evaluator type" type="string" value="multiplicative evaluator"/>
         <Parameter name="evaluator dependencies" type="Array(string)" value="{snow-depth,snow-density,snow-cell_volume}"/>
         <Parameter name="coefficient" type="double" value="0.001"/>
+	<Parameter name="enforce positivity" type="bool" value="true"/>
       </ParameterList>
       <ParameterList name="snow-source_sink" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="surface balance"/>
@@ -1127,16 +1129,16 @@
   <ParameterList name="visualization" type="ParameterList">
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump"/>
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,2592000.0,-1.0}"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
     </ParameterList>
     <ParameterList name="surface" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump_surface"/>
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,2592000.0,-1.0}"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
       <Parameter name="visualize on 3D mesh" type="bool" value="true"/>
     </ParameterList>
     <ParameterList name="snow" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump_snow"/>
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,2592000.0,-1.0}"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
       <Parameter name="visualize on 3D mesh" type="bool" value="true"/>
     </ParameterList>
   </ParameterList>
