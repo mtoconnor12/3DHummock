@@ -51,6 +51,6 @@ s = p.create_sampleset(d)
 # Create parameter study of all combinations of min and max values for each parameter
 # s = p.parstudy(nvals=[2,3,3])
 # Save samples to file for inspection
-s.savetxt('sample.txt')
+#s.savetxt('sample.txt')
 # Run sampleset using "hosts" dictionary defined above. 
 s.run(cpus=hosts, workdir_base='run', reuse_dirs=True)
