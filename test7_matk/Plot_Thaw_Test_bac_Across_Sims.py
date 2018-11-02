@@ -39,7 +39,8 @@ fix,axarr = plt.subplots(2,3,sharey=True,sharex=True)
 c = 1
 ind = 12*9 + 9
 for i in range(2):
-	for j in range(3):	
+	for j in range(3):
+		print c	
 		directory = "./run."+str(c)
 		keys, times, dat = parse_ats.readATS(directory, "visdump_data.h5", timeunits='yr')
 		
@@ -61,16 +62,16 @@ for i in range(2):
 				#print k
 				#print z_surf[k]
 				#print col_dat[1,:,k,where_unsat[0]]
-				print where_unsat[0]-1
-				print wtd
+				#print where_unsat[0]-1
+				#print wtd
 				wtd[k] = z_surf[k] - (col_dat[1,:,k,where_unsat[0]] + col_dat[1,:,k,where_unsat[0]-1])/2 
 			#print(where_unsat)
 			
 		axarr[i,j].plot(col_dat[0,0,:,0],-wtd)
-		c = c + 1
+
 		
 		#### Mid Catotelm
-		directory = "./run."+str(c)
+		directory = "./run."+str(c + 3)
 		keys, times, dat = parse_ats.readATS(directory, "visdump_data.h5", timeunits='yr')
 		
 		col_dat = transect_data.transect_data(['saturation_ice'], keys=np.s_[ind], directory=directory)
@@ -92,10 +93,9 @@ for i in range(2):
 			#print(where_unsat)
 			
 		axarr[i,j].plot(col_dat[0,0,:,0],-wtd)
-		c = c + 1
 		
 		#### Large Catotelm
-		directory = "./run."+str(c)
+		directory = "./run."+str(c+6)
 		keys, times, dat = parse_ats.readATS(directory, "visdump_data.h5", timeunits='yr')
 		
 		col_dat = transect_data.transect_data(['saturation_ice'], keys=np.s_[ind], directory=directory)
@@ -119,4 +119,5 @@ for i in range(2):
 		axarr[i,j].plot(col_dat[0,0,:,0],-wtd)
 		c = c + 1		
 		plt.legend(['min','mean','max'])
+	c = c + 6
 plt.show() 
