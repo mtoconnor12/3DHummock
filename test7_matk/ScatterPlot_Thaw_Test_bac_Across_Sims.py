@@ -63,5 +63,8 @@ for i in range(1):
 			else:
 				wtd[j,k] = z_surf[xPos] - (col_dat[1,:,xPos,where_unsat[0]] + col_dat[1,:,xPos,where_unsat[0]-1])/2 
 		plt.plot(bac,-wtd[j,:])
-		#plt.legend(['min','mean','max'])
+plt.legend(['Min Catotelm','Mean Catotelm','Max Catotelm'],loc='lower right')
+plt.title('Active Layer Thickness vs. Acrotelm Thickness, Grouped by Catotelm Thickness')
+plt.xlabel('Acrotelm Thickness [m]')
+plt.ylabel('Active Layer Thickness [m]')
 plt.show() 
