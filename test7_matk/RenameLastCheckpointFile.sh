@@ -14,7 +14,7 @@ do
 			echo $VARA
 			echo $VARB				
 			echo $VARC
-			str1='checkpoint_hillslope-30msuite-'
+			str1='checkpoint_hillslope-30mSuite-'
 			str2='m_'
 			str3='bac_'
 			str4='bct.h5'

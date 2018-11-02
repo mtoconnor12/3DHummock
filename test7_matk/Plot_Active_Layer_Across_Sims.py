@@ -30,7 +30,7 @@ for j in range(1,num_runs):
 
 	## SELECT TIME INTERVAL TO PULL AND PLOT:
 	# Visdumps are spit out every 30 days.  Index 0 is January of year 1; 12 is January year 2; etc...
-	ind = 9
+	ind = 12*9 + 9
 
 	col_dat = transect_data.transect_data(['saturation_ice'], keys=np.s_[ind], directory=directory)
 	times_subset = times[ind]
