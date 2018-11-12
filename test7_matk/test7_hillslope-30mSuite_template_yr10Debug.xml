@@ -384,16 +384,16 @@
     <ParameterList name="SSF" type="ParameterList">
       <Parameter name="PK type" type="string" value="permafrost flow" />
       <Parameter name="primary variable key" type="string" value="pressure" />
-      <Parameter name="source term" type="bool" value="false" />
+      <Parameter name="source term" type="bool" value="true" />
       <Parameter name="clobber surface rel perm" type="bool" value="true" />
       <Parameter name="initial time step" type="double" value="1.0" />
       <Parameter name="relative permeability method" type="string" value="upwind with Darcy flux" />
       <Parameter name="permeability rescaling" type="double" value="10000000.0" />
-      <Parameter name="debug cells" type="Array(int)" value="{0}" />
       <Parameter name="source key" type="string" value="mass_source" />
+	  <Parameter name="source term is differentiable" type="bool" value="false" />
       <Parameter name="max valid change in saturation in a time step [-]" type="double" value="0.1" />
       <Parameter name="max valid change in ice saturation in a time step [-]" type="double" value="0.1" />
-      <Parameter name="source term is differentiable" type="bool" value="true" />
+      <Parameter name="debug cells" type="Array(int)" value="{0}" />
       <ParameterList name="verbose object" type="ParameterList">
         <Parameter name="verbosity level" type="string" value="high" />
       </ParameterList>
@@ -478,12 +478,12 @@
     <ParameterList name="SSE" type="ParameterList">
       <Parameter name="PK type" type="string" value="three-phase energy" />
       <Parameter name="primary variable key" type="string" value="temperature" />
-      <Parameter name="source term" type="bool" value="false" />
+      <Parameter name="source term" type="bool" value="true" />
       <Parameter name="initial time step" type="double" value="1.0" />
       <Parameter name="supress advective terms in preconditioner" type="bool" value="true" />
-      <Parameter name="debug cells" type="Array(int)" value="{0}" />
-      <Parameter name="energy source" type="string" value="total_energy_source" />
-      <Parameter name="source term is differentiable" type="bool" value="true" />
+      <Parameter name="source key" type="string" value="total_energy_source"/>
+	  <Parameter name="source term is differentiable" type="bool" value="false" />
+	  <Parameter name="debug cells" type="Array(int)" value="{0}" />
       <ParameterList name="verbose object" type="ParameterList">
         <Parameter name="verbosity level" type="string" value="high" />
       </ParameterList>
@@ -615,7 +615,7 @@
       <Parameter name="supress advective terms in preconditioner" type="bool" value="false" />
       <Parameter name="debug cells" type="Array(int)" value="{0}" />
       <Parameter name="upwind conductivity method" type="string" value="arithmetic mean" />
-      <Parameter name="energy source" type="string" value="surface-total_energy_source" />
+      <Parameter name="source" type="string" value="surface-total_energy_source" />
       <Parameter name="source term is differentiable" type="bool" value="true" />
       <Parameter name="source term finite difference" type="bool" value="true" />
       <ParameterList name="verbose object" type="ParameterList">
