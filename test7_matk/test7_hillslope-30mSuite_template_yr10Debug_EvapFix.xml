@@ -190,7 +190,17 @@
     </ParameterList>
   </ParameterList>
   <ParameterList name="observations">
-    <ParameterList name="surface-flux-day">
+    <ParameterList name="evaporation-flux-day">
+      <Parameter name="variable" type="string" value="surface-evaporative_flux" />
+      <Parameter name="functional" type="string" value="observation data: intrusive integral" />
+      <Parameter name="region" type="string" value="surface domain" />
+      <Parameter name="delimiter" type="string" value=" " />
+      <Parameter name="location name" type="string" value="face" />
+      <Parameter name="write interval" type="int" value="1" />
+      <Parameter name="observation output filename" type="string" value="surface_evaporative_flux.dat" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+    </ParameterList>
+	<ParameterList name="surface-flux-day">
       <Parameter name="variable" type="string" value="surface-mass_flux" />
       <Parameter name="functional" type="string" value="observation data: extensive integral" />
       <Parameter name="region" type="string" value="surface outlet" />
@@ -284,7 +294,7 @@
     </ParameterList>
   </ParameterList>
   <ParameterList name="checkpoint" type="ParameterList">
-    <Parameter name="times start period stop" type="Array(double)" value="{337478400.0,3600.0,338515200.0}" />
+    <Parameter name="times start period stop" type="Array(double)" value="{315576000,31536000,-1}" />
   </ParameterList>
 
   <ParameterList name="PKs" type="ParameterList">
