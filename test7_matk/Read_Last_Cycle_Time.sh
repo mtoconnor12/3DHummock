@@ -3,9 +3,9 @@
 NUMBERS=$(seq 1 18)
 for NUM in $NUMBERS
 do
-	cd run_fromCheckpoint_yr10Debug.$NUM
+	cd run_fromCheckpoint_yr10Debug_EvapFix.$NUM
 	#cd run.$NUM
 	echo 'Run #'$NUM
-	tail -n 1400 stdout.out | grep Cycle | tail -1
+	tail -n 2500 stdout.out | grep Cycle | tail -1
 	cd ../
 done

@@ -12,7 +12,7 @@ def model(pars, hostname='dum', processor=1):
 	branchName = "hillslope-30mSuite"
 	fname = branchName + "-" + str(pars['slope']) + "m_" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
-	m = atsxml.get_root('../test7_hillslope-30mSuite_template_yr10Debug.xml')
+	m = atsxml.get_root('../test7_hillslope-30mSuite_template_yr10Debug_EvapFix.xml')
 	
 	atsxml.replace_by_path(m,['mesh','domain','read mesh file parameters','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 	atsxml.replace_by_path(m,['regions','computational domain acrotelm','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
@@ -68,4 +68,4 @@ s = p.create_sampleset(d)
 # Save samples to file for inspection
 # s.savetxt('sample.txt')
 # Run sampleset using "hosts" dictionary defined above. 
-s.run(cpus=hosts, workdir_base='run_fromCheckpoint_yr10Debug', reuse_dirs=True)
+s.run(cpus=hosts, workdir_base='run_fromCheckpoint_yr10Debug_EvapFix', reuse_dirs=True)
