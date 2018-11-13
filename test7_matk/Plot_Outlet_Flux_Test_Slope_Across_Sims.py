@@ -28,8 +28,8 @@ leg_ordered = [None]*18
 
 fix,axarr = plt.subplots(3,3,sharey=True,sharex=True)
 c = 1
-t1 = 9
-t2 = 10
+t1 = 10
+t2 = 20
 for i in range(3):
 	for j in range(3):	
 		mat = np.loadtxt('run.' + str(c) + '/subsurface_outlet_flux.dat')
@@ -38,10 +38,14 @@ for i in range(3):
 		#leg_ordered[i-1] = leg[i-1]
 		axarr[i,j].plot(t,np.log10(y))
 		mat = np.loadtxt('run.' + str(c+9) + '/subsurface_outlet_flux.dat')
-        	t = mat[:,0]/86400/365  # time in days
-        	y = mat[:,1] # thing we're plotting
-        	#leg_ordered[i-1] = leg[i-1]
-        	axarr[i,j].plot(t,np.log10(y))
+		t = mat[:,0]/86400/365  # time in days
+		y = mat[:,1] # thing we're plotting
+		#leg_ordered[i-1] = leg[i-1]
+		axarr[i,j].plot(t,np.log10(y))
+		axarr[i,j].legend([str(c) + '(min)',str(c+9) + '(max)'])
+		axarr[i,j].set_title(str(int(bac[i]*100)) + 'cm bAC, ' + str(int(bct[j]*100)) + 'cm bCT')
+		axarr[i,j].set_ylabel('Flow [log10 cms]')
+		axarr[i,j].set_xlabel('Time [yrs of sim]')
 		c = c + 1
 		#plt.xlabel('Time [yrs]')
 		#plt.title('subsurface outlet flux')
