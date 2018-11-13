@@ -35,44 +35,45 @@ for i in range(2):
 	for j in range(3):	
 		t=np.empty(t2-t1)
 		y=np.empty(t2-t1)
-		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c) + '/subsurface_water_content.dat')
+		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c) + '/subsurface_outlet_flux.dat')
+		mat2 = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c) + '/surface_outlet_flux.dat')
 		print(np.shape(mat))
 		a = np.shape(mat)
-		for k in range(t2-t1):
-			a = np.shape(mat)
+		for k in range(1,t2-t1):
 			if a[0] < 365*(k):
 				t[k-t1] = np.nan
 				y[k-t1] = np.nan
 			else:
 				t[k-t1] = mat[365*k,0]/86400/365
-				y[k-t1] = mat[365*k,1]
-		print(t)
-		axarr[i,j].plot(t,y)
+				y[k-t1] = np.sum(mat[365*k-1:365*k,1]) + np.sum(mat2[365*k-1:365*k,1])
+		print(y)
+		axarr[i,j].plot(t,np.gradient(y))
 		t=np.empty(t2-t1)
 		y=np.empty(t2-t1)
-		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c+1) + '/subsurface_water_content.dat')
+		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c+1) + '/subsurface_outlet_flux.dat')
+		mat2 = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c+1) + '/surface_outlet_flux.dat')
 		a = np.shape(mat)
-		for k in range(t2-t1):
-                        a = np.shape(mat)
+		for k in range(1,t2-t1):
                         if a[0] < 365*(k):
                                 t[k-t1] = np.nan
                                 y[k-t1] = np.nan
                         else:
                                 t[k-t1] = mat[365*k,0]/86400/365
-                                y[k-t1] = mat[365*k,1]
-		axarr[i,j].plot(t,y)
+				y[k-t1] = np.sum(mat[365*k-1:365*k,1]) + np.sum(mat2[365*k-1:365*k,1])
+		axarr[i,j].plot(t,np.gradient(y))
 		t=np.empty(t2-t1)
 		y=np.empty(t2-t1)
-		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c+2) + '/subsurface_water_content.dat')
+		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c+2) + '/subsurface_outlet_flux.dat')
+		mat2 = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c+2) + '/surface_outlet_flux.dat')
 		a = np.shape(mat)
-		for k in range(t2-t1):
+		for k in range(1,t2-t1):
                         if a[0] < 365*(k):
                                 t[k-t1] = np.nan
                                 y[k-t1] = np.nan
                         else:
                                 t[k-t1] = mat[365*k,0]/86400/365
-                                y[k-t1] = mat[365*k,1]
-		axarr[i,j].plot(t,y)
+				y[k-t1] = np.sum(mat[365*k-1:365*k,1]) + np.sum(mat2[365*k-1:365*k,1])
+		axarr[i,j].plot(t,np.gradient(y))
 		axarr[i,j].legend([str(c) + '(min)',str(c+1) + '(mean)',str(c+2) + '(max)'])
 		axarr[i,j].set_title(str(int(m[i]*100)) + '% slope, ' + str(int(bac[j]*100)) + 'cm bAC')
 		axarr[i,j].set_ylabel('Mass [m3/time]')

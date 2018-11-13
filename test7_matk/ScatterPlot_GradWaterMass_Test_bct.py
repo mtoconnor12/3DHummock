@@ -47,7 +47,7 @@ for i in range(2):
 				t[k-t1] = mat[365*k,0]/86400/365
 				y[k-t1] = mat[365*k,1]
 		print(t)
-		axarr[i,j].plot(t,y)
+		axarr[i,j].plot(t,np.gradient(y))
 		t=np.empty(t2-t1)
 		y=np.empty(t2-t1)
 		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c+1) + '/subsurface_water_content.dat')
@@ -60,7 +60,7 @@ for i in range(2):
                         else:
                                 t[k-t1] = mat[365*k,0]/86400/365
                                 y[k-t1] = mat[365*k,1]
-		axarr[i,j].plot(t,y)
+		axarr[i,j].plot(t,np.gradient(y))
 		t=np.empty(t2-t1)
 		y=np.empty(t2-t1)
 		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c+2) + '/subsurface_water_content.dat')
@@ -72,7 +72,7 @@ for i in range(2):
                         else:
                                 t[k-t1] = mat[365*k,0]/86400/365
                                 y[k-t1] = mat[365*k,1]
-		axarr[i,j].plot(t,y)
+		axarr[i,j].plot(t,np.gradient(y))
 		axarr[i,j].legend([str(c) + '(min)',str(c+1) + '(mean)',str(c+2) + '(max)'])
 		axarr[i,j].set_title(str(int(m[i]*100)) + '% slope, ' + str(int(bac[j]*100)) + 'cm bAC')
 		axarr[i,j].set_ylabel('Mass [m3/time]')
