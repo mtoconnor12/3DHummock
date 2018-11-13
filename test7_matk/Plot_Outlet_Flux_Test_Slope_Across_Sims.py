@@ -32,12 +32,12 @@ t1 = 10
 t2 = 20
 for i in range(3):
 	for j in range(3):	
-		mat = np.loadtxt('run.' + str(c) + '/subsurface_outlet_flux.dat')
+		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c) + '/subsurface_outlet_flux.dat')
 		t = mat[:,0]/86400/365  # time in days
 		y = mat[:,1] # thing we're plotting
 		#leg_ordered[i-1] = leg[i-1]
 		axarr[i,j].plot(t,np.log10(y))
-		mat = np.loadtxt('run.' + str(c+9) + '/subsurface_outlet_flux.dat')
+		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c+9) + '/subsurface_outlet_flux.dat')
 		t = mat[:,0]/86400/365  # time in days
 		y = mat[:,1] # thing we're plotting
 		#leg_ordered[i-1] = leg[i-1]
