@@ -29,8 +29,8 @@ leg_ordered = [None]*18
 
 fix,axarr = plt.subplots(2,3,sharey=True,sharex=True)
 c = 1
-t1 = 10
-t2 = 20
+t1 = 15.3
+t2 = 15.8
 for i in range(2):
 	for j in range(3):	
 		mat = np.loadtxt('run_fromCheckpoint_yr10Debug_EvapFix.' + str(c) + '/subsurface_water_content.dat')
