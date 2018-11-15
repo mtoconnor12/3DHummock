@@ -159,7 +159,7 @@
   <ParameterList name="cycle driver" type="ParameterList">
     <Parameter name="start time" type="double" value="0.0" />
     <Parameter name="start time units" type="string" value="s" />
-    <Parameter name="end time" type="double" value="7300.0" />
+    <Parameter name="end time" type="double" value="41638.0" />
     <Parameter name="end time units" type="string" value="d" />
     <Parameter name="restart from checkpoint file" type="string" value="checkpoint_last.h5" />
     <ParameterList name="required times" type="ParameterList">
@@ -192,10 +192,10 @@
   <ParameterList name="observations">
     <ParameterList name="evaporation-flux-day">
       <Parameter name="variable" type="string" value="surface-evaporative_flux" />
-      <Parameter name="functional" type="string" value="observation data: intrusive integral" />
+      <Parameter name="functional" type="string" value="observation data: integral" />
       <Parameter name="region" type="string" value="surface domain" />
       <Parameter name="delimiter" type="string" value=" " />
-      <Parameter name="location name" type="string" value="face" />
+      <Parameter name="location name" type="string" value="cell" />
       <Parameter name="write interval" type="int" value="1" />
       <Parameter name="observation output filename" type="string" value="surface_evaporative_flux.dat" />
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
@@ -294,7 +294,7 @@
     </ParameterList>
   </ParameterList>
   <ParameterList name="checkpoint" type="ParameterList">
-    <Parameter name="times start period stop" type="Array(double)" value="{631152000,15552000,-1}" />
+    <Parameter name="times start period stop" type="Array(double)" value="{0.0,31536000.0,-1.0}" />
   </ParameterList>
 
   <ParameterList name="PKs" type="ParameterList">
@@ -847,7 +847,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_rcp85_95yr_run_13Nov18.h5" />
+                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_comb_20yr_09Oct18_rcp85_13Nov18.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="incoming longwave radiation [W m^-2]" />
               </ParameterList>
@@ -864,7 +864,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_rcp85_95yr_run_13Nov18.h5" />
+                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_comb_20yr_09Oct18_rcp85_13Nov18.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="incoming shortwave radiation [W m^-2]" />
               </ParameterList>
@@ -881,7 +881,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_rcp85_95yr_run_13Nov18.h5" />
+                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_comb_20yr_09Oct18_rcp85_13Nov18.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="air temperature [K]" />
               </ParameterList>
@@ -898,7 +898,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_rcp85_95yr_run_13Nov18.h5" />
+                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_comb_20yr_09Oct18_rcp85_13Nov18.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="relative humidity [-]" />
               </ParameterList>
@@ -915,7 +915,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_rcp85_95yr_run_13Nov18.h5" />
+                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_comb_20yr_09Oct18_rcp85_13Nov18.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="wind speed [m s^-1]" />
               </ParameterList>
@@ -932,7 +932,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_rcp85_95yr_run_13Nov18.h5" />
+                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_comb_20yr_09Oct18_rcp85_13Nov18.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="precipitation rain [m s^-1]" />
               </ParameterList>
@@ -949,7 +949,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_rcp85_95yr_run_13Nov18.h5" />
+                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_comb_20yr_09Oct18_rcp85_13Nov18.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="precipitation snow [m SWE s^-1]" />
               </ParameterList>
