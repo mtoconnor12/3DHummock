@@ -15,8 +15,8 @@ k1 = math.pi
 k2 = math.pi
 m = 0.1
 
-x = np.linspace(0,2,101)
-y = np.linspace(0,2,101)
+x = np.linspace(0,2,41)
+y = np.linspace(0,2,41)
 
 
 [X,Y] = np.meshgrid(x,y)
@@ -124,6 +124,6 @@ m3 = meshing_ats.Mesh3D.extruded_Mesh2D(m2, layer_types,
                                         layer_data, 
                                         layer_ncells, 
                                         layer_mat_ids)
-m3.write_exodus("testgrid_mtoAttempt.exo")
+m3.write_exodus("3DHummock_40x_40y_70z_19Nov18.exo")
 #m3.write_exodus("column-peat20cm.exo")
 
