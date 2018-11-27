@@ -1,0 +1,4 @@
+Changes to the run.xml file from Debug_26Nov18.2:
+
+1) Changed all preconditioner supressions to 'true' (2 places)
+2) Turned verbosity to 'extreme' in 5 places (each PK)

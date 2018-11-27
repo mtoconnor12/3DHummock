@@ -1,0 +1,36 @@
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c45:36900] *** Process received signal ***
+[or-condo-c45:36900] Signal: Aborted (6)
+[or-condo-c45:36900] Signal code:  (-6)
+[or-condo-c45:36900] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ad258c1f6d0]
+[or-condo-c45:36900] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ad258e62277]
+[or-condo-c45:36900] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ad258e63968]
+[or-condo-c45:36900] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ad2584098cd]
+[or-condo-c45:36900] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ad258407906]
+[or-condo-c45:36900] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ad258407951]
+[or-condo-c45:36900] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ad258407b69]
+[or-condo-c45:36900] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d25b]
+[or-condo-c45:36900] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ad24a76eda0]
+[or-condo-c45:36900] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x8847e6]
+[or-condo-c45:36900] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87d780]
+[or-condo-c45:36900] [11] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592620]
+[or-condo-c45:36900] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59af6f]
+[or-condo-c45:36900] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f961]
+[or-condo-c45:36900] [14] ats(main+0x15b)[0x54907b]
+[or-condo-c45:36900] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ad258e4e445]
+[or-condo-c45:36900] [16] ats[0x553d1d]
+[or-condo-c45:36900] *** End of error message ***
+/var/spool/torque/mom_priv/jobs/446787.or-condo-pbs01.SC: line 26: 36900 Aborted                 $myApp >> out.log
