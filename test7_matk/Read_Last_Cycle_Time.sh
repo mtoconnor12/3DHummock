@@ -3,9 +3,9 @@
 NUMBERS=$(seq 1 18)
 for NUM in $NUMBERS
 do
-	cd CenturySim_20cmBC_Debug.$NUM
+	cd CenturySim_20cmBC_Debug_27Nov18.$NUM
 	#cd run.$NUM
 	echo 'Run #'$NUM
-	tail -n 5500 stdout.out | grep Cycle | tail -1
+	tail -n 10000 stdout.out | grep Cycle | tail -1
 	cd ../
 done

@@ -2,3 +2,5 @@ Changes to the run.xml file from Debug_26Nov18.2:
 
 1) Changed all preconditioner supressions to 'true' (2 places)
 2) Turned verbosity to 'extreme' in 5 places (each PK)
+3) Changed the default dessicated zone thickness (within the snow-source_sink list) to 0.05 (increased by a factor of 2)
+--> this reduces evaporative resistance term L (Atchley et al 2015 pg. 3265), keeping subsurface wetter

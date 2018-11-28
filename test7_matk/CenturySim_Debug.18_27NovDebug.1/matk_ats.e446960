@@ -1,0 +1,13 @@
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+=>> PBS: job killed: walltime 86440 exceeded limit 86400

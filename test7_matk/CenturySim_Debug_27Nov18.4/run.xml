@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <ParameterList name="Main" type="ParameterList">
   <ParameterList name="mesh" type="ParameterList">
     <ParameterList name="surface" type="ParameterList">
@@ -13,7 +14,7 @@
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="mesh type" type="string" value="read mesh file"/>
       <ParameterList name="read mesh file parameters" type="ParameterList">
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.1m_0.22bac_0.4bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
       </ParameterList>
       <ParameterList name="expert" type="ParameterList">
@@ -43,7 +44,7 @@
     <ParameterList name="computational domain acrotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1001"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.1m_0.22bac_0.4bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -51,7 +52,7 @@
     <ParameterList name="computational domain catotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1002"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.1m_0.22bac_0.4bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -59,7 +60,7 @@
     <ParameterList name="computational domain mineral" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1003"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.1m_0.22bac_0.4bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -67,7 +68,7 @@
     <ParameterList name="computational domain bedrock" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1004"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.1m_0.22bac_0.4bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Cell"/>
       </ParameterList>
@@ -75,7 +76,7 @@
     <ParameterList name="surface" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="2"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.1m_0.22bac_0.4bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Face"/>
       </ParameterList>
@@ -146,7 +147,7 @@
     <ParameterList name="bottom face" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1"/>
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.1m_0.22bac_0.4bct.exo"/>
+        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.02bct.exo"/>
         <Parameter name="format" type="string" value="Exodus II"/>
         <Parameter name="entity" type="string" value="Face"/>
       </ParameterList>
@@ -157,7 +158,7 @@
     <Parameter name="start time units" type="string" value="s"/>
     <Parameter name="end time" type="double" value="41638.0"/>
     <Parameter name="end time units" type="string" value="d"/>
-    <Parameter name="restart from checkpoint file" type="string" value="checkpoint67163.h5"/>
+    <Parameter name="restart from checkpoint file" type="string" value="../checkpoint_files/CenturySim_checkpoint_files/checkpoint_hillslope-30mSuite-0.01m_0.1bac_0.02bct.h5"/>
     <ParameterList name="required times" type="ParameterList">
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
     </ParameterList>
@@ -297,14 +298,14 @@
       <Parameter name="PK type" type="string" value="strong MPC"/>
       <Parameter name="PKs order" type="Array(string)" value="{SEB,PSS}"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="extreme"/>
+        <Parameter name="verbosity level" type="string" value="high"/>
       </ParameterList>
       <ParameterList name="time integrator" type="ParameterList">
         <Parameter name="extrapolate initial guess" type="bool" value="true"/>
         <Parameter name="solver type" type="string" value="nka_bt_ats"/>
         <Parameter name="timestep controller type" type="string" value="smarter"/>
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="extreme"/>
+          <Parameter name="verbosity level" type="string" value="high"/>
         </ParameterList>
         <ParameterList name="nka_bt_ats parameters" type="ParameterList">
           <Parameter name="nka lag interations" type="int" value="2"/>
@@ -316,7 +317,7 @@
           <Parameter name="diverged tolerance" type="double" value="1000000.0"/>
           <Parameter name="limit iterations" type="int" value="21"/>
           <ParameterList name="verbose object" type="ParameterList">
-            <Parameter name="verbosity level" type="string" value="extreme"/>
+            <Parameter name="verbosity level" type="string" value="high"/>
           </ParameterList>
         </ParameterList>
         <ParameterList name="timestep controller smarter parameters" type="ParameterList">
@@ -329,7 +330,7 @@
           <Parameter name="growth wait after fail" type="int" value="2"/>
           <Parameter name="count before increasing increase factor" type="int" value="2"/>
           <ParameterList name="verbose object" type="ParameterList">
-            <Parameter name="verbosity level" type="string" value="extreme"/>
+            <Parameter name="verbosity level" type="string" value="high"/>
           </ParameterList>
         </ParameterList>
       </ParameterList>
@@ -389,7 +390,7 @@
       <Parameter name="max valid change in ice saturation in a time step [-]" type="double" value="0.1"/>
       <Parameter name="debug cells" type="Array(int)" value="{0}"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="extreme"/>
+        <Parameter name="verbosity level" type="string" value="high"/>
       </ParameterList>
       <ParameterList name="diffusion" type="ParameterList">
         <Parameter name="discretization primary" type="string" value="mfd: two-point flux approximation"/>
@@ -459,7 +460,7 @@
           <Parameter name="minimum dsi_dpressure magnitude" type="double" value="1e-12"/>
         </ParameterList>
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="none"/>
+          <Parameter name="verbosity level" type="string" value="high"/>
         </ParameterList>
       </ParameterList>
     </ParameterList>
@@ -468,12 +469,12 @@
       <Parameter name="primary variable key" type="string" value="temperature"/>
       <Parameter name="source term" type="bool" value="true"/>
       <Parameter name="initial time step" type="double" value="1.0"/>
-      <Parameter name="supress advective terms in preconditioner" type="bool" value="false"/>
+      <Parameter name="supress advective terms in preconditioner" type="bool" value="true"/>
       <Parameter name="source key" type="string" value="total_energy_source"/>
       <Parameter name="source term is differentiable" type="bool" value="false"/>
       <Parameter name="debug cells" type="Array(int)" value="{0}"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="extreme"/>
+        <Parameter name="verbosity level" type="string" value="high"/>
       </ParameterList>
       <ParameterList name="diffusion" type="ParameterList">
         <Parameter name="discretization primary" type="string" value="mfd: two-point flux approximation"/>
@@ -552,7 +553,7 @@
       <Parameter name="mass source in meters" type="bool" value="true"/>
       <Parameter name="source term is differentiable" type="bool" value="false"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="extreme"/>
+        <Parameter name="verbosity level" type="string" value="high"/>
       </ParameterList>
       <ParameterList name="diffusion" type="ParameterList">
         <Parameter name="discretization primary" type="string" value="fv: default"/>
@@ -594,7 +595,7 @@
       <Parameter name="source term is differentiable" type="bool" value="true"/>
       <Parameter name="source term finite difference" type="bool" value="true"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="extreme"/>
+        <Parameter name="verbosity level" type="string" value="high"/>
       </ParameterList>
       <ParameterList name="diffusion" type="ParameterList">
         <Parameter name="discretization primary" type="string" value="fv: default"/>
@@ -635,7 +636,7 @@
         </ParameterList>
       </ParameterList>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="extreme"/>
+        <Parameter name="verbosity level" type="string" value="high"/>
       </ParameterList>
       <ParameterList name="preconditioner" type="ParameterList">
         <Parameter name="preconditioner type" type="string" value="identity"/>
@@ -1117,8 +1118,8 @@
       <ParameterList name="snow-source_sink" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="surface balance"/>
         <Parameter name="save diagnostic data" type="bool" value="true"/>
-        <Parameter name="dessicated zone thickness [m]" type="double" value="0.05" />
-	<Parameter name="debug cells" type="Array(int)" value="{0}"/>
+        <Parameter name="dessicated zone thickness [m]" type="double" value="0.05"/>
+        <Parameter name="debug cells" type="Array(int)" value="{0}"/>
         <ParameterList name="verbose object" type="ParameterList">
           <Parameter name="verbosity level" type="string" value="high"/>
         </ParameterList>

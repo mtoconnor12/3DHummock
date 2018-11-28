@@ -12,10 +12,9 @@
 cd $PBS_O_WORKDIR
 
 module load matk
-module load ats/0.88/Debug/gcc-5.3.0_openmpi-1.10.3
+module load ats/0.88/Release
 
-
-myApp="python CenturySim_20cmBC_Debug_matk_ats.py"
+myApp="python CenturySim_20cmBC_Debug_27Nov18_matk_ats.py"
 
 echo $myApp > out.log
 $myApp >>out.log
