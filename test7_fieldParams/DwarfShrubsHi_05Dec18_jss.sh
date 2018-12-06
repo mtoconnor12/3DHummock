@@ -17,7 +17,7 @@ module unload ats/0.88/Release
 module load matk
 module load ats/0.88/Release
 
-myApp="python DwarfShrubHi_05Dec18_matk.py"
+myApp="python DwarfShrubsHi_05Dec18_matk.py"
 
 echo $myApp > out.log
 $myApp >>out.log
