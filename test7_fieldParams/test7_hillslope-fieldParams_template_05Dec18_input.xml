@@ -16,6 +16,7 @@
       <ParameterList name="read mesh file parameters" type="ParameterList">
         <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo" />
         <Parameter name="format" type="string" value="Exodus II" />
+        <Parameter name="format" type="string" value="Exodus II" />
       </ParameterList>
       <ParameterList name="expert" type="ParameterList">
         <Parameter name="verify mesh" type="bool" value="true" />
@@ -380,7 +381,7 @@
       <Parameter name="PK type" type="string" value="permafrost flow" />
       <Parameter name="primary variable key" type="string" value="pressure" />
       <Parameter name="source term" type="bool" value="true" />
-      <Parameter name="clobber surface rel perm" type="bool" value="true" />
+      <Parameter name="unsaturated clobber surface rel perm" type="bool" value="true" />
       <Parameter name="initial time step" type="double" value="1.0" />
       <Parameter name="relative permeability method" type="string" value="upwind with Darcy flux" />
       <Parameter name="permeability rescaling" type="double" value="10000000.0" />
@@ -1112,7 +1113,7 @@
       <ParameterList name="snow-source_sink" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="surface balance" />
         <Parameter name="save diagnostic data" type="bool" value="true" />
-        <Parameter name="dessicated zone thickness [m]" type="double" value="0.065" />
+        <Parameter name="dessicated zone thickness [m]" type="double" value="0.035" />
 	<Parameter name="debug cells" type="Array(int)" value="{0}" />
         <ParameterList name="verbose object" type="ParameterList">
           <Parameter name="verbosity level" type="string" value="high" />

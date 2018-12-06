@@ -109,7 +109,6 @@ def make_30m_mesh(bac,bct,fname):
 
 ## Run the loop to build the meshes
 os.chdir(homedir + "/mesh")
-os.mkdir(branchName)
 os.chdir(homedir)
 
 for i in range(2):

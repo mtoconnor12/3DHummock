@@ -6,7 +6,7 @@ from matk import matk
 import parse_ats
 import atsxml
 
-runName = "TussockTundraHi"
+runName = "WaterTrack"
 suffix = "_05Dec18"
 #checkpointRunName = "_27Nov18"
 
@@ -56,12 +56,12 @@ p.add_par('Kct',min=2.52e-6, max=3.51e-5, value = 5e-6)
 p.add_par('Kmn',min=2.09e-6, max=1.25e-5, value = 5e-6)
 
 # Create matrix of parameter combinations
-ac = [0.09,0.16]
-ct = [0.06,0.14]
+ac = [0.05,0.11]
+ct = [0.13,0.27]
 
-Kac = [9.35e-11,2.54e-10]
-Kct = [2.29e-13,3.18e-12]
-Kmn = [1.90e-13,1.14e-12]
+Kac = [5.79e-11,2.93e-10]
+Kct = [1.22e-12,3.59e-12]
+Kmn = [6.56e-15,2.66e-14]
 
 d = np.empty([njobs,nparams])
 c = 0

@@ -6,7 +6,7 @@ from matk import matk
 import parse_ats
 import atsxml
 
-runName = "CenturySim"
+runName = "DwarfShrubsHi"
 suffix = "_05Dec18"
 #checkpointRunName = "_27Nov18"
 
@@ -16,7 +16,7 @@ def model(pars, hostname='dum', processor=1):
 	branchName = "hillslope-fieldParams"
 	fname = branchName + "-" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
-	m = atsxml.get_root('../test7_' + branchName + '_template_' + runName + suffix + '_input.xml')
+	m = atsxml.get_root('../test7_' + branchName + '_template' + suffix + '_input.xml')
 	
 	atsxml.replace_by_path(m,['mesh','domain','read mesh file parameters','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 	atsxml.replace_by_path(m,['regions','computational domain acrotelm','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
@@ -26,6 +26,8 @@ def model(pars, hostname='dum', processor=1):
 	atsxml.replace_by_path(m,['regions','surface','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 	atsxml.replace_by_path(m,['regions','bottom face','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 	atsxml.replace_by_path(m,['state','permeability','function','acrotelm','function','function-constant','value'],pars['Kac'])
+	atsxml.replace_by_path(m,['state','permeability','function','catotelm','function','function-constant','value'],pars['Kct'])
+	atsxml.replace_by_path(m,['state','permeability','function','rest domain','function','function-constant','value'],pars['Kmn'])
 
 
     	atsxml.run(m, nproc=1, mpiexec='mpirun', stdout='stdout.out', stderr='stdout.err', cpuset=processor)
