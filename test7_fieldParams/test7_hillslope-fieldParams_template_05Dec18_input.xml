@@ -16,7 +16,6 @@
       <ParameterList name="read mesh file parameters" type="ParameterList">
         <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo" />
         <Parameter name="format" type="string" value="Exodus II" />
-        <Parameter name="format" type="string" value="Exodus II" />
       </ParameterList>
       <ParameterList name="expert" type="ParameterList">
         <Parameter name="verify mesh" type="bool" value="true" />
