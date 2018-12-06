@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 NUM=1
-runname='CenturySim_20cmBC_Debug_27Nov18.'
-checkpointdirname='CenturySim_20cmBC_Debug_27Nov18_checkpoint_files'
+runname='CenturySim_20cmBC_29Nov18.'
+checkpointdirname='CenturySim_20cmBC_29Nov18_Debug_checkpoint_files'
 if [ -d "$checkpointdirname" ]; then
 	exit
 fi

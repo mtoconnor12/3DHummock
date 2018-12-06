@@ -159,8 +159,8 @@
     <Parameter name="start time units" type="string" value="s" />
     <Parameter name="end time" type="double" value="41638.0" />
     <Parameter name="end time units" type="string" value="d" />
+    <Parameter name="restart from checkpoint file" type="string" value="checkpoint_last.h5" />
     <ParameterList name="required times" type="ParameterList">
-	<Parameter name="restart from checkpoint file" type="string" value="checkpoint_last.h5" />
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
     <ParameterList name="PK tree">
