@@ -16,7 +16,7 @@ def model(pars, hostname='dum', processor=1):
 	branchName = "hillslope-fieldParams"
 	fname = branchName + "-" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
-	m = atsxml.get_root('../test7_' + branchName + '_template' + suffix + '_input.xml')
+	m = atsxml.get_root('../newInputFile.xml')
 	
 	atsxml.replace_by_path(m,['mesh','domain','read mesh file parameters','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 	atsxml.replace_by_path(m,['regions','computational domain acrotelm','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')

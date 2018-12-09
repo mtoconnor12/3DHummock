@@ -44,7 +44,7 @@ wtd = np.nan*np.ones((np.size(bac),np.size(bct)),'d')
 for i in range(1):
 	for j in range(np.size(bct)):
 		for k in range(np.size(bac)):
-			directory = "./run."+str((j+1) + (k*3))
+			directory = "../CenturySim_01Dec18_Debug."+str((j+1) + (k*3))
 			print directory
 			keys, times, dat = parse_ats.readATS(directory, "visdump_data.h5", timeunits='yr')
 			col_dat = transect_data.transect_data(['saturation_ice'], keys=np.s_[ind], directory=directory)
