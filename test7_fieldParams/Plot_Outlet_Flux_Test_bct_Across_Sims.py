@@ -12,15 +12,15 @@ runDate = '05Dec18'
 
 nruns = 32
 
-t1 = 0
-t2 = 1
+t1 = 9
+t2 = 10
 t1 = t1*365
 t2 = t2*365
 ndays = (t2-t1)
 y = np.nan*np.ones([ndays,nruns],'d')
 meany = np.nan*np.ones([ndays,len(runPrefixList)],'d')
 t = np.nan*np.ones([ndays,nruns],'d')
-for i in range(len(runPrefixList)):
+for i in range(2):#len(runPrefixList)):
 	for j in range(nruns):	
 		mat = np.loadtxt(runPrefixList[i] + '_' + runDate + '.' + str(j+1) + '/subsurface_outlet_flux.dat')
 		matSubset = mat[t1:-1,:]
@@ -36,4 +36,5 @@ for i in range(len(runPrefixList)):
 	plt.hold(True)
 	#plt.set_ylabel('Flow [log10 cms]')
 	#plt.set_xlabel('Time [yrs of sim]')
+plt.legend(runPrefixList)
 plt.show() 

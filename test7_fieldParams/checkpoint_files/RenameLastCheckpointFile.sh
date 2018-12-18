@@ -1,33 +1,24 @@
 #!/usr/bin/env bash
 
-NUM=1
-runname='CenturySim_20cmBC_29Nov18.'
-checkpointdirname='CenturySim_20cmBC_29Nov18_Debug_checkpoint_files'
-if [ -d "$checkpointdirname" ]; then
-	exit
-fi
-mkdir $checkpointdirname
-for VARA in 0.01 0.1
+for colNames in TussockTundraHi TussockTundraLo WaterTrack WoodyShrubsHillslope SedgeHi WoodyShrubsRiparianHi WoodyShrubsRiparianLo SedgeLo DwarfShrubsHi DwarfShrubsLo
 do
-	for VARB in 0.01 0.1 0.22
-	do
-		for VARC in 0.02 0.14 0.4
-		do	
-			cd ../$runname$NUM
-			lastCp=$(ls -t checkpoint* | head -1)
-			cd ../checkpoint_files/$checkpointdirname
-			echo "Start"
-			echo $VARA
-			echo $VARB				
-			echo $VARC
-			str1='checkpoint_hillslope-30mSuite-'
-			str2='m_'
-			str3='bac_'
-			str4='bct.h5'
-			fname="$str1$VARA$str2$VARB$str3$VARC$str4"
-			cp ../../$runname$NUM/$lastCp $fname
-			cd ../
-			NUM=$((NUM + 1))
-		done
+	runname=$colNames
+	checkpointsuffix='_05Dec18'
+	dot='.'
+	checkpointdirname=$runname$checkpointsuffix
+	if [ -d "$checkpointdirname" ]; then
+		exit
+	fi
+	mkdir $checkpointdirname
+	for NUM in $(seq 1 32)
+	do		
+		cd ../$checkpointdirname$dot$NUM
+		lastCp=$(ls -t checkpoint* | head -1)
+		cd ../checkpoint_files/$checkpointdirname
+		echo $runname" Run "$NUM
+		endstr='checkpoint_last.h5'
+		fname="$checkpointdirname$dot$NUM$endstr"
+		cp ../../$checkpointdirname$dot$NUM/$lastCp $fname
+		cd ../
 	done
 done

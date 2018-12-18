@@ -1,0 +1,4 @@
+  File "RunAllColumns_18Dec18_matk.py", line 29
+    atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file','string'],'../checkpoint_files/' + runName + checkpointSuffix + '/' runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
+                                                                                                                                                      ^
+SyntaxError: invalid syntax

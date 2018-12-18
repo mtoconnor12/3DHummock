@@ -27,7 +27,7 @@ wtd = np.nan*np.ones([nruns,len(runPrefixList)],'d')
 
 col =  ['b','g','r','c','m','y','k','w','b','g']
 
-for q in range(len(runPrefixList)):	
+for q in range(2,9):#len(runPrefixList)):	
 	for i in range(nruns):
         	directory = runPrefixList[q] + '_' + runDate + '.' + str(i+1)
 	        print directory
