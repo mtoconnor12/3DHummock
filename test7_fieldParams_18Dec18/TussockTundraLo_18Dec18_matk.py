@@ -11,7 +11,7 @@ import atsxml
 def model(pars, hostname='dum', processor=1):
 	# ATS ##############################################################################
     	# Modify base ats xml input file and run ats
-	branchName = "hillslope-fieldParams"
+	branchName = "hillslope-fieldParams_18Dec18"
 	fname = branchName + "-" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
 	m = atsxml.get_root('../test7_' + branchName + '_template' + suffix + '_input.xml')
