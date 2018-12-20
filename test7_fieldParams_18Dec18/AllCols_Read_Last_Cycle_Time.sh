@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-fname="LastTimestep_$(date +"%Y_%m%d_%H%M").txt"
+fname="LastTimestep_$(date +"%Y_%m%d_%H%M").csv"
 touch $fname
 suffix="_18Dec18"
 echo "Filename: $fname"
@@ -10,7 +10,6 @@ do
         runName=$colNames
 	NUMBERS=$(seq 1 32)
 	dot='.'
-	extension='.txt'
 	echo $runName
 	echo $runName >> $fname
 	for NUM in $NUMBERS
