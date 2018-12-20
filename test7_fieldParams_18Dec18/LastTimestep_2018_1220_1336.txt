@@ -1,0 +1,70 @@
+Run #1
+Coordinator      |   Cycle = 103260,  Time [days] = 8523.94629251891,  dt [days] = 0.00475681790875064
+Run #2
+Coordinator      |   Cycle = 96472,  Time [days] = 10008.3330490521,  dt [days] = 0.0168140850671464
+Run #3
+Coordinator      |   Cycle = 104041,  Time [days] = 10736.4768339445,  dt [days] = 0.00952703029538194
+Run #4
+Coordinator      |   Cycle = 100816,  Time [days] = 10012.7385122023,  dt [days] = 2.55318151579963e-06
+Run #5
+Coordinator      |   Cycle = 105477,  Time [days] = 4290.78333893771,  dt [days] = 1.49444707979759e-05
+Run #6
+Coordinator      |   Cycle = 106032,  Time [days] = 9404.10306781541,  dt [days] = 2.64514423906803e-05
+Run #7
+Coordinator      |   Cycle = 110657,  Time [days] = 9404.16921357257,  dt [days] = 1.80310962928666e-05
+Run #8
+Run #9
+Coordinator      |   Cycle = 95068,  Time [days] = 10472.869302541,  dt [days] = 3.23192651073138e-05
+Run #10
+Coordinator      |   Cycle = 89217,  Time [days] = 10022.6875,  dt [days] = 0.09375
+Run #11
+Coordinator      |   Cycle = 94376,  Time [days] = 10000.5063144628,  dt [days] = 0.00951363581543167
+Run #12
+Coordinator      |   Cycle = 89965,  Time [days] = 9638.58914318047,  dt [days] = 0.0063556815435489
+Run #13
+Coordinator      |   Cycle = 99774,  Time [days] = 4280.05162933911,  dt [days] = 1.74662325945165e-05
+Run #14
+Coordinator      |   Cycle = 99355,  Time [days] = 4280.03757922817,  dt [days] = 1.28677021712065e-05
+Run #15
+Coordinator      |   Cycle = 99004,  Time [days] = 6704.34375,  dt [days] = 0.015625
+Run #16
+Coordinator      |   Cycle = 95424,  Time [days] = 3910.4720482576,  dt [days] = 1.21390240059959e-05
+Run #17
+Coordinator      |   Cycle = 87036,  Time [days] = 9660.625,  dt [days] = 0.125
+Run #18
+Coordinator      |   Cycle = 81786,  Time [days] = 8529.55628112987,  dt [days] = 0.0364399287063214
+Run #19
+Run #20
+Coordinator      |   Cycle = 89862,  Time [days] = 9290.6989364624,  dt [days] = 0.112627029418945
+Run #21
+Coordinator      |   Cycle = 104116,  Time [days] = 6465.86733706027,  dt [days] = 3.83096374571323e-05
+Run #22
+Coordinator      |   Cycle = 100490,  Time [days] = 9394.36360883713,  dt [days] = 0.25
+Run #23
+Coordinator      |   Cycle = 102827,  Time [days] = 9773.5971163067,  dt [days] = 7.0338300946686e-05
+Run #24
+Coordinator      |   Cycle = 103279,  Time [days] = 4280.01555020213,  dt [days] = 1.32382567971945e-05
+Run #25
+Coordinator      |   Cycle = 90226,  Time [days] = 9642.91109018077,  dt [days] = 0.00336029318126815
+Run #26
+Coordinator      |   Cycle = 89655,  Time [days] = 3910.4163989623,  dt [days] = 1.48545547078053e-05
+Run #27
+Coordinator      |   Cycle = 88545,  Time [days] = 9259.05792760849,  dt [days] = 0.00715264678001404
+Run #28
+Coordinator      |   Cycle = 84920,  Time [days] = 9259.20279466256,  dt [days] = 0.00677289112988446
+Run #29
+Coordinator      |   Cycle = 95259,  Time [days] = 5641.75,  dt [days] = 0.25
+Run #30
+Coordinator      |   Cycle = 91628,  Time [days] = 8903.072068114,  dt [days] = 0.00395883167231524
+Run #31
+Coordinator      |   Cycle = 94870,  Time [days] = 6046.25,  dt [days] = 0.25
+Run #32
+Coordinator      |   Cycle = 95036,  Time [days] = 4279.90067349286,  dt [days] = 6.84028698338403e-06
+Run #1
+Coordinator      |   Cycle = 93847,  Time [days] = 11485.25,  dt [days] = 0.25
+Run #2
+Coordinator      |   Cycle = 91576,  Time [days] = 10472.9079593058,  dt [days] = 1.28898397088051e-05
+Run #3
+Run #4
+Coordinator      |   Cycle = 92178,  Time [days] = 10420.25,  dt [days] = 0.25
+Run #5

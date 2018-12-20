@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+if [-d \]
+for colNames in TussockTundraHi TussockTundraLo WaterTrack WoodyShrubsHillslope SedgeHi WoodyShrubsRiparianHi WoodyShrubsRiparianLo SedgeLo DwarfShrubsHi DwarfShrubsLo
+do
+        runName=$colNames
+	extension='.txt'
+	
+        if [ -d "$runName$extension" ]; then
+                exit
+        fi
+        mkdir $checkpointdirname
+	NUMBERS=$(seq 1 32)
+	dot='.'
+	extension='.txt'
+	echo $1
+	touch $1$extension
+	for NUM in $NUMBERS
+	do
+		cd $1$dot$NUM
+		echo 'Run #'$NUM >> ../$1$extension
+		tail -n 15000 stdout.out | grep Cycle | tail -1  >> ../$1$extension
+		cd ../
+	done
+done

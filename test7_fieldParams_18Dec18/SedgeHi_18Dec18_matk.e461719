@@ -1,0 +1,4 @@
+  File "SedgeHi_18Dec18_matk.py", line 60
+    ac = [0.10,0.17],[0.08,0.16],[0.03,0.12],[0.01,0.02]]
+                                                        ^
+SyntaxError: invalid syntax

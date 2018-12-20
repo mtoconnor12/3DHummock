@@ -57,8 +57,8 @@ p.add_par('RunNum',min=1,max=32, value = 6)
 colNames = ['TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslope','SedgeHi','WoodyShrubsRiparianHi','SedgeLo','FrostBoils']
 
 # Create matrix of parameter combinations
-ac = [0.10,0.17],[0.08,0.16],[0.03,0.12],[0.01,0.02]]
-ct = [0.20,0.34],[0.10,0.20],[0.18,0.46],[0.02,0.04]]
+ac = [0.10,0.17]
+ct = [0.20,0.34]
 
 Kac = [1.05e-11,1.57e-10]
 Kct = [4.68e-13,1.43e-12]
