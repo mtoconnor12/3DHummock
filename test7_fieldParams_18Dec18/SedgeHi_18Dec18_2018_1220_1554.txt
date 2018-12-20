@@ -1,0 +1,64 @@
+Run #1
+SedgeHi_1Coordinator | Cycle = 94323, Time [days] = 10736.9921089242, dt [days] = 0.00344975829814319
+Run #2
+SedgeHi_2Coordinator | Cycle = 90194, Time [days] = 9709.35517883301, dt [days] = 0.25
+Run #3
+SedgeHi_3Coordinator | Cycle = 93750, Time [days] = 10020.6550123338, dt [days] = 0.09375
+Run #4
+SedgeHi_4Coordinator | Cycle = 88558, Time [days] = 9408.67108716939, dt [days] = 0.183642097028593
+Run #5
+SedgeHi_5Coordinator | Cycle = 209721, Time [days] = 6466.63373177099, dt [days] = 5.56194326943821e-06
+Run #6
+SedgeHi_6Coordinator | Cycle = 218991, Time [days] = 6466.68741717405, dt [days] = 9.93331066436238e-06
+Run #7
+SedgeHi_7Coordinator | Cycle = 331635, Time [days] = 6467.55124243594, dt [days] = 6.77516270014975e-06
+Run #8
+SedgeHi_8Coordinator | Cycle = 99674, Time [days] = 10013.0579981359, dt [days] = 0.00189459005577697
+Run #9
+SedgeHi_9Coordinator | Cycle = 84566, Time [days] = 9437.25289576966, dt [days] = 0.00111362175050157
+Run #10
+SedgeHi_10Coordinator | Cycle = 85191, Time [days] = 9404.15528225759, dt [days] = 0.000185993942949507
+Run #11
+SedgeHi_11Coordinator | Cycle = 77984, Time [days] = 8528.17631767077, dt [days] = 4.82190938459502e-05
+Run #12
+SedgeHi_12Coordinator | Cycle = 78921, Time [days] = 8527.16609227926, dt [days] = 0.0148493097350001
+Run #13
+SedgeHi_13
+Run #14
+SedgeHi_14Coordinator | Cycle = 93973, Time [days] = 6465.81182259657, dt [days] = 0.0507393910280532
+Run #15
+SedgeHi_15Coordinator | Cycle = 88916, Time [days] = 10002.2253304598, dt [days] = 0.0054961603672968
+Run #16
+SedgeHi_16Coordinator | Cycle = 91698, Time [days] = 6709.43640164866, dt [days] = 0.00828610725286934
+Run #17
+SedgeHi_17Coordinator | Cycle = 84782, Time [days] = 9263.77739149202, dt [days] = 0.0155458929472499
+Run #18
+SedgeHi_18Coordinator | Cycle = 79897, Time [days] = 8905.46626782802, dt [days] = 0.00133804139991601
+Run #19
+SedgeHi_19Coordinator | Cycle = 86479, Time [days] = 9271.25, dt [days] = 0.25
+Run #20
+SedgeHi_20Coordinator | Cycle = 85217, Time [days] = 9266.01472961143, dt [days] = 0.000132271131431615
+Run #21
+SedgeHi_21Coordinator | Cycle = 346195, Time [days] = 6467.90141609468, dt [days] = 1.85216404497623e-05
+Run #22
+SedgeHi_22Coordinator | Cycle = 106185, Time [days] = 7441.70477663336, dt [days] = 0.00813664648681879
+Run #23
+SedgeHi_23
+Run #24
+SedgeHi_24
+Run #25
+SedgeHi_25Coordinator | Cycle = 80353, Time [days] = 8915, dt [days] = 0.082855224609375
+Run #26
+SedgeHi_26Coordinator | Cycle = 81507, Time [days] = 9265.90509665346, dt [days] = 0.00017117743483848
+Run #27
+SedgeHi_27Coordinator | Cycle = 77297, Time [days] = 8528.03790383823, dt [days] = 4.46380543763991e-05
+Run #28
+SedgeHi_28Coordinator | Cycle = 78938, Time [days] = 8526.91313441825, dt [days] = 0.0130597061939813
+Run #29
+SedgeHi_29Coordinator | Cycle = 88614, Time [days] = 8923.75, dt [days] = 0.25
+Run #30
+SedgeHi_30Coordinator | Cycle = 88923, Time [days] = 9404.98258135357, dt [days] = 0.00273524652062743
+Run #31
+SedgeHi_31Coordinator | Cycle = 84121, Time [days] = 9300.375, dt [days] = 0.125
+Run #32
+SedgeHi_32

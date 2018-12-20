@@ -1,0 +1,64 @@
+Run #1
+WoodyShrubsRiparianHi_1Coordinator | Cycle = 104639, Time [days] = 11865, dt [days] = 0.0625
+Run #2
+WoodyShrubsRiparianHi_2
+Run #3
+WoodyShrubsRiparianHi_3Coordinator | Cycle = 101966, Time [days] = 11811.9721984863, dt [days] = 0.00834274291992188
+Run #4
+WoodyShrubsRiparianHi_4
+Run #5
+WoodyShrubsRiparianHi_5Coordinator | Cycle = 467932, Time [days] = 6468.53068560885, dt [days] = 1.52970953947968e-05
+Run #6
+WoodyShrubsRiparianHi_6Coordinator | Cycle = 365771, Time [days] = 9263.03640366182, dt [days] = 0.00810081485658884
+Run #7
+WoodyShrubsRiparianHi_7
+Run #8
+WoodyShrubsRiparianHi_8Coordinator | Cycle = 114787, Time [days] = 10005.9309439325, dt [days] = 0.00238576314929459
+Run #9
+WoodyShrubsRiparianHi_9Coordinator | Cycle = 95132, Time [days] = 10469.616896322, dt [days] = 0.0267269220203161
+Run #10
+WoodyShrubsRiparianHi_10Coordinator | Cycle = 94168, Time [days] = 10012.9214245895, dt [days] = 0.00042419055821719
+Run #11
+WoodyShrubsRiparianHi_11
+Run #12
+WoodyShrubsRiparianHi_12Coordinator | Cycle = 88918, Time [days] = 9773.62448178327, dt [days] = 7.60987828727122e-05
+Run #13
+WoodyShrubsRiparianHi_13Coordinator | Cycle = 103819, Time [days] = 10472.892736256, dt [days] = 7.19283935096529e-05
+Run #14
+WoodyShrubsRiparianHi_14Coordinator | Cycle = 104594, Time [days] = 8273.49920654297, dt [days] = 0.002471923828125
+Run #15
+WoodyShrubsRiparianHi_15
+Run #16
+WoodyShrubsRiparianHi_16Coordinator | Cycle = 107629, Time [days] = 7801.65537785739, dt [days] = 0.00890897400677204
+Run #17
+WoodyShrubsRiparianHi_17Coordinator | Cycle = 91968, Time [days] = 10025.6411670264, dt [days] = 0.121912040222022
+Run #18
+WoodyShrubsRiparianHi_18Coordinator | Cycle = 88065, Time [days] = 9362.5, dt [days] = 0.125
+Run #19
+WoodyShrubsRiparianHi_19Coordinator | Cycle = 93289, Time [days] = 9737.75, dt [days] = 0.25
+Run #20
+WoodyShrubsRiparianHi_20
+Run #21
+WoodyShrubsRiparianHi_21Coordinator | Cycle = 215437, Time [days] = 6466.84438457735, dt [days] = 1.13835951520337e-05
+Run #22
+WoodyShrubsRiparianHi_22Coordinator | Cycle = 109286, Time [days] = 10472.8468056424, dt [days] = 7.30226188898087e-05
+Run #23
+WoodyShrubsRiparianHi_23Coordinator | Cycle = 107959, Time [days] = 10366.3748142169, dt [days] = 0.0374814216854672
+Run #24
+WoodyShrubsRiparianHi_24Coordinator | Cycle = 105918, Time [days] = 10472.8422784839, dt [days] = 7.3556633045276e-05
+Run #25
+WoodyShrubsRiparianHi_25Coordinator | Cycle = 88053, Time [days] = 9407.46143969577, dt [days] = 0.0988799348073425
+Run #26
+WoodyShrubsRiparianHi_26Coordinator | Cycle = 86696, Time [days] = 9262.69672666183, dt [days] = 0.00550764741169082
+Run #27
+WoodyShrubsRiparianHi_27Coordinator | Cycle = 84481, Time [days] = 7566.65912014246, dt [days] = 0.0475145280361176
+Run #28
+WoodyShrubsRiparianHi_28Coordinator | Cycle = 84222, Time [days] = 8524.32256619045, dt [days] = 0.00550993141200807
+Run #29
+WoodyShrubsRiparianHi_29Coordinator | Cycle = 102183, Time [days] = 7616.25, dt [days] = 0.25
+Run #30
+WoodyShrubsRiparianHi_30
+Run #31
+WoodyShrubsRiparianHi_31
+Run #32
+WoodyShrubsRiparianHi_32Coordinator | Cycle = 96592, Time [days] = 6623.5, dt [days] = 0.25

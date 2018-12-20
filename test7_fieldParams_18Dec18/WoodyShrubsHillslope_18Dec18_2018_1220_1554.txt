@@ -1,0 +1,64 @@
+Run #1
+WoodyShrubsHillslope_1Coordinator | Cycle = 112535, Time [days] = 9395.39242052879, dt [days] = 2.57551069888804e-05
+Run #2
+WoodyShrubsHillslope_2Coordinator | Cycle = 106444, Time [days] = 12195.4527948899, dt [days] = 0.0108488619824251
+Run #3
+WoodyShrubsHillslope_3Coordinator | Cycle = 107803, Time [days] = 12272, dt [days] = 0.25
+Run #4
+WoodyShrubsHillslope_4Coordinator | Cycle = 106195, Time [days] = 12179.6543695093, dt [days] = 0.0161551464418018
+Run #5
+WoodyShrubsHillslope_5Coordinator | Cycle = 120814, Time [days] = 11112.84375, dt [days] = 0.15625
+Run #6
+WoodyShrubsHillslope_6
+Run #7
+WoodyShrubsHillslope_7Coordinator | Cycle = 121257, Time [days] = 3910.87587999876, dt [days] = 2.31181643903255e-05
+Run #8
+WoodyShrubsHillslope_8Coordinator | Cycle = 121250, Time [days] = 10002.5737276341, dt [days] = 0.0052192203907503
+Run #9
+WoodyShrubsHillslope_9Coordinator | Cycle = 101072, Time [days] = 11346.75, dt [days] = 0.25
+Run #10
+WoodyShrubsHillslope_10Coordinator | Cycle = 96008, Time [days] = 10121, dt [days] = 0.017578125
+Run #11
+WoodyShrubsHillslope_11Coordinator | Cycle = 98278, Time [days] = 4561.96245620665, dt [days] = 6.20371972521146e-06
+Run #12
+WoodyShrubsHillslope_12Coordinator | Cycle = 93088, Time [days] = 10005.181842278, dt [days] = 0.0053193299099803
+Run #13
+WoodyShrubsHillslope_13Coordinator | Cycle = 447382, Time [days] = 6469.05974696886, dt [days] = 2.08648087249862e-05
+Run #14
+WoodyShrubsHillslope_14
+Run #15
+WoodyShrubsHillslope_15Coordinator | Cycle = 112455, Time [days] = 9847.75, dt [days] = 0.25
+Run #16
+WoodyShrubsHillslope_16Coordinator | Cycle = 107226, Time [days] = 10472.924506959, dt [days] = 6.91761345499092e-05
+Run #17
+WoodyShrubsHillslope_17
+Run #18
+WoodyShrubsHillslope_18Coordinator | Cycle = 86504, Time [days] = 9362.6875, dt [days] = 0.0625
+Run #19
+WoodyShrubsHillslope_19Coordinator | Cycle = 97243, Time [days] = 10517.3125, dt [days] = 0.125
+Run #20
+WoodyShrubsHillslope_20Coordinator | Cycle = 94611, Time [days] = 10004.0851104505, dt [days] = 0.00447949739380015
+Run #21
+WoodyShrubsHillslope_21Coordinator | Cycle = 109114, Time [days] = 10254.75, dt [days] = 0.25
+Run #22
+WoodyShrubsHillslope_22Coordinator | Cycle = 106763, Time [days] = 10472.9940373441, dt [days] = 3.75089421868324e-05
+Run #23
+WoodyShrubsHillslope_23Coordinator | Cycle = 337568, Time [days] = 6466.69038464143, dt [days] = 5.06268814206123e-06
+Run #24
+WoodyShrubsHillslope_24Coordinator | Cycle = 108223, Time [days] = 10473.2030565657, dt [days] = 3.86606777707736e-05
+Run #25
+WoodyShrubsHillslope_25Coordinator | Cycle = 95608, Time [days] = 9638.18622100898, dt [days] = 0.00579259305985438
+Run #26
+WoodyShrubsHillslope_26Coordinator | Cycle = 86861, Time [days] = 9404.58207721348, dt [days] = 0.0836821195158969
+Run #27
+WoodyShrubsHillslope_27Coordinator | Cycle = 84242, Time [days] = 8906.02840186496, dt [days] = 0.0284018649581682
+Run #28
+WoodyShrubsHillslope_28Coordinator | Cycle = 84842, Time [days] = 8905.4852848796, dt [days] = 0.000255052305895973
+Run #29
+WoodyShrubsHillslope_29Coordinator | Cycle = 102027, Time [days] = 9404.11601202268, dt [days] = 2.00303312804964e-05
+Run #30
+WoodyShrubsHillslope_30Coordinator | Cycle = 98819, Time [days] = 7389, dt [days] = 0.25
+Run #31
+WoodyShrubsHillslope_31
+Run #32
+WoodyShrubsHillslope_32Coordinator | Cycle = 99533, Time [days] = 6130.75, dt [days] = 0.25

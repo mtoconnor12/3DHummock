@@ -1,0 +1,64 @@
+Run #1
+TussockTundraHi_1Coordinator | Cycle = 111991, Time [days] = 9492, dt [days] = 0.25
+Run #2
+TussockTundraHi_2Coordinator | Cycle = 104852, Time [days] = 10472.8619810946, dt [days] = 3.56854870915413e-05
+Run #3
+TussockTundraHi_3Coordinator | Cycle = 112742, Time [days] = 11818.1427448406, dt [days] = 0.00274509308928693
+Run #4
+TussockTundraHi_4
+Run #5
+TussockTundraHi_5Coordinator | Cycle = 115053, Time [days] = 4290.86494928498, dt [days] = 1.67814787063334e-05
+Run #6
+TussockTundraHi_6
+Run #7
+TussockTundraHi_7Coordinator | Cycle = 120568, Time [days] = 9404.28383478283, dt [days] = 2.44265981018543e-05
+Run #8
+TussockTundraHi_8
+Run #9
+TussockTundraHi_9
+Run #10
+TussockTundraHi_10Coordinator | Cycle = 97535, Time [days] = 10472.9156580603, dt [days] = 3.00566748612457e-05
+Run #11
+TussockTundraHi_11Coordinator | Cycle = 101205, Time [days] = 10472.8824880696, dt [days] = 3.01829746199979e-05
+Run #12
+TussockTundraHi_12Coordinator | Cycle = 97220, Time [days] = 10303.75, dt [days] = 0.25
+Run #13
+TussockTundraHi_13
+Run #14
+TussockTundraHi_14Coordinator | Cycle = 108134, Time [days] = 4280.10286213215, dt [days] = 5.95133889604498e-06
+Run #15
+TussockTundraHi_15Coordinator | Cycle = 107203, Time [days] = 7801.34168660641, dt [days] = 0.00898110866546631
+Run #16
+TussockTundraHi_16Coordinator | Cycle = 104119, Time [days] = 3910.53825612025, dt [days] = 1.29522041728099e-05
+Run #17
+TussockTundraHi_17Coordinator | Cycle = 93799, Time [days] = 10361, dt [days] = 0.00499017645363454
+Run #18
+TussockTundraHi_18Coordinator | Cycle = 88917, Time [days] = 9404.83955447892, dt [days] = 0.00188923184518461
+Run #19
+TussockTundraHi_19Coordinator | Cycle = 100800, Time [days] = 10366.6961048987, dt [days] = 0.0235131346117015
+Run #20
+TussockTundraHi_20Coordinator | Cycle = 98993, Time [days] = 9773.57352518556, dt [days] = 3.23043949902058e-05
+Run #21
+TussockTundraHi_21Coordinator | Cycle = 114204, Time [days] = 6466.01533770351, dt [days] = 2.31719844871097e-05
+Run #22
+TussockTundraHi_22
+Run #23
+TussockTundraHi_23Coordinator | Cycle = 112622, Time [days] = 9773.84320803539, dt [days] = 1.51058845221996e-05
+Run #24
+TussockTundraHi_24
+Run #25
+TussockTundraHi_25Coordinator | Cycle = 97308, Time [days] = 10362.2542770783, dt [days] = 0.0238384760916233
+Run #26
+TussockTundraHi_26Coordinator | Cycle = 97855, Time [days] = 3910.47762541203, dt [days] = 1.74809961269299e-05
+Run #27
+TussockTundraHi_27Coordinator | Cycle = 96138, Time [days] = 9773.48042295499, dt [days] = 1.88348318139712e-05
+Run #28
+TussockTundraHi_28Coordinator | Cycle = 92590, Time [days] = 9773.56325310269, dt [days] = 2.58569895393319e-05
+Run #29
+TussockTundraHi_29Coordinator | Cycle = 103705, Time [days] = 6465.72622240509, dt [days] = 7.84688484337595e-05
+Run #30
+TussockTundraHi_30Coordinator | Cycle = 99820, Time [days] = 9640.83606556451, dt [days] = 0.0158025689733525
+Run #31
+TussockTundraHi_31Coordinator | Cycle = 104245, Time [days] = 6465.83261115775, dt [days] = 4.09515326221784e-05
+Run #32
+TussockTundraHi_32

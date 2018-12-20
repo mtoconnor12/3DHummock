@@ -1,0 +1,64 @@
+Run #1
+FrostBoils_1Coordinator | Cycle = 130562, Time [days] = 13059.5480566884, dt [days] = 0.0373903460331537
+Run #2
+FrostBoils_2Coordinator | Cycle = 129124, Time [days] = 12926.1483049644, dt [days] = 0.000519258769022094
+Run #3
+FrostBoils_3Coordinator | Cycle = 130488, Time [days] = 13058.2444264448, dt [days] = 0.0253787293036779
+Run #4
+FrostBoils_4Coordinator | Cycle = 131149, Time [days] = 13063.2426491239, dt [days] = 0.0172408588065041
+Run #5
+FrostBoils_5Coordinator | Cycle = 121960, Time [days] = 7806.33100575791, dt [days] = 0.0179942727461457
+Run #6
+FrostBoils_6Coordinator | Cycle = 118728, Time [days] = 7446.49524866451, dt [days] = 0.00390329180285335
+Run #7
+FrostBoils_7Coordinator | Cycle = 120900, Time [days] = 7644.25, dt [days] = 0.25
+Run #8
+FrostBoils_8Coordinator | Cycle = 120592, Time [days] = 7575.3125, dt [days] = 0.0703125
+Run #9
+FrostBoils_9Coordinator | Cycle = 128938, Time [days] = 13055.0700445029, dt [days] = 0.00887988672074344
+Run #10
+FrostBoils_10Coordinator | Cycle = 129663, Time [days] = 13061.7927042274, dt [days] = 0.00981162584076325
+Run #11
+FrostBoils_11Coordinator | Cycle = 128562, Time [days] = 13049.671875, dt [days] = 0.1640625
+Run #12
+FrostBoils_12Coordinator | Cycle = 128873, Time [days] = 13054.5801934816, dt [days] = 0.0272620430588722
+Run #13
+FrostBoils_13Coordinator | Cycle = 124239, Time [days] = 6466.18467593281, dt [days] = 1.11986262102922e-05
+Run #14
+FrostBoils_14Coordinator | Cycle = 124514, Time [days] = 6466.18642023116, dt [days] = 1.10941628615061e-05
+Run #15
+FrostBoils_15
+Run #16
+FrostBoils_16Coordinator | Cycle = 125988, Time [days] = 6466.19575633334, dt [days] = 9.80043783783913e-06
+Run #17
+FrostBoils_17Coordinator | Cycle = 130004, Time [days] = 12194.6596032779, dt [days] = 0.0108488619851845
+Run #18
+FrostBoils_18Coordinator | Cycle = 126039, Time [days] = 11956.54949224, dt [days] = 0.0211175680160522
+Run #19
+FrostBoils_19Coordinator | Cycle = 143259, Time [days] = 13274.3910033336, dt [days] = 0.013648702920311
+Run #20
+FrostBoils_20Coordinator | Cycle = 143247, Time [days] = 13274.2895648255, dt [days] = 0.00718944021811088
+Run #21
+FrostBoils_21Coordinator | Cycle = 130925, Time [days] = 9773.68519528469, dt [days] = 3.53608590861162e-05
+Run #22
+FrostBoils_22Coordinator | Cycle = 130967, Time [days] = 9773.68603176314, dt [days] = 2.01618588633007e-05
+Run #23
+FrostBoils_23Coordinator | Cycle = 132070, Time [days] = 9773.70807413659, dt [days] = 4.36946811775366e-05
+Run #24
+FrostBoils_24Coordinator | Cycle = 128149, Time [days] = 9773.62980062171, dt [days] = 3.23268460730712e-05
+Run #25
+FrostBoils_25
+Run #26
+FrostBoils_26Coordinator | Cycle = 141588, Time [days] = 13998.5, dt [days] = 0.25
+Run #27
+FrostBoils_27Coordinator | Cycle = 141056, Time [days] = 13865.5, dt [days] = 0.25
+Run #28
+FrostBoils_28Coordinator | Cycle = 140745, Time [days] = 13801.5216532521, dt [days] = 0.00933520211941666
+Run #29
+FrostBoils_29Coordinator | Cycle = 334614, Time [days] = 6467.46225507371, dt [days] = 8.77739447686407e-06
+Run #30
+FrostBoils_30Coordinator | Cycle = 334090, Time [days] = 6467.45958436516, dt [days] = 1.07443084319433e-05
+Run #31
+FrostBoils_31Coordinator | Cycle = 322874, Time [days] = 6467.40234179948, dt [days] = 8.53966093725628e-06
+Run #32
+FrostBoils_32Coordinator | Cycle = 324135, Time [days] = 6467.40877439811, dt [days] = 9.27298640211423e-06

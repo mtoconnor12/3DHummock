@@ -1,0 +1,64 @@
+Run #1
+WaterTrack_1Coordinator | Cycle = 111729, Time [days] = 12197.3278222279, dt [days] = 0.00315174587070942
+Run #2
+WaterTrack_2Coordinator | Cycle = 109531, Time [days] = 10472.9687666091, dt [days] = 1.88993910948435e-05
+Run #3
+WaterTrack_3Coordinator | Cycle = 116214, Time [days] = 10473.0448174713, dt [days] = 1.48282075921694e-05
+Run #4
+WaterTrack_4Coordinator | Cycle = 108060, Time [days] = 10472.9534309743, dt [days] = 1.50787726872497e-05
+Run #5
+WaterTrack_5Coordinator | Cycle = 107046, Time [days] = 5357.72885236573, dt [days] = 1.31276198145416e-05
+Run #6
+WaterTrack_6
+Run #7
+WaterTrack_7Coordinator | Cycle = 115681, Time [days] = 10474.5980554021, dt [days] = 0.0172429395570523
+Run #8
+WaterTrack_8
+Run #9
+WaterTrack_9Coordinator | Cycle = 100796, Time [days] = 11125.5, dt [days] = 0.25
+Run #10
+WaterTrack_10Coordinator | Cycle = 95582, Time [days] = 10364.0973150132, dt [days] = 0.000286401960032958
+Run #11
+WaterTrack_11Coordinator | Cycle = 98989, Time [days] = 10359.4215403469, dt [days] = 0.0061024848682185
+Run #12
+WaterTrack_12Coordinator | Cycle = 94105, Time [days] = 10005.4424206016, dt [days] = 0.000145966696242491
+Run #13
+WaterTrack_13Coordinator | Cycle = 108690, Time [days] = 9404.32119331809, dt [days] = 1.75185004870097e-05
+Run #14
+WaterTrack_14Coordinator | Cycle = 115154, Time [days] = 9404.22687338676, dt [days] = 2.12614424526691e-05
+Run #15
+WaterTrack_15Coordinator | Cycle = 108972, Time [days] = 9404.208741816, dt [days] = 2.54089302486844e-05
+Run #16
+WaterTrack_16Coordinator | Cycle = 106256, Time [days] = 8177.83163374174, dt [days] = 0.0052255821697138
+Run #17
+WaterTrack_17Coordinator | Cycle = 101632, Time [days] = 11105.401599858, dt [days] = 0.0306055611454778
+Run #18
+WaterTrack_18Coordinator | Cycle = 95198, Time [days] = 9643.12945749671, dt [days] = 0.00143520945614135
+Run #19
+WaterTrack_19Coordinator | Cycle = 109793, Time [days] = 11459.2858960288, dt [days] = 0.0192783465888351
+Run #20
+WaterTrack_20Coordinator | Cycle = 110075, Time [days] = 8175.49400700411, dt [days] = 0.00627379095595744
+Run #21
+WaterTrack_21Coordinator | Cycle = 123779, Time [days] = 9404.32589854969, dt [days] = 1.81312672793865e-05
+Run #22
+WaterTrack_22Coordinator | Cycle = 122259, Time [days] = 4280.11839305171, dt [days] = 1.06155903389057e-05
+Run #23
+WaterTrack_23Coordinator | Cycle = 121951, Time [days] = 10039.4375, dt [days] = 0.1875
+Run #24
+WaterTrack_24Coordinator | Cycle = 120386, Time [days] = 6709.80418543428, dt [days] = 0.011164443836444
+Run #25
+WaterTrack_25Coordinator | Cycle = 105812, Time [days] = 7937.08092765953, dt [days] = 2.28977989819315e-05
+Run #26
+WaterTrack_26Coordinator | Cycle = 95006, Time [days] = 9653.52587890625, dt [days] = 0.25
+Run #27
+WaterTrack_27Coordinator | Cycle = 98016, Time [days] = 10001.3400283415, dt [days] = 0.00282859005585865
+Run #28
+WaterTrack_28Coordinator | Cycle = 92927, Time [days] = 8904.25270512063, dt [days] = 0.0033935243015488
+Run #29
+WaterTrack_29
+Run #30
+WaterTrack_30Coordinator | Cycle = 102137, Time [days] = 11814.601631988, dt [days] = 0.00573458719584677
+Run #31
+WaterTrack_31Coordinator | Cycle = 114205, Time [days] = 9404.18979329217, dt [days] = 2.18211735288302e-05
+Run #32
+WaterTrack_32Coordinator | Cycle = 107067, Time [days] = 3910.71438375128, dt [days] = 1.97761257489522e-05

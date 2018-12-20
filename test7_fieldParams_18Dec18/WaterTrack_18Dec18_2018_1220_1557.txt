@@ -1,0 +1,49 @@
+Run #1
+WaterTrack	1	Coordinator      |   Cycle = 111867,  Time [days] = 12198.5523928479,  dt [days] = 0.00631666802835685
+Run #2
+WaterTrack	2	
+Run #3
+WaterTrack	3	Coordinator      |   Cycle = 116445,  Time [days] = 10473.046878656,  dt [days] = 1.7175879329443e-05
+Run #4
+WaterTrack	4	
+Run #5
+WaterTrack	5	Coordinator      |   Cycle = 107226,  Time [days] = 5357.73016153756,  dt [days] = 1.58039045830568e-05
+Run #6
+WaterTrack	6	
+Run #7
+WaterTrack	7	Coordinator      |   Cycle = 115905,  Time [days] = 10499.454755579,  dt [days] = 0.0880288946131865
+Run #8
+WaterTrack	8	
+Run #9
+WaterTrack	9	Coordinator      |   Cycle = 101028,  Time [days] = 11180.5,  dt [days] = 0.25
+Run #10
+WaterTrack	10	
+Run #11
+WaterTrack	11	Coordinator      |   Cycle = 99116,  Time [days] = 10360.0407131739,  dt [days] = 0.00325223578485074
+Run #12
+WaterTrack	12	
+Run #13
+WaterTrack	13	Coordinator      |   Cycle = 108891,  Time [days] = 9404.32342058098,  dt [days] = 2.2521350118849e-05
+Run #14
+WaterTrack	14	Coordinator      |   Cycle = 115355,  Time [days] = 9404.22939191165,  dt [days] = 2.73331751426061e-05
+Run #15
+WaterTrack	15	
+Run #16
+WaterTrack	16	Coordinator      |   Cycle = 106373,  Time [days] = 8186,  dt [days] = 0.125
+Run #17
+WaterTrack	17	Coordinator      |   Cycle = 101735,  Time [days] = 11107.4956366081,  dt [days] = 0.0161425674527332
+Run #18
+WaterTrack	18	Coordinator      |   Cycle = 95339,  Time [days] = 9652.875,  dt [days] = 0.046875
+Run #19
+WaterTrack	19	Coordinator      |   Cycle = 109903,  Time [days] = 11461.9035672192,  dt [days] = 0.0087890625
+Run #20
+WaterTrack	20	Coordinator      |   Cycle = 110243,  Time [days] = 8176.15220364495,  dt [days] = 0.00338442643069559
+Run #21
+WaterTrack	21	Coordinator      |   Cycle = 124004,  Time [days] = 9404.32851833422,  dt [days] = 1.86683382425043e-05
+Run #22
+WaterTrack	22	
+Run #23
+WaterTrack	23	Coordinator      |   Cycle = 122215,  Time [days] = 10100.5,  dt [days] = 0.25
+Run #24
+WaterTrack	24	Coordinator      |   Cycle = 120535,  Time [days] = 6710.51253075675,  dt [days] = 0.00402828147220943
+Run #25

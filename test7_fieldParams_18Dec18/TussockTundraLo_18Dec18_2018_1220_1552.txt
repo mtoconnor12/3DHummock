@@ -1,0 +1,15 @@
+Run #1
+Coordinator | Cycle = 101566, Time [days] = 12198.4930906242, dt [days] = 0.0126219916136728
+Run #2
+Coordinator | Cycle = 99645, Time [days] = 11200.9375, dt [days] = 0.03125
+Run #3
+
+Run #4
+Coordinator | Cycle = 101424, Time [days] = 10472.9312747336, dt [days] = 1.27443484961987e-05
+Run #5
+Coordinator | Cycle = 101408, Time [days] = 5357.48925633064, dt [days] = 1.7160934706529e-05
+Run #6
+Coordinator | Cycle = 106328, Time [days] = 3910.65738193145, dt [days] = 1.47711371795999e-05
+Run #7
+Coordinator | Cycle = 109559, Time [days] = 7804.35146107216, dt [days] = 0.0223404194607779
+Run #8
