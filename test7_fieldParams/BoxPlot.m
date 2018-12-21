@@ -1,5 +1,6 @@
 %% Build bar graph with thaw outputs from ATS
 close all;
+njobs = 32
 clear all;
 clc;
 

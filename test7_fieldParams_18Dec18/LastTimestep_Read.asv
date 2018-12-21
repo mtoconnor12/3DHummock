@@ -30,6 +30,7 @@ Kmn = [[1.90e-13,1.14e-12];[6.56e-15,2.66e-14];[1.16e-14,3.88e-13];[1.05e-15,7.1
 
 numCats = 2;
 
+
 for i = 1:length(colNames)
     c = 1;
     for i1 = 1:numCats
@@ -37,7 +38,7 @@ for i = 1:length(colNames)
             for i3 = 1:numCats
                 for i4 = 1:numCats
                     for i5 = 1:numCats
-                        pm{i}(c,:) = [ac(i,i1) ct(i,i2) Kac(i,i3) Kct(i,i4) Kmn(i,i5)];
+                        pm{i}(c,:) = [ac(i,i1) ct(i,i2) Kac(i,i3) Kct(i,i4) Kmn(i,i5) c];
                         c = c + 1;
                     end
                 end
@@ -46,14 +47,19 @@ for i = 1:length(colNames)
     end
 end
 
-c = 1;
 for i = 1:length(colNames)
+    c = 1;
+    crashedRuns{i} = '[';
     for j = 1:32
         if(lastDT{i}(j) < 1E-4)
-            crashedRuns{i}{c,1} = ['[' pm{i}(j,1) ',' pm
+            crashedRuns{i} = [crashedRuns{i} '[' num2str(pm{i}(j,1)) ',' num2str(pm{i}(j,2)) ',' num2str(pm{i}(j,3)) ',' num2str(pm{i}(j,4)) ',' num2str(pm{i}(j,5)) ',' num2str(pm{i}(j,6)) '],'];
             c = c + 1;
         end
     end
+    crashedRuns{i}(end) = ']';
+    disp(colNames{i})
+    disp(c)
+    disp(crashedRuns{i})
 end
 
 
@@ -82,7 +88,7 @@ set(gca,'xscale','log')
 figure;
 subplot(1,2,1);
 for i = 1:length(colNames)
-    scatter(lastTime{i},paramsMatrix{i}(:,1))
+    scatter(lastTime{i},pm{i}(:,1))
     hold all;
 end
 legend(colNames);
@@ -92,7 +98,7 @@ ylabel('Acrotelm Thickness');
 
 subplot(1,2,2);
 for i = 1:length(colNames)
-    scatter(lastDT{i},paramsMatrix{i}(:,1))
+    scatter(lastDT{i},pm{i}(:,1))
     hold all;
 end
 legend(colNames);
@@ -103,7 +109,7 @@ set(gca,'xscale','log')
 figure;
 subplot(1,2,1);
 for i = 1:length(colNames)
-    scatter(lastTime{i},paramsMatrix{i}(:,2))
+    scatter(lastTime{i},pm{i}(:,2))
     hold all;
 end
 legend(colNames);
@@ -113,7 +119,7 @@ ylabel('Catotelm Thickness');
 
 subplot(1,2,2);
 for i = 1:length(colNames)
-    scatter(lastDT{i},paramsMatrix{i}(:,2))
+    scatter(lastDT{i},pm{i}(:,2))
     hold all;
 end
 legend(colNames);
@@ -124,7 +130,7 @@ set(gca,'xscale','log')
 figure;
 subplot(1,2,1);
 for i = 1:length(colNames)
-    scatter(lastTime{i},paramsMatrix{i}(:,1) + paramsMatrix{i}(:,2))
+    scatter(lastTime{i},pm{i}(:,1) + pm{i}(:,2))
     hold all;
 end
 legend(colNames);
@@ -134,7 +140,7 @@ ylabel('Total Organic Thickness');
 
 subplot(1,2,2);
 for i = 1:length(colNames)
-    scatter(lastDT{i},paramsMatrix{i}(:,1)+ paramsMatrix{i}(:,2))
+    scatter(lastDT{i},pm{i}(:,1)+ pm{i}(:,2))
     hold all;
 end
 legend(colNames);

@@ -38,7 +38,7 @@ for i = 1:length(colNames)
             for i3 = 1:numCats
                 for i4 = 1:numCats
                     for i5 = 1:numCats
-                        pm{i}(c,:) = [ac(i,i1) ct(i,i2) Kac(i,i3) Kct(i,i4) Kmn(i,i5)];
+                        pm{i}(c,:) = [ac(i,i1) ct(i,i2) Kac(i,i3) Kct(i,i4) Kmn(i,i5) c];
                         c = c + 1;
                     end
                 end
@@ -49,14 +49,17 @@ end
 
 for i = 1:length(colNames)
     c = 1;
+    crashedRuns{i} = '[';
     for j = 1:32
-        if(lastDT{i}(j) < 1E-4)
-            crashedRuns{i}{c,1} = ['[' num2str(pm{i}(j,1)) ',' num2str(pm{i}(j,2)) ',' num2str(pm{i}(j,3)) ',' num2str(pm{i}(j,4)) ',' num2str(pm{i}(j,5)) ']'];
+        if(lastDT{i}(j) >= 1E-4)
+            crashedRuns{i} = [crashedRuns{i} '[' num2str(pm{i}(j,1)) ',' num2str(pm{i}(j,2)) ',' num2str(pm{i}(j,3)) ',' num2str(pm{i}(j,4)) ',' num2str(pm{i}(j,5)) ',' num2str(pm{i}(j,6)) '],'];
             c = c + 1;
         end
     end
+    crashedRuns{i}(end) = ']';
     disp(colNames{i})
-    crashedRuns{i}
+    disp(c - 1)
+    disp(crashedRuns{i})
 end
 
 
