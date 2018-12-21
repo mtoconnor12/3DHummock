@@ -14,7 +14,7 @@ def model(pars, hostname='dum', processor=1):
 	branchName = "hillslope-fieldParams_18Dec18"
 	fname = branchName + "-" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
-	m = atsxml.get_root('../test7_' + branchName + '_template' + suffix + '_input.xml')
+	m = atsxml.get_root('../test7_' + branchName + '_template' + '_18Dec18_UncrashedRuns' + '_input.xml')
 	
 	atsxml.replace_by_path(m,['mesh','domain','read mesh file parameters','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 	atsxml.replace_by_path(m,['regions','computational domain acrotelm','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
@@ -26,7 +26,7 @@ def model(pars, hostname='dum', processor=1):
 	atsxml.replace_by_path(m,['state','permeability','function','acrotelm','function','function-constant','value'],pars['Kac'])
 	atsxml.replace_by_path(m,['state','permeability','function','catotelm','function','function-constant','value'],pars['Kct'])
 	atsxml.replace_by_path(m,['state','permeability','function','rest domain','function','function-constant','value'],pars['Kmn'])
-	atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
+	#atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file','string'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
 
     	atsxml.run(m, nproc=1, mpiexec='mpirun', stdout='stdout.out', stderr='stdout.err', cpuset=processor)
 	return True
@@ -40,7 +40,8 @@ def model(pars, hostname='dum', processor=1):
 # The dictionary values (lists of integers) identify which processors to put each ATS run.
 njobs = 32
 nparams = 6
-hosts = {'dum': map(str, range(njobs))}
+hosts = {'dum': map(str, range(10,njobs))}
+print hosts
 
 # Instantiate MATK object specifying the "model" function defined above as the MATK "model"
 p = matk(model=model)
@@ -53,31 +54,6 @@ p.add_par('Kct',min=2.52e-6, max=3.51e-5, value = 5e-6)
 p.add_par('Kmn',min=2.09e-6, max=1.25e-5, value = 5e-6)
 p.add_par('RunNum',min=1,max=32, value = 6)
 
-# Create list of landscape type names
-colNames = ['TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslope','SedgeHi','WoodyShrubsRiparianHi','SedgeLo','FrostBoils']
-
-# Create matrix of parameter combinations
-ac = [0.08,0.16]
-ct = [0.10,0.20]
-
-Kac = [1.05e-11,1.57e-10]
-Kct = [1.70e-12,6.03e-12]
-Kmn = [1.05e-15,7.11e-14]
-
-d = np.empty([njobs,nparams])
-c = 0
-runName = 'WoodyShrubsRiparianHi'
-suffix = '_18Dec18'
-checkpointSuffix = '_05Dec18'
-for i1 in range(2):
-	for i2 in range(2):
-		for i3 in range(2):
-			for i4 in range(2):
-				for i5 in range(2):
-					d[c] = [ac[i1],ct[i2],Kac[i3],Kct[i4],Kmn[i5],c+1]
-					c = c + 1			
-
-#d = [[0.01,0.01,0.02],[0.01,0.01,0.14],[0.01,0.01,0.4],[0.01,0.1,0.02],[0.01,0.1,0.14],[0.01,0.1,0.4],[0.01,0.
 
 # Create MATK sampleset
 s = p.create_sampleset(d)
@@ -87,4 +63,4 @@ s = p.create_sampleset(d)
 # Save samples to file for inspection
 # s.savetxt('sample.txt')
 # Run sampleset using "hosts" dictionary defined above. 
-s.run(cpus=hosts, workdir_base=runName + suffix, reuse_dirs=True)
+s.run(cpus=hosts, workdir_base=runName + '_18Dec18_UncrashedRuns' + 'checkpointTest', reuse_dirs=True)

@@ -26,7 +26,7 @@ def model(pars, hostname='dum', processor=1):
 	atsxml.replace_by_path(m,['state','permeability','function','acrotelm','function','function-constant','value'],pars['Kac'])
 	atsxml.replace_by_path(m,['state','permeability','function','catotelm','function','function-constant','value'],pars['Kct'])
 	atsxml.replace_by_path(m,['state','permeability','function','rest domain','function','function-constant','value'],pars['Kmn'])
-	#atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file','string'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
+	atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
 
     	atsxml.run(m, nproc=1, mpiexec='mpirun', stdout='stdout.out', stderr='stdout.err', cpuset=processor)
 	return True
@@ -40,7 +40,8 @@ def model(pars, hostname='dum', processor=1):
 # The dictionary values (lists of integers) identify which processors to put each ATS run.
 njobs = 32
 nparams = 6
-hosts = {'dum': map(str, range(njobs))}
+hosts = {'dum': map(str, range(10,njobs))}
+print hosts
 
 # Instantiate MATK object specifying the "model" function defined above as the MATK "model"
 p = matk(model=model)
@@ -87,4 +88,4 @@ s = p.create_sampleset(d)
 # Save samples to file for inspection
 # s.savetxt('sample.txt')
 # Run sampleset using "hosts" dictionary defined above. 
-s.run(cpus=hosts, workdir_base=runName + suffix, reuse_dirs=True)
+s.run(cpus=hosts, workdir_base=runName + suffix + 'checkpointTest', reuse_dirs=True)

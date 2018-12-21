@@ -159,7 +159,7 @@
     <Parameter name="start time units" type="string" value="s" />
     <Parameter name="end time" type="double" value="41638.0" />
     <Parameter name="end time units" type="string" value="d" />
-    <!-- <Parameter name="restart from checkpoint file" type="string" value="checkpoint_BLAH.h5" /> -->
+    <Parameter name="restart from checkpoint file" type="string" value="checkpoint_BLAH.h5" />
     <ParameterList name="required times" type="ParameterList">
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
@@ -340,8 +340,8 @@
       <Parameter name="PK type" type="string" value="permafrost model" />
       <Parameter name="PKs order" type="Array(string)" value="{SSF,SSE,SF,SE}" />
       <Parameter name="preconditioner type" type="string" value="picard" />
-      <Parameter name="supress Jacobian terms: d div q / dT" type="bool" value="true" />
-      <Parameter name="supress Jacobian terms: d div K grad T / dp" type="bool" value="true" />
+      <Parameter name="supress Jacobian terms: d div q / dT" type="bool" value="false" />
+      <Parameter name="supress Jacobian terms: d div K grad T / dp" type="bool" value="false" />
       <Parameter name="supress Jacobian terms: div hq / dp,T" type="bool" value="true" />
       <Parameter name="dump preconditioner" type="bool" value="false" />
       <ParameterList name="verbose object" type="ParameterList">
