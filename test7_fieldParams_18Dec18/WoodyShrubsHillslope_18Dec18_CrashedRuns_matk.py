@@ -38,7 +38,7 @@ def model(pars, hostname='dum', processor=1):
 # On clusters, you may be sending different runs to different hosts (computers). 
 # In that case, the dictionary keys are important for indicating the host.
 # The dictionary values (lists of integers) identify which processors to put each ATS run.
-njobs = 32
+njobs = 11
 nparams = 6
 hosts = {'dum': map(str, range(njobs))}
 
@@ -54,7 +54,10 @@ p.add_par('Kmn',min=2.09e-6, max=1.25e-5, value = 5e-6)
 p.add_par('RunNum',min=1,max=32, value = 6)
 
 d = np.empty([njobs,nparams])
+d = [[0.1,0.02,1.57e-10,1.7e-12,1.05e-15,5],[0.1,0.02,1.57e-10,1.7e-12,7.11e-14,6],[0.1,0.02,1.57e-10,6.03e-12,1.05e-15,7],[0.1,0.12,1.57e-10,1.7e-12,1.05e-15,13],[0.1,0.12,1.57e-10,6.03e-12,7.11e-14,16],[0.2,0.02,1.05e-11,1.7e-12,1.05e-15,17],[0.2,0.02,1.57e-10,1.7e-12,1.05e-15,21],[0.2,0.02,1.57e-10,1.7e-12,7.11e-14,22],[0.2,0.02,1.57e-10,6.03e-12,1.05e-15,23],[0.2,0.12,1.05e-11,1.7e-12,1.05e-15,25],[0.2,0.12,1.57e-10,6.03e-12,1.05e-15,31]]
 # Create MATK sampleset
+runName = 'WoodyShrubsHillslope'
+checkpointSuffix = '_18Dec18'
 s = p.create_sampleset(d)
 
 # Create parameter study of all combinations of min and max values for each parameter

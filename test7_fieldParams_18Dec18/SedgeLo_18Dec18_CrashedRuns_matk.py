@@ -26,7 +26,7 @@ def model(pars, hostname='dum', processor=1):
 	atsxml.replace_by_path(m,['state','permeability','function','acrotelm','function','function-constant','value'],pars['Kac'])
 	atsxml.replace_by_path(m,['state','permeability','function','catotelm','function','function-constant','value'],pars['Kct'])
 	atsxml.replace_by_path(m,['state','permeability','function','rest domain','function','function-constant','value'],pars['Kmn'])
-	#atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file','string'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
+	atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
 
     	atsxml.run(m, nproc=1, mpiexec='mpirun', stdout='stdout.out', stderr='stdout.err', cpuset=processor)
 	return True
@@ -38,7 +38,7 @@ def model(pars, hostname='dum', processor=1):
 # On clusters, you may be sending different runs to different hosts (computers). 
 # In that case, the dictionary keys are important for indicating the host.
 # The dictionary values (lists of integers) identify which processors to put each ATS run.
-njobs = 32
+njobs = 9
 nparams = 6
 hosts = {'dum': map(str, range(njobs))}
 
@@ -54,7 +54,10 @@ p.add_par('Kmn',min=2.09e-6, max=1.25e-5, value = 5e-6)
 p.add_par('RunNum',min=1,max=32, value = 6)
 
 d = np.empty([njobs,nparams])
+d = [[0.03,0.18,1.05e-11,7.78e-13,1.05e-15,1],[0.03,0.18,1.57e-10,7.78e-13,1.05e-15,5],[0.03,0.18,1.57e-10,3.94e-12,1.05e-15,7],[0.03,0.18,1.57e-10,3.94e-12,7.97e-14,8],[0.03,0.46,1.57e-10,7.78e-13,1.05e-15,13],[0.03,0.46,1.57e-10,3.94e-12,1.05e-15,15],[0.12,0.18,1.57e-10,7.78e-13,1.05e-15,21],[0.12,0.18,1.57e-10,7.78e-13,7.97e-14,22],[0.12,0.18,1.57e-10,3.94e-12,7.97e-14,24]]
 # Create MATK sampleset
+runName = 'SedgeLo'
+checkpointSuffix = '_18Dec18'
 s = p.create_sampleset(d)
 
 # Create parameter study of all combinations of min and max values for each parameter

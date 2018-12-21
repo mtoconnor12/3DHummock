@@ -26,7 +26,7 @@ def model(pars, hostname='dum', processor=1):
 	atsxml.replace_by_path(m,['state','permeability','function','acrotelm','function','function-constant','value'],pars['Kac'])
 	atsxml.replace_by_path(m,['state','permeability','function','catotelm','function','function-constant','value'],pars['Kct'])
 	atsxml.replace_by_path(m,['state','permeability','function','rest domain','function','function-constant','value'],pars['Kmn'])
-	#atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file','string'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
+	atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
 
     	atsxml.run(m, nproc=1, mpiexec='mpirun', stdout='stdout.out', stderr='stdout.err', cpuset=processor)
 	return True
@@ -38,7 +38,7 @@ def model(pars, hostname='dum', processor=1):
 # On clusters, you may be sending different runs to different hosts (computers). 
 # In that case, the dictionary keys are important for indicating the host.
 # The dictionary values (lists of integers) identify which processors to put each ATS run.
-njobs = 32
+njobs = 18
 nparams = 6
 hosts = {'dum': map(str, range(njobs))}
 
@@ -54,7 +54,10 @@ p.add_par('Kmn',min=2.09e-6, max=1.25e-5, value = 5e-6)
 p.add_par('RunNum',min=1,max=32, value = 6)
 
 d = np.empty([njobs,nparams])
+d = [[0.07,0.06,4.42e-11,2.75e-12,6.56e-15,1],[0.07,0.06,4.42e-11,2.75e-12,2.66e-14,2],[0.07,0.06,1.65e-10,1.4e-11,6.56e-15,7],[0.07,0.16,4.42e-11,2.75e-12,2.66e-14,10],[0.07,0.16,4.42e-11,1.4e-11,2.66e-14,12],[0.07,0.16,1.65e-10,1.4e-11,2.66e-14,16],[0.12,0.06,4.42e-11,2.75e-12,2.66e-14,18],[0.12,0.06,4.42e-11,1.4e-11,6.56e-15,19],[0.12,0.06,4.42e-11,1.4e-11,2.66e-14,20],[0.12,0.06,1.65e-10,2.75e-12,6.56e-15,21],[0.12,0.06,1.65e-10,2.75e-12,2.66e-14,22],[0.12,0.16,4.42e-11,2.75e-12,2.66e-14,26],[0.12,0.16,4.42e-11,1.4e-11,6.56e-15,27],[0.12,0.16,4.42e-11,1.4e-11,2.66e-14,28],[0.12,0.16,1.65e-10,2.75e-12,6.56e-15,29],[0.12,0.16,1.65e-10,2.75e-12,2.66e-14,30],[0.12,0.16,1.65e-10,1.4e-11,6.56e-15,31],[0.12,0.16,1.65e-10,1.4e-11,2.66e-14,32]]
 # Create MATK sampleset
+runName = 'TussockTundraLo'
+checkpointSuffix = '_18Dec18'
 s = p.create_sampleset(d)
 
 # Create parameter study of all combinations of min and max values for each parameter

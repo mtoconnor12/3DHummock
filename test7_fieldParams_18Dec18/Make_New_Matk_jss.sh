@@ -2,6 +2,7 @@
 
 fname="AllColumns_$(date +"%Y_%m%d_%H%M").txt"
 oldSuffix="_18Dec18"
+checkpointSuffix=$oldSuffix
 newSuffix1="_18Dec18_CrashedRuns"
 newSuffix2="_18Dec18_UncrashedRuns"
 matkSuffix="_matk.py"
@@ -21,6 +22,10 @@ do
 	#sed -i '68,81d' $runName$newSuffix1$matkSuffix
 	sed -i '56,66d;68,81d' $runName$newSuffix2$matkSuffix
         #sed '68,81d' $runName$newSuffix2$matkSuffix
+	sed -i "58i runName = '$runName'" $runName$newSuffix1$matkSuffix
+	sed -i "59i checkpointSuffix = '$checkpointSuffix'" $runName$newSuffix1$matkSuffix
+	sed -i "58i runName = '$runName'" $runName$newSuffix2$matkSuffix
+        sed -i "59i checkpointSuffix = '$checkpointSuffix'" $runName$newSuffix2$matkSuffix
 	sed -i "s/'_template' + suffix/'_template' + '$newSuffix1'/g" $runName$newSuffix1$matkSuffix
 	sed -i "s/'_template' + suffix/'_template' + '$newSuffix2'/g" $runName$newSuffix2$matkSuffix
 	sed -i "s/$runName$oldSuffix$matkSuffix/$runName$newSuffix1$matkSuffix/g" $runName$newSuffix1$jssSuffix

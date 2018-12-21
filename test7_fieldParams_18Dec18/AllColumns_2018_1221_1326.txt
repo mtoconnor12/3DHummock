@@ -1,0 +1,15 @@
+TussockTundraHi	1	Coordinator      |   Cycle = 146916,  Time [days] = 10473.6167911959,  dt [days] = 3.16099015374978e-05
+TussockTundraHi	2	Coordinator      |   Cycle = 159726,  Time [days] = 15471.3205293472,  dt [days] = 0.00600291334920459
+TussockTundraHi	3	Coordinator      |   Cycle = 132771,  Time [days] = 14020.77477611,  dt [days] = 0.0252542715933588
+TussockTundraHi	4	Coordinator      |   Cycle = 75257,  Time [days] = 7706.25,  dt [days] = 0.25
+TussockTundraHi	5	Coordinator      |   Cycle = 152316,  Time [days] = 9773.91073342206,  dt [days] = 1.83608962429894e-05
+TussockTundraHi	6	
+TussockTundraHi	7	
+TussockTundraHi	8	
+TussockTundraHi	9	Coordinator      |   Cycle = 79643,  Time [days] = 7446.53636636559,  dt [days] = 0.00202123405411839
+TussockTundraHi	10	Coordinator      |   Cycle = 70568,  Time [days] = 6465.68138636288,  dt [days] = 8.25785472989082e-05
+TussockTundraHi	11	Coordinator      |   Cycle = 136688,  Time [days] = 10795.857421875,  dt [days] = 0.0087890625
+TussockTundraHi	12	Coordinator      |   Cycle = 143150,  Time [days] = 9773.84667745893,  dt [days] = 3.53607618146472e-05
+TussockTundraHi	13	Coordinator      |   Cycle = 133352,  Time [days] = 12318.3766822809,  dt [days] = 3.16921932001909e-05
+TussockTundraHi	14	Coordinator      |   Cycle = 66792,  Time [days] = 4561.71835988089,  dt [days] = 1.78983031461636e-05
+TussockTundraHi	15	Coordinator      |   Cycle = 81556,  Time [days] = 4279.82440418562,  dt [days] = 1.61057565775183e-05
