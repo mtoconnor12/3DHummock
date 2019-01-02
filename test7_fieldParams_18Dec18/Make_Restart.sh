@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 fname="AllColumns_$(date +"%Y_%m%d_%H%M").txt"
-oldSuffix="_18Dec18_CrashedRuns"
+oldSuffix="_18Dec18_UncrashedRuns"
 checkpointSuffix=$oldSuffix
-newSuffix="_18Dec18_CrashedRuns_2"
+newSuffix1="_18Dec18_UncrashedRuns_2"
 matkSuffix="_matk.py"
 jssSuffix="_jss.sh"
 touch $fname

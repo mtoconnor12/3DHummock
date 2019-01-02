@@ -158,7 +158,7 @@
     <Parameter name="start time units" type="string" value="s"/>
     <Parameter name="end time" type="double" value="41638.0"/>
     <Parameter name="end time units" type="string" value="d"/>
-    <Parameter name="restart from checkpoint file" type="string" value="../checkpoint_files/SedgeLo_18Dec18/SedgeLo_18Dec18.29.0checkpoint_last.h5"/>
+    <Parameter name="restart from checkpoint file" type="string" value="../checkpoint_files/SedgeLo_18Dec18_UncrashedRuns/SedgeLo_18Dec18_UncrashedRuns.29.0checkpoint_last.h5"/>
     <ParameterList name="required times" type="ParameterList">
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}"/>
     </ParameterList>
@@ -298,14 +298,14 @@
       <Parameter name="PK type" type="string" value="strong MPC"/>
       <Parameter name="PKs order" type="Array(string)" value="{SEB,PSS}"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="high"/>
+        <Parameter name="verbosity level" type="string" value="low"/>
       </ParameterList>
       <ParameterList name="time integrator" type="ParameterList">
         <Parameter name="extrapolate initial guess" type="bool" value="true"/>
         <Parameter name="solver type" type="string" value="nka_bt_ats"/>
         <Parameter name="timestep controller type" type="string" value="smarter"/>
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="high"/>
+          <Parameter name="verbosity level" type="string" value="low"/>
         </ParameterList>
         <ParameterList name="nka_bt_ats parameters" type="ParameterList">
           <Parameter name="nka lag interations" type="int" value="2"/>
@@ -317,7 +317,7 @@
           <Parameter name="diverged tolerance" type="double" value="1000000.0"/>
           <Parameter name="limit iterations" type="int" value="21"/>
           <ParameterList name="verbose object" type="ParameterList">
-            <Parameter name="verbosity level" type="string" value="high"/>
+            <Parameter name="verbosity level" type="string" value="low"/>
           </ParameterList>
         </ParameterList>
         <ParameterList name="timestep controller smarter parameters" type="ParameterList">
@@ -330,7 +330,7 @@
           <Parameter name="growth wait after fail" type="int" value="2"/>
           <Parameter name="count before increasing increase factor" type="int" value="2"/>
           <ParameterList name="verbose object" type="ParameterList">
-            <Parameter name="verbosity level" type="string" value="high"/>
+            <Parameter name="verbosity level" type="string" value="low"/>
           </ParameterList>
         </ParameterList>
       </ParameterList>
@@ -344,7 +344,7 @@
       <Parameter name="supress Jacobian terms: div hq / dp,T" type="bool" value="true"/>
       <Parameter name="dump preconditioner" type="bool" value="false"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="high"/>
+        <Parameter name="verbosity level" type="string" value="low"/>
       </ParameterList>
       <ParameterList name="ewc delegate" type="ParameterList">
         <Parameter name="predictor type" type="string" value="smart ewc"/>
@@ -390,7 +390,7 @@
       <Parameter name="max valid change in ice saturation in a time step [-]" type="double" value="0.1"/>
       <Parameter name="debug cells" type="Array(int)" value="{0}"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="high"/>
+        <Parameter name="verbosity level" type="string" value="low"/>
       </ParameterList>
       <ParameterList name="diffusion" type="ParameterList">
         <Parameter name="discretization primary" type="string" value="mfd: two-point flux approximation"/>
@@ -460,7 +460,7 @@
           <Parameter name="minimum dsi_dpressure magnitude" type="double" value="1e-12"/>
         </ParameterList>
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="high"/>
+          <Parameter name="verbosity level" type="string" value="low"/>
         </ParameterList>
       </ParameterList>
     </ParameterList>
@@ -474,7 +474,7 @@
       <Parameter name="source term is differentiable" type="bool" value="false"/>
       <Parameter name="debug cells" type="Array(int)" value="{0}"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="high"/>
+        <Parameter name="verbosity level" type="string" value="low"/>
       </ParameterList>
       <ParameterList name="diffusion" type="ParameterList">
         <Parameter name="discretization primary" type="string" value="mfd: two-point flux approximation"/>
@@ -553,7 +553,7 @@
       <Parameter name="mass source in meters" type="bool" value="true"/>
       <Parameter name="source term is differentiable" type="bool" value="false"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="high"/>
+        <Parameter name="verbosity level" type="string" value="low"/>
       </ParameterList>
       <ParameterList name="diffusion" type="ParameterList">
         <Parameter name="discretization primary" type="string" value="fv: default"/>
@@ -595,7 +595,7 @@
       <Parameter name="source term is differentiable" type="bool" value="true"/>
       <Parameter name="source term finite difference" type="bool" value="true"/>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="high"/>
+        <Parameter name="verbosity level" type="string" value="low"/>
       </ParameterList>
       <ParameterList name="diffusion" type="ParameterList">
         <Parameter name="discretization primary" type="string" value="fv: default"/>
@@ -636,7 +636,7 @@
         </ParameterList>
       </ParameterList>
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="high"/>
+        <Parameter name="verbosity level" type="string" value="low"/>
       </ParameterList>
       <ParameterList name="preconditioner" type="ParameterList">
         <Parameter name="preconditioner type" type="string" value="identity"/>
@@ -1005,7 +1005,7 @@
           </ParameterList>
         </ParameterList>
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="high"/>
+          <Parameter name="verbosity level" type="string" value="low"/>
         </ParameterList>
       </ParameterList>
       <ParameterList name="porosity" type="ParameterList">
@@ -1061,7 +1061,7 @@
           </ParameterList>
         </ParameterList>
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="high"/>
+          <Parameter name="verbosity level" type="string" value="low"/>
         </ParameterList>
       </ParameterList>
       <ParameterList name="density_rock" type="ParameterList">
@@ -1114,7 +1114,7 @@
         <Parameter name="dessicated zone thickness [m]" type="double" value="0.035"/>
         <Parameter name="debug cells" type="Array(int)" value="{0}"/>
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="high"/>
+          <Parameter name="verbosity level" type="string" value="low"/>
         </ParameterList>
       </ParameterList>
       <ParameterList name="surface-subgrid_albedos" type="ParameterList">
