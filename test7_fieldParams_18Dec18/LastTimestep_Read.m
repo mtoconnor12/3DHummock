@@ -10,7 +10,7 @@ colNames = {'TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslo
 
 %% Read the output file from AllCols_Read_Last_Cycle_Time.sh
 %%%%%% NOTE: THE TEXT FORMAT FOR THIS IS VERY SPECIFIC
-fid = fopen('AllColumns_2018_1220_2043.txt');
+fid = fopen('AllColumns_2019_0102_1244.txt');
 C = textscan(fid,'%s %d %s %s %s %s %d %s %s %s %s %f %s %s %s %s %f');
 
 for i = 1:length(colNames)

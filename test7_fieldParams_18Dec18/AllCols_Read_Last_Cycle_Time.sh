@@ -14,7 +14,7 @@ do
 	# echo $runName >> $fname
 	for NUM in $NUMBERS
 	do
-		if [ -d "$runName$suffix$dot$NUM" ]
+		if [ -d "$runName$suffix$dot$NUM" ];
 		then
 			cd $runName$suffix$dot$NUM
 			#echo 'Run #'$NUM >> ../$fname
@@ -23,7 +23,8 @@ do
 			#sed -e "$NUM s/^/"$runName$underscore$NUM"/" -i ../$fnam
 			cd ../
 		else
-			continue
+			stuff="NO DATA HERE"
+			echo -e "$runName\t$NUM\t$stuff" >> ../$fname
 		fi
 	done
 done
