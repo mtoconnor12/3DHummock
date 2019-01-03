@@ -11,7 +11,7 @@ import atsxml
 def model(pars, hostname='dum', processor=1):
 	# ATS ##############################################################################
     	# Modify base ats xml input file and run ats
-	branchName = "Paper2_ParamSweep_4percent"
+	branchName = "Paper2_ParamSweep_1percent"
 	fname = branchName + "-" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
 	m = atsxml.get_root('../test7_' + 'Paper2_NoCheckpoint_NoVerbosity_Default.xml)
@@ -26,7 +26,7 @@ def model(pars, hostname='dum', processor=1):
 	atsxml.replace_by_path(m,['state','permeability','function','acrotelm','function','function-constant','value'],pars['Kac'])
 	atsxml.replace_by_path(m,['state','permeability','function','catotelm','function','function-constant','value'],pars['Kct'])
 	atsxml.replace_by_path(m,['state','permeability','function','rest domain','function','function-constant','value'],pars['Kmn'])
-	atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
+	#atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file','string'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
 
     	atsxml.run(m, nproc=1, mpiexec='mpirun', stdout='stdout.out', stderr='stdout.err', cpuset=processor)
 	return True
@@ -57,16 +57,16 @@ p.add_par('RunNum',min=1,max=32, value = 6)
 colNames = ['TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslope','SedgeHi','WoodyShrubsRiparianHi','SedgeLo','FrostBoils']
 
 # Create matrix of parameter combinations
-ac = [0.05,0.10]
-ct = [0.14,0.26]
+ac = [0.10,0.20]
+ct = [0.02,0.12]
 
-Kac = [5.79e-11,2.93e-10]
-Kct = [1.22e-12,3.59e-12]
-Kmn = [1.16e-14,3.88e-13]
+Kac = [1.05e-11,1.57e-10]
+Kct = [1.70e-12,6.03e-12]
+Kmn = [1.05e-15,7.11e-14]
 
 d = np.empty([njobs,nparams])
 c = 0
-runName = 'WaterTrack'
+runName = 'WoodyShrubsHillslope'
 suffix = '_18Dec18'
 checkpointSuffix = '_05Dec18'
 for i1 in range(2):

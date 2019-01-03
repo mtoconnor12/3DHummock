@@ -6,5 +6,5 @@ matkSuffix="_matk.py"
 
 for runName in TussockTundraHi TussockTundraLo WaterTrack WoodyShrubsHillslope SedgeHi WoodyShrubsRiparianHi SedgeLo FrostBoils
 do
-	sed -i "s/'Paper2_template_AllDefault.xml'/'Paper2_NoCheckpoint_NoVerbosity_Default.xml/g" $runName$Suffix$matkSuffix
+	sed -i "s/hillslope-fieldParams_18Dec18/Paper2_ParamSweep_4percent/g" $runName$Suffix$matkSuffix
 done

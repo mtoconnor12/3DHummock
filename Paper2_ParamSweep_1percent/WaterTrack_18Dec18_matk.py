@@ -11,7 +11,7 @@ import atsxml
 def model(pars, hostname='dum', processor=1):
 	# ATS ##############################################################################
     	# Modify base ats xml input file and run ats
-	branchName = "Paper2_ParamSweep_4percent"
+	branchName = "Paper2_ParamSweep_1percent"
 	fname = branchName + "-" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
 	m = atsxml.get_root('../test7_' + 'Paper2_NoCheckpoint_NoVerbosity_Default.xml)

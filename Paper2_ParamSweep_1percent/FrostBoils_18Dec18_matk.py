@@ -11,7 +11,7 @@ import atsxml
 def model(pars, hostname='dum', processor=1):
 	# ATS ##############################################################################
     	# Modify base ats xml input file and run ats
-	branchName = "Paper2_ParamSweep_4percent"
+	branchName = "Paper2_ParamSweep_1percent"
 	fname = branchName + "-" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
 	m = atsxml.get_root('../test7_' + 'Paper2_NoCheckpoint_NoVerbosity_Default.xml)
@@ -57,16 +57,16 @@ p.add_par('RunNum',min=1,max=32, value = 6)
 colNames = ['TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslope','SedgeHi','WoodyShrubsRiparianHi','SedgeLo','FrostBoils']
 
 # Create matrix of parameter combinations
-ac = [0.05,0.10]
-ct = [0.14,0.26]
+ac = [0.01,0.02]
+ct = [0.02,0.04]
 
-Kac = [5.79e-11,2.93e-10]
-Kct = [1.22e-12,3.59e-12]
-Kmn = [1.16e-14,3.88e-13]
+Kac = [1.05e-11,1.57e-10]
+Kct = [4.54e-14,4.54e-14]
+Kmn = [2.10e-15,2.10e-15]
 
 d = np.empty([njobs,nparams])
 c = 0
-runName = 'WaterTrack'
+runName = 'FrostBoils'
 suffix = '_18Dec18'
 checkpointSuffix = '_05Dec18'
 for i1 in range(2):
