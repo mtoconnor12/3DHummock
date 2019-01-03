@@ -27,7 +27,7 @@ bct = [[0.06,0.14],[0.06,0.16],[0.14,0.26],[0.02,0.12],[0.20,0.34],[0.10,0.20],[
 def make_30m_mesh(bac,bct,fname):
 	x = np.linspace(0,30,31)
 	x0,z0 = 0, 0
-	Zsurf = z0 + 0.01 * (x - x0)
+	Zsurf = z0 + 0.04 * (x - x0)
 	m2 = meshing_ats.Mesh2D.from_Transect(x,Zsurf)
 
 	# layer extrusion
@@ -112,7 +112,7 @@ def make_30m_mesh(bac,bct,fname):
 ## Run the loop to build the meshes
 os.chdir(homedir + "/mesh")
 os.chdir(homedir)
-branchName = 'Paper2_ParamSweep_1percent'
+branchName = 'Paper2_ParamSweep_4percent'
 for q in range(len(colNames)):
 	for i in range(2):
 		for j in range(2):
