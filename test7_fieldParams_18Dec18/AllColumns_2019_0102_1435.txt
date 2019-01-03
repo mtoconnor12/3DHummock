@@ -1,0 +1,123 @@
+TussockTundraHi	1	Coordinator      |   Cycle = 471725,  Time [days] = 12322.3180202182,  dt [days] = 3.02191140751044e-05
+TussockTundraHi	2	Coordinator      |   Cycle = 605214,  Time [days] = 34161.6903002987,  dt [days] = 9.67872639497121e-06
+TussockTundraHi	3	
+TussockTundraHi	4	
+TussockTundraHi	5	
+TussockTundraHi	6	
+TussockTundraHi	7	
+TussockTundraHi	8	
+TussockTundraHi	9	
+TussockTundraHi	10	
+TussockTundraHi	11	
+TussockTundraLo	1	Coordinator      |   Cycle = 768491,  Time [days] = 35684.53125,  dt [days] = 0.0234375
+TussockTundraLo	2	Coordinator      |   Cycle = 763962,  Time [days] = 36291.1106344094,  dt [days] = 0.00578002086392155
+TussockTundraLo	3	Coordinator      |   Cycle = 417648,  Time [days] = 26583.3909369015,  dt [days] = 1.2729341785113e-05
+TussockTundraLo	4	Coordinator      |   Cycle = 661338,  Time [days] = 35923.4162484631,  dt [days] = 0.0156746283173561
+TussockTundraLo	5	Coordinator      |   Cycle = 372408,  Time [days] = 20009.5339210801,  dt [days] = 2.7294291390313e-06
+TussockTundraLo	6	Coordinator      |   Cycle = 397787,  Time [days] = 19504.0320233906,  dt [days] = 0.125062777251005
+TussockTundraLo	7	Coordinator      |   Cycle = 336510,  Time [days] = 10014.5512160153,  dt [days] = 2.17194068762991e-05
+TussockTundraLo	8	
+TussockTundraLo	9	
+TussockTundraLo	10	
+TussockTundraLo	11	
+TussockTundraLo	12	
+TussockTundraLo	13	
+TussockTundraLo	14	
+TussockTundraLo	15	
+TussockTundraLo	16	
+TussockTundraLo	17	
+TussockTundraLo	18	
+WaterTrack	1	Coordinator      |   Cycle = 723993,  Time [days] = 34608.9748349492,  dt [days] = 2.69816484716203e-05
+WaterTrack	2	Coordinator      |   Cycle = 433534,  Time [days] = 22430.7942377832,  dt [days] = 1.90585354963938e-05
+WaterTrack	3	
+WaterTrack	4	Coordinator      |   Cycle = 152557,  Time [days] = 16200,  dt [days] = 1.15740740740741e-05
+WaterTrack	5	
+WaterTrack	6	Coordinator      |   Cycle = 235134,  Time [days] = 13950,  dt [days] = 1.15740740740741e-05
+WaterTrack	7	Coordinator      |   Cycle = 749167,  Time [days] = 22433.2489162038,  dt [days] = 7.89666341410743e-06
+WaterTrack	8	Coordinator      |   Cycle = 482541,  Time [days] = 30156.25,  dt [days] = 0.25
+WaterTrack	9	
+WaterTrack	10	
+WaterTrack	11	
+WaterTrack	12	
+WaterTrack	13	
+WaterTrack	14	
+WaterTrack	15	
+WaterTrack	16	
+WaterTrack	17	
+WoodyShrubsHillslope	1	
+WoodyShrubsHillslope	2	
+WoodyShrubsHillslope	3	
+WoodyShrubsHillslope	4	
+WoodyShrubsHillslope	5	
+WoodyShrubsHillslope	6	
+WoodyShrubsHillslope	7	
+WoodyShrubsHillslope	8	
+WoodyShrubsHillslope	9	
+WoodyShrubsHillslope	10	
+WoodyShrubsHillslope	11	
+WoodyShrubsHillslope	12	
+WoodyShrubsHillslope	13	
+WoodyShrubsHillslope	14	
+WoodyShrubsHillslope	15	
+WoodyShrubsHillslope	16	
+WoodyShrubsHillslope	17	
+WoodyShrubsHillslope	18	
+WoodyShrubsRiparianHi	1	Coordinator      |   Cycle = 329233,  Time [days] = 29347.6196961336,  dt [days] = 0.0057548001408577
+WoodyShrubsRiparianHi	2	Coordinator      |   Cycle = 324471,  Time [days] = 30210.9654042452,  dt [days] = 0.0172978773823491
+WoodyShrubsRiparianHi	3	Coordinator      |   Cycle = 314658,  Time [days] = 31629.25,  dt [days] = 0.25
+WoodyShrubsRiparianHi	4	Coordinator      |   Cycle = 306761,  Time [days] = 25699.249706975,  dt [days] = 0.0226857672797309
+WoodyShrubsRiparianHi	5	Coordinator      |   Cycle = 307097,  Time [days] = 27163.1698544854,  dt [days] = 0.000353608335609789
+WoodyShrubsRiparianHi	6	Coordinator      |   Cycle = 281435,  Time [days] = 27875.0275235301,  dt [days] = 0.00688088251484765
+WoodyShrubsRiparianHi	7	Coordinator      |   Cycle = 278593,  Time [days] = 27519.4925442721,  dt [days] = 0.00020685170535688
+WoodyShrubsRiparianHi	8	Coordinator      |   Cycle = 332205,  Time [days] = 10474.5896755297,  dt [days] = 4.09195820490519e-06
+WoodyShrubsRiparianHi	9	Coordinator      |   Cycle = 308970,  Time [days] = 20009.372696417,  dt [days] = 1.12537004881435e-05
+WoodyShrubsRiparianHi	10	Coordinator      |   Cycle = 304276,  Time [days] = 16711.139755917,  dt [days] = 2.46531350745095e-05
+WoodyShrubsRiparianHi	11	Coordinator      |   Cycle = 270823,  Time [days] = 26066.2546986106,  dt [days] = 0.00523542415212702
+WoodyShrubsRiparianHi	12	Coordinator      |   Cycle = 298267,  Time [days] = 20009.384581919,  dt [days] = 3.4760187069575e-06
+WoodyShrubsRiparianHi	13	Coordinator      |   Cycle = 257308,  Time [days] = 25334.028320876,  dt [days] = 0.0283208759874105
+WoodyShrubsRiparianHi	14	
+WoodyShrubsRiparianHi	15	
+WoodyShrubsRiparianHi	16	
+WoodyShrubsRiparianHi	17	
+WoodyShrubsRiparianHi	18	
+WoodyShrubsRiparianHi	19	
+WoodyShrubsRiparianHi	20	
+SedgeLo	1	Coordinator      |   Cycle = 710763,  Time [days] = 34561.8692954004,  dt [days] = 0.0101647857273066
+SedgeLo	2	Coordinator      |   Cycle = 669039,  Time [days] = 34826.3720360429,  dt [days] = 0.00879594847559929
+SedgeLo	3	Coordinator      |   Cycle = 429698,  Time [days] = 34160.3302391647,  dt [days] = 1.38766235775418e-05
+SedgeLo	4	Coordinator      |   Cycle = 113137,  Time [days] = 11790,  dt [days] = 1.15740740740741e-05
+SedgeLo	5	
+SedgeLo	6	Coordinator      |   Cycle = 315193,  Time [days] = 28984.4188183568,  dt [days] = 0.0316379438616611
+SedgeLo	7	Coordinator      |   Cycle = 319327,  Time [days] = 29348.3119427411,  dt [days] = 0.00179501686245203
+SedgeLo	8	
+SedgeLo	9	
+SedgeLo	10	
+SedgeLo	11	
+SedgeLo	12	
+SedgeLo	13	
+SedgeLo	14	
+SedgeLo	15	
+SedgeLo	16	
+SedgeLo	17	
+SedgeLo	18	
+FrostBoils	1	Coordinator      |   Cycle = 376765,  Time [days] = 28026.0551448542,  dt [days] = 0.00208343844446871
+FrostBoils	2	Coordinator      |   Cycle = 376962,  Time [days] = 28024.977129976,  dt [days] = 0.00726752087473869
+FrostBoils	3	Coordinator      |   Cycle = 379417,  Time [days] = 28255.4127450523,  dt [days] = 0.00519068611164888
+FrostBoils	4	Coordinator      |   Cycle = 376624,  Time [days] = 28025.4537764489,  dt [days] = 0.00570282182207814
+FrostBoils	5	Coordinator      |   Cycle = 363604,  Time [days] = 11970.0358415255,  dt [days] = 0.00312838126801782
+FrostBoils	6	Coordinator      |   Cycle = 354140,  Time [days] = 11944.2184591109,  dt [days] = 0.00237869335821381
+FrostBoils	7	Coordinator      |   Cycle = 368873,  Time [days] = 12298.4811529173,  dt [days] = 0.00140942752982179
+FrostBoils	8	Coordinator      |   Cycle = 362930,  Time [days] = 11968.6162494763,  dt [days] = 0.00338644556149288
+FrostBoils	9	Coordinator      |   Cycle = 473125,  Time [days] = 16347.099428311,  dt [days] = 5.02756610512733e-05
+FrostBoils	10	Coordinator      |   Cycle = 464640,  Time [days] = 16346.8971299869,  dt [days] = 5.11099977625741e-05
+FrostBoils	11	Coordinator      |   Cycle = 394476,  Time [days] = 24022.957844933,  dt [days] = 0.000344312700132529
+FrostBoils	12	Coordinator      |   Cycle = 387991,  Time [days] = 23967.3245791224,  dt [days] = 0.0169009257577084
+FrostBoils	13	Coordinator      |   Cycle = 386240,  Time [days] = 23890.875,  dt [days] = 0.0625
+FrostBoils	14	Coordinator      |   Cycle = 458850,  Time [days] = 16346.8967340341,  dt [days] = 5.75275719165802e-05
+FrostBoils	15	Coordinator      |   Cycle = 474153,  Time [days] = 16344.5093336209,  dt [days] = 3.22598218917847e-05
+FrostBoils	16	Coordinator      |   Cycle = 388315,  Time [days] = 20009.3574451316,  dt [days] = 1.0504238307476e-05
+FrostBoils	17	
+FrostBoils	18	
+FrostBoils	19	
+FrostBoils	20	
+FrostBoils	21	

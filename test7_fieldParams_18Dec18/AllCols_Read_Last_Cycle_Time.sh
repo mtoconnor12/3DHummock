@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 fname="AllColumns_$(date +"%Y_%m%d_%H%M").txt"
-suffix="_18Dec18_UncrashedRuns"
+suffix="_18Dec18"
 touch $fname
 
 echo "Filename: $fname"
@@ -18,7 +18,7 @@ do
 		then
 			cd $runName$suffix$dot$NUM
 			#echo 'Run #'$NUM >> ../$fname
-			stuff=$(tail -n 15000 stdout.out | grep Cycle | tail -1)
+			stuff=$(tail -n 100 stdout.out | grep Cycle | tail -1)
 			echo -e "$runName\t$NUM\t$stuff" >> ../$fname
 			#sed -e "$NUM s/^/"$runName$underscore$NUM"/" -i ../$fnam
 			cd ../
