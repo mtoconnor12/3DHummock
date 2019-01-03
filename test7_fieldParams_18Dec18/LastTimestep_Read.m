@@ -10,14 +10,34 @@ colNames = {'TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslo
 
 %% Read the output file from AllCols_Read_Last_Cycle_Time.sh
 %%%%%% NOTE: THE TEXT FORMAT FOR THIS IS VERY SPECIFIC
-fid = fopen('AllColumns_2019_0102_1244.txt');
+fid = fopen('AllColumns_2019_0102_1329.txt');
 C = textscan(fid,'%s %d %s %s %s %s %d %s %s %s %s %f %s %s %s %s %f');
 
+newStart = nan(1,length(colNames));
+newStart(1) = 1; % index of cell that represents a new stratigraphy type
+
+newEnd = nan(1,length(colNames));
+newEnd(end) = length(C{1});
+
+for i = 1:length(C{1}) - 1
+    if(strcmp(C{1}(i + 1),C{1}(i)) ~= 1)
+        a = find(strcmp(C{1}(i + 1),colNames) == 1);
+        b = find(strcmp(C{1}(i),colNames) == 1);
+        if(isempty(a) == 0)
+            newStart(a) = i + 1;
+            newEnd(b) = i;
+        end
+    end
+end
+   
 for i = 1:length(colNames)
-    lastTime{i} = C{12}(32*(i - 1) + 1:32*(i));
-    lastDT{i} = C{end}(32*(i - 1) + 1:32*(i));
-    colType{i} = C{1}(32*(i - 1) + 1:32*(i));
-    runNum{i} = C{2}(32*(i - 1) + 1:32*(i));
+    if(isnan(newStart(i)) == 1)
+        continue
+    end
+    lastTime{i} = C{12}(newStart(i):newEnd(i));
+    lastDT{i} = C{end}(newStart(i):newEnd(i));
+    colType{i} = C{1}(newStart(i):newEnd(i));
+    runNum{i} = C{2}(newStart(i):newEnd(i));
 end
 
 %% Assign the bAC, bCT, Kac, Kct, and Kmn values for each
@@ -50,7 +70,10 @@ end
 for i = 1:length(colNames)
     c = 1;
     crashedRuns{i} = '[';
-    for j = 1:32
+    for j = 1:(newEnd(i) - newStart(i) + 1)
+        if(isnan(newStart(i)) == 1)
+            continue
+        end
         if(lastDT{i}(j) >= 1E-4)
             crashedRuns{i} = [crashedRuns{i} '[' num2str(pm{i}(j,1)) ',' num2str(pm{i}(j,2)) ',' num2str(pm{i}(j,3)) ',' num2str(pm{i}(j,4)) ',' num2str(pm{i}(j,5)) ',' num2str(pm{i}(j,6)) '],'];
             c = c + 1;

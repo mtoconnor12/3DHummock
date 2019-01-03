@@ -10,8 +10,27 @@ colNames = {'TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslo
 
 %% Read the output file from AllCols_Read_Last_Cycle_Time.sh
 %%%%%% NOTE: THE TEXT FORMAT FOR THIS IS VERY SPECIFIC
-fid = fopen('AllColumns_2018_1220_2043.txt');
+fid = fopen('AllColumns_2019_0102_1329.txt');
 C = textscan(fid,'%s %d %s %s %s %s %d %s %s %s %s %f %s %s %s %s %f');
+
+newStart = nan(1,length(colNames));
+newStart(1) = 1; % index of cell that represents a new stratigraphy type
+
+newEnd = nan(1,length(colNames));
+newEnd(end) = length(C{1});
+
+for i = 1:length(C{1}) - 1
+    if(strcmp(C{1}(i + 1),C{1}(i)) ~= 1)
+        a = find(strcmp(C{1}(i + 1),colNames) == 1);
+        b = find(strcmp(C{1}(i + 1),colNames) == 1);
+        if(isempty(a) == 0)
+            newStart(a) = i + 1;
+            newEnd(a) = i;
+        end
+    end
+end
+   
+
 
 for i = 1:length(colNames)
     lastTime{i} = C{12}(32*(i - 1) + 1:32*(i));
@@ -51,14 +70,14 @@ for i = 1:length(colNames)
     c = 1;
     crashedRuns{i} = '[';
     for j = 1:32
-        if(lastDT{i}(j) < 1E-4)
+        if(lastDT{i}(j) >= 1E-4)
             crashedRuns{i} = [crashedRuns{i} '[' num2str(pm{i}(j,1)) ',' num2str(pm{i}(j,2)) ',' num2str(pm{i}(j,3)) ',' num2str(pm{i}(j,4)) ',' num2str(pm{i}(j,5)) ',' num2str(pm{i}(j,6)) '],'];
             c = c + 1;
         end
     end
     crashedRuns{i}(end) = ']';
     disp(colNames{i})
-    disp(c)
+    disp(c - 1)
     disp(crashedRuns{i})
 end
 
