@@ -211,7 +211,15 @@
     <ParameterList name="required times" type="ParameterList">
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
+
     <ParameterList name="PK tree">
+     <ParameterList name="Top level MPC" type="ParameterList">
+	<Parameter name="PK type" type="string" value="weak MPC" />
+
+	<ParameterList name="snow distribution" type="ParameterList">
+          <Parameter name="PK type" type="string" value="snow distribution" />
+        </ParameterList>
+
       <ParameterList name="coupled SEB and permafrost" type="ParameterList">
         <Parameter name="PK type" type="string" value="strong MPC" />
         <ParameterList name="SEB" type="ParameterList">
@@ -235,7 +243,8 @@
       </ParameterList>
     </ParameterList>
   </ParameterList>
-  <ParameterList name="observations">
+ </ParameterList> 
+<ParameterList name="observations">
     <ParameterList name="evaporation-flux-day">
       <Parameter name="variable" type="string" value="surface-evaporative_flux" />
       <Parameter name="functional" type="string" value="observation data: integral" />
@@ -430,7 +439,7 @@
       <Parameter name="PK type" type="string" value="weak MPC" />
       <Parameter name="PKs order" type="Array(string)" value="{snow distribution,coupled SEB and permafrost}" />
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="none" />
+        <Parameter name="verbosity level" type="string" value="low" />
       </ParameterList>
     </ParameterList>
   
@@ -445,7 +454,7 @@
 
       <Parameter name="debug cells" type="Array(int)" value="{74,75}" />
       <ParameterList name="verbose object" type="ParameterList">
-        <Parameter name="verbosity level" type="string" value="none" />
+        <Parameter name="verbosity level" type="string" value="low" />
       </ParameterList>
 
       <ParameterList name="precipitation function" type="ParameterList">
@@ -472,11 +481,11 @@
           <Parameter name="diverged tolerance" type="double" value="1000000.0" />
           <Parameter name="limit iterations" type="int" value="20" />
           <ParameterList name="verbose object" type="ParameterList">
-            <Parameter name="verbosity level" type="string" value="none" />
+            <Parameter name="verbosity level" type="string" value="low" />
           </ParameterList>
         </ParameterList>
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="none" />
+          <Parameter name="verbosity level" type="string" value="low" />
         </ParameterList>
         <ParameterList name="timestep controller smarter parameters" type="ParameterList">
           <Parameter name="max iterations" type="int" value="18" />
@@ -513,17 +522,29 @@
           <Parameter name="convergence criteria" type="Array(string)" value="{relative residual, make one iteration}" />
           <Parameter name="maximum number of iterations" type="int" value="80" />
           <ParameterList name="verbose object" type="ParameterList">
-            <Parameter name="verbosity level" type="string" value="none" />
+            <Parameter name="verbosity level" type="string" value="low" />
           </ParameterList>
         </ParameterList>
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="none" />
+          <Parameter name="verbosity level" type="string" value="low" />
         </ParameterList>
       </ParameterList>
 
       <ParameterList name="initial condition" type="ParameterList">
-		<Parameter name="restart file" type="string" value="../../init/column_data_15Oct18_AllMineralSpinup.h5"/>
-      </ParameterList> 
+        <ParameterList name="function" type="ParameterList">
+          <ParameterList name="initial precip" type="ParameterList">
+            <Parameter name="region" type="string" value="surface domain" />
+            <Parameter name="components" type="Array(string)" value="{cell}" />
+            <ParameterList name="function" type="ParameterList">
+              <ParameterList name="function-tabular" type="ParameterList">
+                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_100yr_03Jan19_rcp85.h5" />
+                <Parameter name="x header" type="string" value="time [s]" />
+                <Parameter name="y header" type="string" value="precipitation snow [m SWE s^-1]" />
+              </ParameterList>
+            </ParameterList>
+          </ParameterList>
+        </ParameterList>
+      </ParameterList>
 	  
 	</ParameterList>
  
@@ -583,7 +604,7 @@
         <Parameter name="predictor type" type="string" value="smart ewc" />
       </ParameterList>
       <ParameterList name="surface ewc delegate" type="ParameterList">
-        <Parameter name="predictor type" type="string" value="none" />
+        <Parameter name="predictor type" type="string" value="low" />
       </ParameterList>
       <ParameterList name="water delegate" type="ParameterList">
         <Parameter name="modify predictor damp and cap the water spurt" type="bool" value="true" />
@@ -603,9 +624,15 @@
       </ParameterList>
       <ParameterList name="linear solver" type="ParameterList">
         <Parameter name="iterative method" type="string" value="nka" />
+	<ParameterList name="verbose object" type="ParameterList">
+        	<Parameter name="verbosity level" type="string" value="low" />
+        </ParameterList>
         <ParameterList name="nka parameters" type="ParameterList">
           <Parameter name="error tolerance" type="double" value="1e-06" />
           <Parameter name="maximum number of iterations" type="int" value="10" />
+	  <ParameterList name="verbose object" type="ParameterList">
+          	<Parameter name="verbosity level" type="string" value="low" />
+          </ParameterList>
         </ParameterList>
       </ParameterList>
     </ParameterList>
@@ -1138,23 +1165,6 @@
         </ParameterList>
       </ParameterList>
 	  
-<!-- <ParameterList name="snow-precipitation" type="ParameterList">
-        <Parameter name="field evaluator type" type="string" value="independent variable" />
-        <ParameterList name="function" type="ParameterList">
-          <ParameterList name="domain" type="ParameterList">
-            <Parameter name="region" type="string" value="surface domain" />
-            <Parameter name="component" type="string" value="cell" />
-            <ParameterList name="function" type="ParameterList">
-              <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_100yr_03Jan19_rcp85.h5" />
-                <Parameter name="x header" type="string" value="time [s]" />
-                <Parameter name="y header" type="string" value="precipitation snow [m SWE s^-1]" />
-              </ParameterList>
-            </ParameterList>
-          </ParameterList>
-        </ParameterList>
-      </ParameterList> -->
-	  
       <ParameterList name="surface-porosity" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="surface top cell evaluator" />
         <Parameter name="surface key" type="string" value="surface-porosity" />
@@ -1385,7 +1395,6 @@
         <Parameter name="field evaluator type" type="string" value="multiplicative evaluator" />
         <Parameter name="evaluator dependencies" type="Array(string)" value="{snow-depth,snow-density,snow-cell_volume}" />
         <Parameter name="coefficient" type="double" value="0.001" />
-		<!-- <Parameter name="enforce positivity" type="bool" value="true" /> -->
       </ParameterList>
 	  
       <ParameterList name="snow-source_sink" type="ParameterList">
