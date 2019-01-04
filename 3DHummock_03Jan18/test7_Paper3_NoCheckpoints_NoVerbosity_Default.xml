@@ -14,7 +14,7 @@
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="mesh type" type="string" value="read mesh file" />
       <ParameterList name="read mesh file parameters" type="ParameterList">
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo" />
+        <Parameter name="file" type="string" value="../../mesh/3DHummock_03Jan18.32/3DHummock_03Jan18.par" />
         <Parameter name="format" type="string" value="Exodus II" />
       </ParameterList>
       <ParameterList name="expert" type="ParameterList">
@@ -44,7 +44,7 @@
     <ParameterList name="computational domain acrotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1001" />
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo" />
+        <Parameter name="file" type="string" value="../../mesh/3DHummock_03Jan18.32/3DHummock_03Jan18.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -52,7 +52,7 @@
     <ParameterList name="computational domain catotelm" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1002" />
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo" />
+        <Parameter name="file" type="string" value="../../mesh/3DHummock_03Jan18.32/3DHummock_03Jan18.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -60,7 +60,7 @@
     <ParameterList name="computational domain mineral" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1003" />
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo" />
+        <Parameter name="file" type="string" value="../../mesh/3DHummock_03Jan18.32/3DHummock_03Jan18.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -68,7 +68,7 @@
     <ParameterList name="computational domain bedrock" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1004" />
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo" />
+        <Parameter name="file" type="string" value="../../mesh/3DHummock_03Jan18.32/3DHummock_03Jan18.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -76,7 +76,7 @@
     <ParameterList name="surface" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="2" />
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo" />
+        <Parameter name="file" type="string" value="../../mesh/3DHummock_03Jan18.32/3DHummock_03Jan18.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -87,56 +87,104 @@
     </ParameterList>
     <ParameterList name="east" type="ParameterList">
       <ParameterList name="region: plane" type="ParameterList">
-        <Parameter name="point" type="Array(double)" value="{30.0,0.0}" />
+        <Parameter name="point" type="Array(double)" value="{500.0,0.0}" />
         <Parameter name="normal" type="Array(double)" value="{1.0,0.0}" />
       </ParameterList>
     </ParameterList>
     <ParameterList name="east subsurface" type="ParameterList">
       <ParameterList name="region: plane" type="ParameterList">
-        <Parameter name="point" type="Array(double)" value="{30.0,0.0,0.0}" />
+        <Parameter name="point" type="Array(double)" value="{500.0,0.0,0.0}" />
         <Parameter name="normal" type="Array(double)" value="{1.0,0.0,0.0}" />
       </ParameterList>
     </ParameterList>
     <ParameterList name="midpoint" type="ParameterList">
       <ParameterList name="region: plane" type="ParameterList">
-        <Parameter name="point" type="Array(double)" value="{15.0,0.0}" />
+        <Parameter name="point" type="Array(double)" value="{250.0,0.0}" />
         <Parameter name="normal" type="Array(double)" value="{-1.0,0.0}" />
       </ParameterList>
     </ParameterList>
     <ParameterList name="midpoint subsurface" type="ParameterList">
       <ParameterList name="region: plane" type="ParameterList">
-        <Parameter name="point" type="Array(double)" value="{15.0,0.0,0.0}" />
+        <Parameter name="point" type="Array(double)" value="{250.0,0.0,0.0}" />
         <Parameter name="normal" type="Array(double)" value="{-1.0,0.0,0.0}" />
       </ParameterList>
     </ParameterList>
-    <ParameterList name="near west" type="ParameterList">
+    <ParameterList name="hummock1" type="ParameterList">
       <ParameterList name="region: plane" type="ParameterList">
-        <Parameter name="point" type="Array(double)" value="{5.0,0.0}" />
+        <Parameter name="point" type="Array(double)" value="{6.0,0.0}" />
         <Parameter name="normal" type="Array(double)" value="{-1.0,0.0}" />
       </ParameterList>
     </ParameterList>
-    <ParameterList name="near west subsurface" type="ParameterList">
+    <ParameterList name="hummock1 subsurface" type="ParameterList">
       <ParameterList name="region: plane" type="ParameterList">
-        <Parameter name="point" type="Array(double)" value="{5.0,0.0,0.0}" />
+        <Parameter name="point" type="Array(double)" value="{6.0,0.0,0.0}" />
         <Parameter name="normal" type="Array(double)" value="{-1.0,0.0,0.0}" />
       </ParameterList>
     </ParameterList>
-    <ParameterList name="west" type="ParameterList">
+	<ParameterList name="hummock2" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{4.0,0.0}" />
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0}" />
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="hummock2 subsurface" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{4.0,0.0,0.0}" />
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0,0.0}" />
+      </ParameterList>
+    </ParameterList>
+	<ParameterList name="hummock3" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{2.0,0.0}" />
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0}" />
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="hummock3 subsurface" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{2.0,0.0,0.0}" />
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0,0.0}" />
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="hummock outlet" type="ParameterList">
       <ParameterList name="region: plane" type="ParameterList">
         <Parameter name="point" type="Array(double)" value="{0.0,0.0}" />
         <Parameter name="normal" type="Array(double)" value="{-1.0,0.0}" />
       </ParameterList>
     </ParameterList>
-    <ParameterList name="west subsurface" type="ParameterList">
+    <ParameterList name="hummock outlet subsurface" type="ParameterList">
       <ParameterList name="region: plane" type="ParameterList">
         <Parameter name="point" type="Array(double)" value="{0.0,0.0,0.0}" />
         <Parameter name="normal" type="Array(double)" value="{-1.0,0.0,0.0}" />
       </ParameterList>
     </ParameterList>
+	<ParameterList name="west" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{-500.0,0.0}" />
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0}" />
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="west subsurface" type="ParameterList">
+      <ParameterList name="region: plane" type="ParameterList">
+        <Parameter name="point" type="Array(double)" value="{-500.0,0.0,0.0}" />
+        <Parameter name="normal" type="Array(double)" value="{-1.0,0.0,0.0}" />
+      </ParameterList>
+    </ParameterList>
     <ParameterList name="surface outletbox" type="ParameterList">
       <ParameterList name="region: box" type="ParameterList">
-        <Parameter name="low coordinate" type="Array(double)" value="{0.0,-3.0}" />
-        <Parameter name="high coordinate" type="Array(double)" value="{0.5,50.0}" />
+        <Parameter name="low coordinate" type="Array(double)" value="{-500.0,-3.0}" />
+        <Parameter name="high coordinate" type="Array(double)" value="{-499.5,50.0}" />
+      </ParameterList>
+    </ParameterList>
+	<ParameterList name="hummock domain surface" type="ParameterList">
+      <ParameterList name="region: box" type="ParameterList">
+        <Parameter name="low coordinate" type="Array(double)" value="{-3.0,-3.0}" />
+        <Parameter name="high coordinate" type="Array(double)" value="{6.0,2.0}" />
+      </ParameterList>
+    </ParameterList>
+	<ParameterList name="hummock domain subsurface" type="ParameterList">
+      <ParameterList name="region: box" type="ParameterList">
+        <Parameter name="low coordinate" type="Array(double)" value="{-3.0,-3.0,-5.0}" />
+        <Parameter name="high coordinate" type="Array(double)" value="{6.0,2.0,10.0}" />
       </ParameterList>
     </ParameterList>
     <ParameterList name="surface outlet" type="ParameterList">
@@ -148,7 +196,7 @@
     <ParameterList name="bottom face" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1" />
-        <Parameter name="file" type="string" value="../../mesh/hillslope-30mSuite/hillslope-30mSuite-0.01m_0.1bac_0.06bct.exo" />
+        <Parameter name="file" type="string" value="../../mesh/3DHummock_03Jan18.32/3DHummock_03Jan18.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -208,7 +256,7 @@
       <Parameter name="observation output filename" type="string" value="surface_flux-outlet-day.dat" />
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
-    <ParameterList name="surface outlet flux" type="ParameterList">
+	<ParameterList name="surface outlet flux" type="ParameterList">
       <Parameter name="variable" type="string" value="surface-mass_flux" />
       <Parameter name="direction normalized flux" type="bool" value="true" />
       <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0}" />
@@ -232,30 +280,102 @@
       <Parameter name="observation output filename" type="string" value="subsurface_outlet_flux.dat" />
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
-    <ParameterList name="surface nearwest flux" type="ParameterList">
+    <ParameterList name="hummock surface outlet flux" type="ParameterList">
       <Parameter name="variable" type="string" value="surface-mass_flux" />
       <Parameter name="direction normalized flux" type="bool" value="true" />
       <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0}" />
-      <Parameter name="region" type="string" value="near west" />
+      <Parameter name="region" type="string" value="hummock outlet" />
       <Parameter name="functional" type="string" value="observation data: extensive integral" />
       <Parameter name="delimiter" type="string" value=" " />
       <Parameter name="location name" type="string" value="face" />
       <Parameter name="write interval" type="int" value="1" />
-      <Parameter name="observation output filename" type="string" value="surface_nearwest_flux.dat" />
+      <Parameter name="observation output filename" type="string" value="hummock_surface_outlet_flux.dat" />
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
-    <ParameterList name="subsurface nearwest flux" type="ParameterList">
+    <ParameterList name="hummock subsurface outlet flux" type="ParameterList">
       <Parameter name="variable" type="string" value="mass_flux" />
       <Parameter name="direction normalized flux" type="bool" value="true" />
       <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0,0.0}" />
-      <Parameter name="region" type="string" value="near west subsurface" />
+      <Parameter name="region" type="string" value="hummock outlet subsurface" />
       <Parameter name="functional" type="string" value="observation data: extensive integral" />
       <Parameter name="delimiter" type="string" value=" " />
       <Parameter name="location name" type="string" value="face" />
       <Parameter name="write interval" type="int" value="1" />
-      <Parameter name="observation output filename" type="string" value="subsurface_nearwest_flux.dat" />
+      <Parameter name="observation output filename" type="string" value="hummock_subsurface_outlet_flux.dat" />
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
+    <ParameterList name="surface hummock1 flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="surface-mass_flux" />
+      <Parameter name="direction normalized flux" type="bool" value="true" />
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0}" />
+      <Parameter name="region" type="string" value="hummock1" />
+      <Parameter name="functional" type="string" value="observation data: extensive integral" />
+      <Parameter name="delimiter" type="string" value=" " />
+      <Parameter name="location name" type="string" value="face" />
+      <Parameter name="write interval" type="int" value="1" />
+      <Parameter name="observation output filename" type="string" value="surface_hummock1_flux.dat" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+    </ParameterList>
+    <ParameterList name="subsurface hummock1 flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="mass_flux" />
+      <Parameter name="direction normalized flux" type="bool" value="true" />
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0,0.0}" />
+      <Parameter name="region" type="string" value="hummock1 subsurface" />
+      <Parameter name="functional" type="string" value="observation data: extensive integral" />
+      <Parameter name="delimiter" type="string" value=" " />
+      <Parameter name="location name" type="string" value="face" />
+      <Parameter name="write interval" type="int" value="1" />
+      <Parameter name="observation output filename" type="string" value="subsurface_hummock1_flux.dat" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+    </ParameterList>
+	<ParameterList name="surface hummock2 flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="surface-mass_flux" />
+      <Parameter name="direction normalized flux" type="bool" value="true" />
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0}" />
+      <Parameter name="region" type="string" value="hummock2" />
+      <Parameter name="functional" type="string" value="observation data: extensive integral" />
+      <Parameter name="delimiter" type="string" value=" " />
+      <Parameter name="location name" type="string" value="face" />
+      <Parameter name="write interval" type="int" value="1" />
+      <Parameter name="observation output filename" type="string" value="surface_hummock2_flux.dat" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+    </ParameterList>
+    <ParameterList name="subsurface hummock2 flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="mass_flux" />
+      <Parameter name="direction normalized flux" type="bool" value="true" />
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0,0.0}" />
+      <Parameter name="region" type="string" value="hummock2 subsurface" />
+      <Parameter name="functional" type="string" value="observation data: extensive integral" />
+      <Parameter name="delimiter" type="string" value=" " />
+      <Parameter name="location name" type="string" value="face" />
+      <Parameter name="write interval" type="int" value="1" />
+      <Parameter name="observation output filename" type="string" value="subsurface_hummock2_flux.dat" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+    </ParameterList>
+	<ParameterList name="surface hummock3 flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="surface-mass_flux" />
+      <Parameter name="direction normalized flux" type="bool" value="true" />
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0}" />
+      <Parameter name="region" type="string" value="hummock3" />
+      <Parameter name="functional" type="string" value="observation data: extensive integral" />
+      <Parameter name="delimiter" type="string" value=" " />
+      <Parameter name="location name" type="string" value="face" />
+      <Parameter name="write interval" type="int" value="1" />
+      <Parameter name="observation output filename" type="string" value="surface_hummock3_flux.dat" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+    </ParameterList>
+    <ParameterList name="subsurface hummock3 flux" type="ParameterList">
+      <Parameter name="variable" type="string" value="mass_flux" />
+      <Parameter name="direction normalized flux" type="bool" value="true" />
+      <Parameter name="direction normalized flux direction" type="Array(double)" value="{-1.0,0.0,0.0}" />
+      <Parameter name="region" type="string" value="hummock3 subsurface" />
+      <Parameter name="functional" type="string" value="observation data: extensive integral" />
+      <Parameter name="delimiter" type="string" value=" " />
+      <Parameter name="location name" type="string" value="face" />
+      <Parameter name="write interval" type="int" value="1" />
+      <Parameter name="observation output filename" type="string" value="subsurface_hummock3_flux.dat" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+    </ParameterList>	
     <ParameterList name="surface mid flux" type="ParameterList">
       <Parameter name="variable" type="string" value="surface-mass_flux" />
       <Parameter name="direction normalized flux" type="bool" value="true" />
@@ -280,13 +400,23 @@
       <Parameter name="observation output filename" type="string" value="subsurface_midrip_flux.dat" />
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
-    <ParameterList name="subsurface water content" type="ParameterList">
+    <ParameterList name="total subsurface water content" type="ParameterList">
       <Parameter name="variable" type="string" value="water_content" />
       <Parameter name="region" type="string" value="computational domain" />
       <Parameter name="functional" type="string" value="observation data: extensive integral" />
       <Parameter name="delimiter" type="string" value=" " />
       <Parameter name="location name" type="string" value="cell" />
-      <Parameter name="observation output filename" type="string" value="subsurface_water_content.dat" />
+      <Parameter name="observation output filename" type="string" value="total_subsurface_water_content.dat" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
+      <Parameter name="write interval" type="int" value="30" />
+    </ParameterList>
+	<ParameterList name="hummock subsurface water content" type="ParameterList">
+      <Parameter name="variable" type="string" value="water_content" />
+      <Parameter name="region" type="string" value="hummock domain subsurface" />
+      <Parameter name="functional" type="string" value="observation data: extensive integral" />
+      <Parameter name="delimiter" type="string" value=" " />
+      <Parameter name="location name" type="string" value="cell" />
+      <Parameter name="observation output filename" type="string" value="hummock_subsurface_water_content.dat" />
       <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
       <Parameter name="write interval" type="int" value="30" />
     </ParameterList>
@@ -295,6 +425,108 @@
     <Parameter name="times start period stop" type="Array(double)" value="{0.0,7776000.0,-1.0}" />
   </ParameterList>
   <ParameterList name="PKs" type="ParameterList">
+  
+	<ParameterList name="Top level MPC" type="ParameterList">
+      <Parameter name="PK type" type="string" value="weak MPC" />
+      <Parameter name="PKs order" type="Array(string)" value="{snow distribution,coupled SEB and permafrost}" />
+      <ParameterList name="verbose object" type="ParameterList">
+        <Parameter name="verbosity level" type="string" value="none" />
+      </ParameterList>
+    </ParameterList>
+  
+	<ParameterList name="snow distribution" type="ParameterList">
+      <Parameter name="PK type" type="string" value="snow distribution" />
+      <Parameter name="primary variable key" type="string" value="snow-precipitation" />
+      <Parameter name="conserved quantity key" type="string" value="snow-precipitation" />
+      <Parameter name="domain name" type="string" value="snow" />
+      <Parameter name="initial time step" type="double" value="86400.0" />
+      <Parameter name="distribution time" type="double" value="86400.0" />
+      <Parameter name="upwind conductivity method" type="string" value="upwind by potential difference" />
+
+      <Parameter name="debug cells" type="Array(int)" value="{74,75}" />
+      <ParameterList name="verbose object" type="ParameterList">
+        <Parameter name="verbosity level" type="string" value="none" />
+      </ParameterList>
+
+      <ParameterList name="precipitation function" type="ParameterList">
+        <ParameterList name="function-tabular" type="ParameterList">
+          <Parameter name="file" type="string" value="../../Data/MIROC_ESM_CHEM/toolik_MIROC5_100yr_03Jan19_rcp85.h5" />
+		  <Parameter name="x header" type="string" value="time [s]" />
+          <Parameter name="y header" type="string" value="precipitation snow [m SWE s^-1]" />
+        </ParameterList>
+      </ParameterList>
+  
+       <ParameterList name="time integrator" type="ParameterList">
+        <Parameter name="extrapolate initial guess" type="bool" value="false" />
+        <Parameter name="solver type" type="string" value="nka_bt_ats" />
+        <Parameter name="timestep controller type" type="string" value="smarter" />
+        <ParameterList name="nka_bt_ats parameters" type="ParameterList">
+          <Parameter name="nka lag iterations" type="int" value="0" />
+          <Parameter name="max backtrack steps" type="int" value="3" />
+          <Parameter name="max total backtrack steps" type="int" value="20" />
+          <Parameter name="backtrack lag" type="int" value="0" />
+          <Parameter name="last backtrack iteration" type="int" value="4" />
+          <Parameter name="backtrack factor" type="double" value="0.5" />
+          <Parameter name="backtrack tolerance" type="double" value="0.01" />
+          <Parameter name="nonlinear tolerance" type="double" value="0.0001" />
+          <Parameter name="diverged tolerance" type="double" value="1000000.0" />
+          <Parameter name="limit iterations" type="int" value="20" />
+          <ParameterList name="verbose object" type="ParameterList">
+            <Parameter name="verbosity level" type="string" value="none" />
+          </ParameterList>
+        </ParameterList>
+        <ParameterList name="verbose object" type="ParameterList">
+          <Parameter name="verbosity level" type="string" value="none" />
+        </ParameterList>
+        <ParameterList name="timestep controller smarter parameters" type="ParameterList">
+          <Parameter name="max iterations" type="int" value="18" />
+          <Parameter name="min iterations" type="int" value="10" />
+          <Parameter name="time step reduction factor" type="double" value="0.5" />
+          <Parameter name="time step increase factor" type="double" value="1.25" />
+          <Parameter name="max time step" type="double" value="86400.0" />
+          <Parameter name="min time step" type="double" value="1e-10" />
+          <Parameter name="growth wait after fail" type="int" value="2" />
+          <Parameter name="count before increasing increase factor" type="int" value="2" />
+        </ParameterList>
+      </ParameterList>
+
+      <ParameterList name="diffusion preconditioner" type="ParameterList">
+        <Parameter name="Newton correction" type="string" value="true Jacobian" />
+      </ParameterList>
+
+      <ParameterList name="preconditioner" type="ParameterList">
+        <Parameter name="preconditioner type" type="string" value="boomer amg" />
+        <ParameterList name="boomer amg parameters" type="ParameterList">
+          <Parameter name="cycle applications" type="int" value="1" />
+          <Parameter name="smoother sweeps" type="int" value="1" />
+          <Parameter name="strong threshold" type="double" value="0.45" />
+          <Parameter name="tolerance" type="double" value="0.0" />
+          <Parameter name="verbosity" type="int" value="0" />
+        </ParameterList>
+      </ParameterList>
+
+      <ParameterList name="linear solver" type="ParameterList">
+        <Parameter name="iterative method" type="string" value="gmres" />
+        <ParameterList name="gmres parameters" type="ParameterList">
+          <Parameter name="preconditioning strategy" type="string" value="left" />
+          <Parameter name="error tolerance" type="double" value="1e-06" />
+          <Parameter name="convergence criteria" type="Array(string)" value="{relative residual, make one iteration}" />
+          <Parameter name="maximum number of iterations" type="int" value="80" />
+          <ParameterList name="verbose object" type="ParameterList">
+            <Parameter name="verbosity level" type="string" value="none" />
+          </ParameterList>
+        </ParameterList>
+        <ParameterList name="verbose object" type="ParameterList">
+          <Parameter name="verbosity level" type="string" value="none" />
+        </ParameterList>
+      </ParameterList>
+
+      <ParameterList name="initial condition" type="ParameterList">
+		<Parameter name="restart file" type="string" value="../../init/column_data_15Oct18_AllMineralSpinup.h5"/>
+      </ParameterList> 
+	  
+	</ParameterList>
+ 
     <ParameterList name="coupled SEB and permafrost" type="ParameterList">
       <Parameter name="PK type" type="string" value="strong MPC" />
       <Parameter name="PKs order" type="Array(string)" value="{SEB,PSS}" />
@@ -402,7 +634,7 @@
             <Parameter name="regions" type="Array(string)" value="{west subsurface}" />
             <ParameterList name="boundary pressure" type="ParameterList">
               <ParameterList name="function-linear" type="ParameterList">
-                <Parameter name="x0" type="Array(double)" value="{0.0,0.0,0.0,-0.6}" />
+                <Parameter name="x0" type="Array(double)" value="{0.0,0.0,0.0,0.0}" />
                 <Parameter name="y0" type="double" value="101325.0" />
                 <Parameter name="gradient" type="Array(double)" value="{0.0,0.0,0.0,-9806.65}" />
               </ParameterList>
@@ -765,9 +997,45 @@
           </ParameterList>
         </ParameterList>
       </ParameterList>
+	  
+	  <ParameterList name="surface-manning_coefficient_snow" type="ParameterList">
+        <Parameter name="field evaluator type" type="string" value="independent variable" />
+        <ParameterList name="function" type="ParameterList">
+          <ParameterList name="domain" type="ParameterList">
+            <Parameter name="region" type="string" value="surface domain" />
+            <Parameter name="component" type="string" value="cell" />
+            <ParameterList name="function" type="ParameterList">
+              <ParameterList name="function-constant" type="ParameterList">
+                <Parameter name="value" type="double" value="1000.0" />
+              </ParameterList>
+            </ParameterList>
+          </ParameterList>
+        </ParameterList>
+      </ParameterList>
+	  
+	  <ParameterList name="snow-skin_potential" type="ParameterList">
+        <Parameter name="field evaluator type" type="string" value="snow skin potential" />
+        <Parameter name="dt factor" type="double" value="86400.0" />
+      </ParameterList>
+	  
+	  <ParameterList name="snow-conductivity" type="ParameterList">
+        <Parameter name="field evaluator type" type="string" value="overland conductivity" />
+        <Parameter name="include dt factor" type="bool" value="true" />
+        <Parameter name="dt factor" type="double" value="86400.0" />
+        <Parameter name="include density factor" type="bool" value="false" />
+        <Parameter name="depth key" type="string" value="snow-precipitation" />
+        <Parameter name="slope key" type="string" value="surface-slope_magnitude" />
+        <Parameter name="coefficient key" type="string" value="surface-manning_coefficient_snow" />
+        <ParameterList name="overland conductivity model" type="ParameterList">
+          <Parameter name="Manning exponent" type="double" value="0.666666666667" />
+          <Parameter name="slope regularization epsilon" type="double" value="0.01" />
+        </ParameterList>
+      </ParameterList>
+	  
       <ParameterList name="surface-effective_pressure" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="effective_pressure" />
       </ParameterList>
+	  
       <ParameterList name="surface-incoming_longwave_radiation" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="independent variable" />
         <ParameterList name="function" type="ParameterList">
@@ -784,6 +1052,7 @@
           </ParameterList>
         </ParameterList>
       </ParameterList>
+	  
       <ParameterList name="surface-incoming_shortwave_radiation" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="independent variable" />
         <ParameterList name="function" type="ParameterList">
@@ -800,6 +1069,7 @@
           </ParameterList>
         </ParameterList>
       </ParameterList>
+	  
       <ParameterList name="surface-air_temperature" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="independent variable" />
         <ParameterList name="function" type="ParameterList">
@@ -816,6 +1086,7 @@
           </ParameterList>
         </ParameterList>
       </ParameterList>
+	  
       <ParameterList name="surface-relative_humidity" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="independent variable" />
         <ParameterList name="function" type="ParameterList">
@@ -832,6 +1103,7 @@
           </ParameterList>
         </ParameterList>
       </ParameterList>
+	  
       <ParameterList name="surface-wind_speed" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="independent variable" />
         <ParameterList name="function" type="ParameterList">
@@ -848,6 +1120,7 @@
           </ParameterList>
         </ParameterList>
       </ParameterList>
+	  
       <ParameterList name="surface-precipitation_rain" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="independent variable" />
         <ParameterList name="function" type="ParameterList">
@@ -864,7 +1137,8 @@
           </ParameterList>
         </ParameterList>
       </ParameterList>
-      <ParameterList name="snow-precipitation" type="ParameterList">
+	  
+<!-- <ParameterList name="snow-precipitation" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="independent variable" />
         <ParameterList name="function" type="ParameterList">
           <ParameterList name="domain" type="ParameterList">
@@ -879,12 +1153,14 @@
             </ParameterList>
           </ParameterList>
         </ParameterList>
-      </ParameterList>
+      </ParameterList> -->
+	  
       <ParameterList name="surface-porosity" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="surface top cell evaluator" />
         <Parameter name="surface key" type="string" value="surface-porosity" />
         <Parameter name="subsurface key" type="string" value="porosity" />
       </ParameterList>
+	  
       <ParameterList name="water_content" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="liquid+ice water content" />
       </ParameterList>
@@ -1104,25 +1380,29 @@
       <ParameterList name="surface-fractional_areas" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="surface balance area fractions" />
       </ParameterList>
+	  
       <ParameterList name="snow-swe" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="multiplicative evaluator" />
         <Parameter name="evaluator dependencies" type="Array(string)" value="{snow-depth,snow-density,snow-cell_volume}" />
         <Parameter name="coefficient" type="double" value="0.001" />
-	<Parameter name="enforce positivity" type="bool" value="true" />
+		<!-- <Parameter name="enforce positivity" type="bool" value="true" /> -->
       </ParameterList>
+	  
       <ParameterList name="snow-source_sink" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="surface balance" />
         <Parameter name="save diagnostic data" type="bool" value="true" />
         <Parameter name="dessicated zone thickness [m]" type="double" value="0.035" />
-	<Parameter name="debug cells" type="Array(int)" value="{0}" />
+		<Parameter name="debug cells" type="Array(int)" value="{0}" />
         <ParameterList name="verbose object" type="ParameterList">
           <Parameter name="verbosity level" type="string" value="low" />
         </ParameterList>
       </ParameterList>
+	  
       <ParameterList name="surface-subgrid_albedos" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="albedo" />
       </ParameterList>
     </ParameterList>
+	
     <ParameterList name="initial conditions" type="ParameterList">
       <ParameterList name="atmospheric_pressure" type="ParameterList">
         <Parameter name="value" type="double" value="101325.0" />
@@ -1131,6 +1411,7 @@
         <Parameter name="value" type="Array(double)" value="{0.0,0.0,-9.80665}" />
       </ParameterList>
     </ParameterList>
+	
   </ParameterList>
   <ParameterList name="visualization" type="ParameterList">
     <ParameterList name="domain" type="ParameterList">

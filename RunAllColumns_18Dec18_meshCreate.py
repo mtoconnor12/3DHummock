@@ -95,7 +95,6 @@ def make_30m_mesh(bac,bct,fname):
 		layer_mat_ids.append(1004)
 		z = z + dz
 		Z.append(z)
-		
 	print (z)
 	print(len(layer_types),layer_types[-1])
 	print(len(layer_mat_ids),layer_mat_ids[-1])
