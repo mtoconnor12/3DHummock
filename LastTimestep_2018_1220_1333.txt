@@ -1,4 +1,0 @@
-TussockTundraHi
-TussockTundraLo
-WaterTrack
-WoodyShrubsHillslope
