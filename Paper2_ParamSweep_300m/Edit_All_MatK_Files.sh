@@ -6,5 +6,5 @@ matkSuffix="_matk.py"
 
 for runName in TussockTundraHi TussockTundraLo WaterTrack WoodyShrubsHillslope SedgeHi WoodyShrubsRiparianHi SedgeLo FrostBoils
 do
-	sed -i "s/Paper2_ParamSweep_4percent/Paper2_ParamSweep_300m/g" $runName$Suffix$matkSuffix
+	sed -i "29d" $runName$Suffix$matkSuffix
 done

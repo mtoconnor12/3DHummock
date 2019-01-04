@@ -14,7 +14,7 @@ def model(pars, hostname='dum', processor=1):
 	branchName = "Paper2_ParamSweep_300m"
 	fname = branchName + "-" + str(pars['bac']) + "bac_" + str(pars['bct']) + "bct"
 	
-	m = atsxml.get_root('../test7_' + 'Paper2_NoCheckpoint_NoVerbosity_Default.xml)
+	m = atsxml.get_root('../test7_' + 'Paper2_NoCheckpoint_NoVerbosity_Default.xml')
 	
 	atsxml.replace_by_path(m,['mesh','domain','read mesh file parameters','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
 	atsxml.replace_by_path(m,['regions','computational domain acrotelm','region: labeled set','file'],'../../mesh/' + branchName + '/' + fname + '.exo')
@@ -26,7 +26,6 @@ def model(pars, hostname='dum', processor=1):
 	atsxml.replace_by_path(m,['state','permeability','function','acrotelm','function','function-constant','value'],pars['Kac'])
 	atsxml.replace_by_path(m,['state','permeability','function','catotelm','function','function-constant','value'],pars['Kct'])
 	atsxml.replace_by_path(m,['state','permeability','function','rest domain','function','function-constant','value'],pars['Kmn'])
-	atsxml.replace_by_path(m,['cycle driver','restart from checkpoint file'],'../checkpoint_files/' + runName + checkpointSuffix + '/' + runName + checkpointSuffix + '.' + str(pars['RunNum']) + 'checkpoint_last.h5')
 
     	atsxml.run(m, nproc=1, mpiexec='mpirun', stdout='stdout.out', stderr='stdout.err', cpuset=processor)
 	return True
