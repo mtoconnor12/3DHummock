@@ -30,13 +30,14 @@ Z1 = A*np.sin(k1*X1)*np.sin(k2*Y1) + m*X1
 
 nx2 = lenXDomain/dxDomain
 ny2 = lenY/dy
-x2 = np.linspace(lenX+dx,lenXDomain,nx2-1)
+x2 = np.linspace(lenX+dxDomain,lenXDomain,nx2-1)
 y2 = np.linspace(0,lenY,ny2)
 [X2,Y2] = np.meshgrid(x2,y2)
 Z2 = m*X2
 
 x = np.concatenate((x1,x2),axis=0)
-Z = np.concatenate((Z1,Z2),axis=0)
+y = y1
+Z = np.concatenate((Z1,Z2),axis=1)
 
 #plt.contourf(X,Y,Z)
 
@@ -138,6 +139,6 @@ m3 = meshing_ats.Mesh3D.extruded_Mesh2D(m2, layer_types,
                                         layer_data, 
                                         layer_ncells, 
                                         layer_mat_ids)
-m3.write_exodus("3DHummock_40x_40y_70z_19Nov18.exo")
+m3.write_exodus("3DHummock_03Jan18.exo")
 #m3.write_exodus("column-peat20cm.exo")
 
