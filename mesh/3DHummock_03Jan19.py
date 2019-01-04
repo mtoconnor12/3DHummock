@@ -30,13 +30,12 @@ Z1 = A*np.sin(k1*X1)*np.sin(k2*Y1) + m*X1
 
 nx2 = lenXDomain/dxDomain
 ny2 = lenY/dy
-x2 = np.linspace(lenX,lenXDomain,nx2)
+x2 = np.linspace(lenX+dx,lenXDomain,nx2-1)
 y2 = np.linspace(0,lenY,ny2)
 [X2,Y2] = np.meshgrid(x2,y2)
 Z2 = m*X2
 
 x = np.concatenate((x1,x2),axis=0)
-y = np.concatenate((y1,y2),axis=0)
 Z = np.concatenate((Z1,Z2),axis=0)
 
 #plt.contourf(X,Y,Z)
