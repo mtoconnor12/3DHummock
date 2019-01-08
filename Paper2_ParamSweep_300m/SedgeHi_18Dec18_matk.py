@@ -39,7 +39,7 @@ def model(pars, hostname='dum', processor=1):
 # The dictionary values (lists of integers) identify which processors to put each ATS run.
 njobs = 32
 nparams = 6
-hosts = {'dum': map(str, range(10,njobs))}
+hosts = {'dum': map(str, range(njobs))}
 print hosts
 
 # Instantiate MATK object specifying the "model" function defined above as the MATK "model"

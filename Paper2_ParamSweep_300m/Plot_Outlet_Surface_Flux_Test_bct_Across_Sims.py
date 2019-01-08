@@ -28,7 +28,7 @@ for i in range(len(runPrefixList)):
                 isDir = os.path.isdir(os.getcwd() + '/' + directory)
                 if not isDir:
                         continue
-                mat = np.loadtxt(runPrefixList[i] + '_' + runDate + '.' + str(j+1) + '/subsurface_outlet_flux.dat')
+                mat = np.loadtxt(runPrefixList[i] + '_' + runDate + '.' + str(j+1) + '/surface_outlet_flux.dat')
                 if i == 6 and j > 21:
                         continue
 		matSubset = mat[t1:-1,:]

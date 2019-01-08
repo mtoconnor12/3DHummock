@@ -1,0 +1,4 @@
+  File "SedgeHi_18Dec18_matk.py", line 42
+    hosts = {'dum': map(str, range(njobs)}
+                                         ^
+SyntaxError: invalid syntax

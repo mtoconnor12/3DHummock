@@ -6,3 +6,771 @@ ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (32/1)
 ASCEMIO_Info: Preferred group size is set to 32 
 ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (32/1) 
 ASCEMIO_Info: Preferred group size is set to 32 
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35360] *** Process received signal ***
+[or-condo-c73:35360] Signal: Aborted (6)
+[or-condo-c73:35360] Signal code:  (-6)
+[or-condo-c73:35360] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b34b723f6d0]
+[or-condo-c73:35360] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b34b7482277]
+[or-condo-c73:35360] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b34b7483968]
+[or-condo-c73:35360] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b34b6a298cd]
+[or-condo-c73:35360] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b34b6a27906]
+[or-condo-c73:35360] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b34b6a27951]
+[or-condo-c73:35360] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b34b6a27b69]
+[or-condo-c73:35360] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35360] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b34a8d86da0]
+[or-condo-c73:35360] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35360] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35360] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35360] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35360] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35360] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35360] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35360] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b34b746e445]
+[or-condo-c73:35360] [17] ats[0x553dcd]
+[or-condo-c73:35360] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35361] *** Process received signal ***
+[or-condo-c73:35361] Signal: Aborted (6)
+[or-condo-c73:35361] Signal code:  (-6)
+[or-condo-c73:35361] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ba26e2fb6d0]
+[or-condo-c73:35361] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ba26e53e277]
+[or-condo-c73:35361] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ba26e53f968]
+[or-condo-c73:35361] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ba26dae58cd]
+[or-condo-c73:35361] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ba26dae3906]
+[or-condo-c73:35361] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ba26dae3951]
+[or-condo-c73:35361] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ba26dae3b69]
+[or-condo-c73:35361] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35361] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ba25fe42da0]
+[or-condo-c73:35361] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35361] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35361] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35361] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35361] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35361] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35361] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35361] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ba26e52a445]
+[or-condo-c73:35361] [17] ats[0x553dcd]
+[or-condo-c73:35361] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35362] *** Process received signal ***
+[or-condo-c73:35362] Signal: Aborted (6)
+[or-condo-c73:35362] Signal code:  (-6)
+[or-condo-c73:35362] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b447a9c06d0]
+[or-condo-c73:35362] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b447ac03277]
+[or-condo-c73:35362] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b447ac04968]
+[or-condo-c73:35362] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b447a1aa8cd]
+[or-condo-c73:35362] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b447a1a8906]
+[or-condo-c73:35362] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b447a1a8951]
+[or-condo-c73:35362] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b447a1a8b69]
+[or-condo-c73:35362] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35362] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b446c507da0]
+[or-condo-c73:35362] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35362] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35362] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35362] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35362] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35362] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35362] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35362] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b447abef445]
+[or-condo-c73:35362] [17] ats[0x553dcd]
+[or-condo-c73:35362] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35363] *** Process received signal ***
+[or-condo-c73:35363] Signal: Aborted (6)
+[or-condo-c73:35363] Signal code:  (-6)
+[or-condo-c73:35363] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2abffb97b6d0]
+[or-condo-c73:35363] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2abffbbbe277]
+[or-condo-c73:35363] [ 2] /lib64/libc.so.6(abort+0x148)[0x2abffbbbf968]
+[or-condo-c73:35363] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2abffb1658cd]
+[or-condo-c73:35363] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2abffb163906]
+[or-condo-c73:35363] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2abffb163951]
+[or-condo-c73:35363] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2abffb163b69]
+[or-condo-c73:35363] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35363] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2abfed4c2da0]
+[or-condo-c73:35363] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35363] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35363] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35363] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35363] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35363] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35363] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35363] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2abffbbaa445]
+[or-condo-c73:35363] [17] ats[0x553dcd]
+[or-condo-c73:35363] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35364] *** Process received signal ***
+[or-condo-c73:35364] Signal: Aborted (6)
+[or-condo-c73:35364] Signal code:  (-6)
+[or-condo-c73:35364] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ba76c3276d0]
+[or-condo-c73:35364] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ba76c56a277]
+[or-condo-c73:35364] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ba76c56b968]
+[or-condo-c73:35364] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ba76bb118cd]
+[or-condo-c73:35364] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ba76bb0f906]
+[or-condo-c73:35364] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ba76bb0f951]
+[or-condo-c73:35364] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ba76bb0fb69]
+[or-condo-c73:35364] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35364] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ba75de6eda0]
+[or-condo-c73:35364] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35364] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35364] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35364] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35364] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35364] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35364] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35364] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ba76c556445]
+[or-condo-c73:35364] [17] ats[0x553dcd]
+[or-condo-c73:35364] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35365] *** Process received signal ***
+[or-condo-c73:35365] Signal: Aborted (6)
+[or-condo-c73:35365] Signal code:  (-6)
+[or-condo-c73:35365] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2afb24df06d0]
+[or-condo-c73:35365] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2afb25033277]
+[or-condo-c73:35365] [ 2] /lib64/libc.so.6(abort+0x148)[0x2afb25034968]
+[or-condo-c73:35365] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2afb245da8cd]
+[or-condo-c73:35365] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2afb245d8906]
+[or-condo-c73:35365] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2afb245d8951]
+[or-condo-c73:35365] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2afb245d8b69]
+[or-condo-c73:35365] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35365] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2afb16937da0]
+[or-condo-c73:35365] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35365] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35365] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35365] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35365] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35365] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35365] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35365] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2afb2501f445]
+[or-condo-c73:35365] [17] ats[0x553dcd]
+[or-condo-c73:35365] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35366] *** Process received signal ***
+[or-condo-c73:35366] Signal: Aborted (6)
+[or-condo-c73:35366] Signal code:  (-6)
+[or-condo-c73:35366] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2aebc67566d0]
+[or-condo-c73:35366] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aebc6999277]
+[or-condo-c73:35366] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aebc699a968]
+[or-condo-c73:35366] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aebc5f408cd]
+[or-condo-c73:35366] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2aebc5f3e906]
+[or-condo-c73:35366] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2aebc5f3e951]
+[or-condo-c73:35366] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2aebc5f3eb69]
+[or-condo-c73:35366] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35366] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2aebb829dda0]
+[or-condo-c73:35366] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35366] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35366] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35366] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35366] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35366] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35366] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35366] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aebc6985445]
+[or-condo-c73:35366] [17] ats[0x553dcd]
+[or-condo-c73:35366] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35367] *** Process received signal ***
+[or-condo-c73:35367] Signal: Aborted (6)
+[or-condo-c73:35367] Signal code:  (-6)
+[or-condo-c73:35367] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b18e432f6d0]
+[or-condo-c73:35367] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b18e4572277]
+[or-condo-c73:35367] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b18e4573968]
+[or-condo-c73:35367] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b18e3b198cd]
+[or-condo-c73:35367] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b18e3b17906]
+[or-condo-c73:35367] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b18e3b17951]
+[or-condo-c73:35367] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b18e3b17b69]
+[or-condo-c73:35367] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35367] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b18d5e76da0]
+[or-condo-c73:35367] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35367] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35367] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35367] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35367] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35367] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35367] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35367] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b18e455e445]
+[or-condo-c73:35367] [17] ats[0x553dcd]
+[or-condo-c73:35367] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35368] *** Process received signal ***
+[or-condo-c73:35368] Signal: Aborted (6)
+[or-condo-c73:35368] Signal code:  (-6)
+[or-condo-c73:35368] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ba148cd36d0]
+[or-condo-c73:35368] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ba148f16277]
+[or-condo-c73:35368] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ba148f17968]
+[or-condo-c73:35368] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ba1484bd8cd]
+[or-condo-c73:35368] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ba1484bb906]
+[or-condo-c73:35368] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ba1484bb951]
+[or-condo-c73:35368] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ba1484bbb69]
+[or-condo-c73:35368] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35368] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ba13a81ada0]
+[or-condo-c73:35368] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35368] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35368] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35368] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35368] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35368] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35368] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35368] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ba148f02445]
+[or-condo-c73:35368] [17] ats[0x553dcd]
+[or-condo-c73:35368] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35369] *** Process received signal ***
+[or-condo-c73:35369] Signal: Aborted (6)
+[or-condo-c73:35369] Signal code:  (-6)
+[or-condo-c73:35369] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2aaea7a286d0]
+[or-condo-c73:35369] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aaea7c6b277]
+[or-condo-c73:35369] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aaea7c6c968]
+[or-condo-c73:35369] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aaea72128cd]
+[or-condo-c73:35369] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2aaea7210906]
+[or-condo-c73:35369] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2aaea7210951]
+[or-condo-c73:35369] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2aaea7210b69]
+[or-condo-c73:35369] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35369] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2aae9956fda0]
+[or-condo-c73:35369] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35369] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35369] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35369] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35369] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35369] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35369] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35369] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aaea7c57445]
+[or-condo-c73:35369] [17] ats[0x553dcd]
+[or-condo-c73:35369] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35370] *** Process received signal ***
+[or-condo-c73:35370] Signal: Aborted (6)
+[or-condo-c73:35370] Signal code:  (-6)
+[or-condo-c73:35370] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ba392e1c6d0]
+[or-condo-c73:35370] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ba39305f277]
+[or-condo-c73:35370] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ba393060968]
+[or-condo-c73:35370] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ba3926068cd]
+[or-condo-c73:35370] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ba392604906]
+[or-condo-c73:35370] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ba392604951]
+[or-condo-c73:35370] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ba392604b69]
+[or-condo-c73:35370] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35370] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ba384963da0]
+[or-condo-c73:35370] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35370] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35370] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35370] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35370] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35370] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35370] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35370] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ba39304b445]
+[or-condo-c73:35370] [17] ats[0x553dcd]
+[or-condo-c73:35370] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35371] *** Process received signal ***
+[or-condo-c73:35371] Signal: Aborted (6)
+[or-condo-c73:35371] Signal code:  (-6)
+[or-condo-c73:35371] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b9129e7d6d0]
+[or-condo-c73:35371] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b912a0c0277]
+[or-condo-c73:35371] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b912a0c1968]
+[or-condo-c73:35371] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b91296678cd]
+[or-condo-c73:35371] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b9129665906]
+[or-condo-c73:35371] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b9129665951]
+[or-condo-c73:35371] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b9129665b69]
+[or-condo-c73:35371] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35371] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b911b9c4da0]
+[or-condo-c73:35371] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35371] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35371] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35371] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35371] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35371] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35371] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35371] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b912a0ac445]
+[or-condo-c73:35371] [17] ats[0x553dcd]
+[or-condo-c73:35371] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35372] *** Process received signal ***
+[or-condo-c73:35372] Signal: Aborted (6)
+[or-condo-c73:35372] Signal code:  (-6)
+[or-condo-c73:35372] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2acedfdd86d0]
+[or-condo-c73:35372] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2acee001b277]
+[or-condo-c73:35372] [ 2] /lib64/libc.so.6(abort+0x148)[0x2acee001c968]
+[or-condo-c73:35372] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2acedf5c28cd]
+[or-condo-c73:35372] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2acedf5c0906]
+[or-condo-c73:35372] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2acedf5c0951]
+[or-condo-c73:35372] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2acedf5c0b69]
+[or-condo-c73:35372] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35372] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2aced191fda0]
+[or-condo-c73:35372] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35372] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35372] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35372] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35372] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35372] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35372] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35372] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2acee0007445]
+[or-condo-c73:35372] [17] ats[0x553dcd]
+[or-condo-c73:35372] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35374] *** Process received signal ***
+[or-condo-c73:35374] Signal: Aborted (6)
+[or-condo-c73:35374] Signal code:  (-6)
+[or-condo-c73:35374] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b8aaa3ec6d0]
+[or-condo-c73:35374] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b8aaa62f277]
+[or-condo-c73:35374] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b8aaa630968]
+[or-condo-c73:35374] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b8aa9bd68cd]
+[or-condo-c73:35374] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b8aa9bd4906]
+[or-condo-c73:35374] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b8aa9bd4951]
+[or-condo-c73:35374] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b8aa9bd4b69]
+[or-condo-c73:35374] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35374] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b8a9bf33da0]
+[or-condo-c73:35374] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35374] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35374] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35374] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35374] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35374] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35374] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35374] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b8aaa61b445]
+[or-condo-c73:35374] [17] ats[0x553dcd]
+[or-condo-c73:35374] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35375] *** Process received signal ***
+[or-condo-c73:35375] Signal: Aborted (6)
+[or-condo-c73:35375] Signal code:  (-6)
+[or-condo-c73:35375] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ae5107596d0]
+[or-condo-c73:35375] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ae51099c277]
+[or-condo-c73:35375] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ae51099d968]
+[or-condo-c73:35375] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ae50ff438cd]
+[or-condo-c73:35375] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ae50ff41906]
+[or-condo-c73:35375] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ae50ff41951]
+[or-condo-c73:35375] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ae50ff41b69]
+[or-condo-c73:35375] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35375] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ae5022a0da0]
+[or-condo-c73:35375] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35375] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35375] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35375] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35375] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35375] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35375] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35375] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ae510988445]
+[or-condo-c73:35375] [17] ats[0x553dcd]
+[or-condo-c73:35375] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35377] *** Process received signal ***
+[or-condo-c73:35377] Signal: Aborted (6)
+[or-condo-c73:35377] Signal code:  (-6)
+[or-condo-c73:35377] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b101fde86d0]
+[or-condo-c73:35377] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b102002b277]
+[or-condo-c73:35377] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b102002c968]
+[or-condo-c73:35377] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b101f5d28cd]
+[or-condo-c73:35377] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b101f5d0906]
+[or-condo-c73:35377] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b101f5d0951]
+[or-condo-c73:35377] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b101f5d0b69]
+[or-condo-c73:35377] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35377] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b101192fda0]
+[or-condo-c73:35377] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35377] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35377] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35377] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35377] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35377] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35377] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35377] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b1020017445]
+[or-condo-c73:35377] [17] ats[0x553dcd]
+[or-condo-c73:35377] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35378] *** Process received signal ***
+[or-condo-c73:35378] Signal: Aborted (6)
+[or-condo-c73:35378] Signal code:  (-6)
+[or-condo-c73:35378] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b9a7b4586d0]
+[or-condo-c73:35378] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b9a7b69b277]
+[or-condo-c73:35378] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b9a7b69c968]
+[or-condo-c73:35378] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b9a7ac428cd]
+[or-condo-c73:35378] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b9a7ac40906]
+[or-condo-c73:35378] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b9a7ac40951]
+[or-condo-c73:35378] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b9a7ac40b69]
+[or-condo-c73:35378] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35378] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b9a6cf9fda0]
+[or-condo-c73:35378] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35378] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35378] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35378] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35378] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35378] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35378] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35378] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b9a7b687445]
+[or-condo-c73:35378] [17] ats[0x553dcd]
+[or-condo-c73:35378] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35379] *** Process received signal ***
+[or-condo-c73:35379] Signal: Aborted (6)
+[or-condo-c73:35379] Signal code:  (-6)
+[or-condo-c73:35379] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ad3079846d0]
+[or-condo-c73:35379] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ad307bc7277]
+[or-condo-c73:35379] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ad307bc8968]
+[or-condo-c73:35379] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ad30716e8cd]
+[or-condo-c73:35379] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ad30716c906]
+[or-condo-c73:35379] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ad30716c951]
+[or-condo-c73:35379] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ad30716cb69]
+[or-condo-c73:35379] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35379] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ad2f94cbda0]
+[or-condo-c73:35379] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35379] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35379] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35379] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35379] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35379] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35379] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35379] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ad307bb3445]
+[or-condo-c73:35379] [17] ats[0x553dcd]
+[or-condo-c73:35379] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35380] *** Process received signal ***
+[or-condo-c73:35380] Signal: Aborted (6)
+[or-condo-c73:35380] Signal code:  (-6)
+[or-condo-c73:35380] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b3b527036d0]
+[or-condo-c73:35380] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b3b52946277]
+[or-condo-c73:35380] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b3b52947968]
+[or-condo-c73:35380] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b3b51eed8cd]
+[or-condo-c73:35380] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b3b51eeb906]
+[or-condo-c73:35380] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b3b51eeb951]
+[or-condo-c73:35380] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b3b51eebb69]
+[or-condo-c73:35380] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35380] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b3b4424ada0]
+[or-condo-c73:35380] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35380] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35380] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35380] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35380] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35380] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35380] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35380] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b3b52932445]
+[or-condo-c73:35380] [17] ats[0x553dcd]
+[or-condo-c73:35380] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35381] *** Process received signal ***
+[or-condo-c73:35381] Signal: Aborted (6)
+[or-condo-c73:35381] Signal code:  (-6)
+[or-condo-c73:35381] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b0e5894f6d0]
+[or-condo-c73:35381] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b0e58b92277]
+[or-condo-c73:35381] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b0e58b93968]
+[or-condo-c73:35381] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b0e581398cd]
+[or-condo-c73:35381] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b0e58137906]
+[or-condo-c73:35381] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b0e58137951]
+[or-condo-c73:35381] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b0e58137b69]
+[or-condo-c73:35381] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35381] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b0e4a496da0]
+[or-condo-c73:35381] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35381] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35381] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35381] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35381] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35381] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35381] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35381] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b0e58b7e445]
+[or-condo-c73:35381] [17] ats[0x553dcd]
+[or-condo-c73:35381] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35382] *** Process received signal ***
+[or-condo-c73:35382] Signal: Aborted (6)
+[or-condo-c73:35382] Signal code:  (-6)
+[or-condo-c73:35382] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ba78fd846d0]
+[or-condo-c73:35382] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ba78ffc7277]
+[or-condo-c73:35382] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ba78ffc8968]
+[or-condo-c73:35382] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ba78f56e8cd]
+[or-condo-c73:35382] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ba78f56c906]
+[or-condo-c73:35382] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ba78f56c951]
+[or-condo-c73:35382] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ba78f56cb69]
+[or-condo-c73:35382] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35382] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ba7818cbda0]
+[or-condo-c73:35382] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35382] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35382] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35382] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35382] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35382] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35382] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35382] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ba78ffb3445]
+[or-condo-c73:35382] [17] ats[0x553dcd]
+[or-condo-c73:35382] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35359] *** Process received signal ***
+[or-condo-c73:35359] Signal: Aborted (6)
+[or-condo-c73:35359] Signal code:  (-6)
+[or-condo-c73:35359] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2aae64e466d0]
+[or-condo-c73:35359] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aae65089277]
+[or-condo-c73:35359] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aae6508a968]
+[or-condo-c73:35359] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aae646308cd]
+[or-condo-c73:35359] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2aae6462e906]
+[or-condo-c73:35359] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2aae6462e951]
+[or-condo-c73:35359] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2aae6462eb69]
+[or-condo-c73:35359] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35359] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2aae5698dda0]
+[or-condo-c73:35359] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35359] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35359] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35359] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35359] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35359] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35359] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35359] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aae65075445]
+[or-condo-c73:35359] [17] ats[0x553dcd]
+[or-condo-c73:35359] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35383] *** Process received signal ***
+[or-condo-c73:35383] Signal: Aborted (6)
+[or-condo-c73:35383] Signal code:  (-6)
+[or-condo-c73:35383] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b7dadab56d0]
+[or-condo-c73:35383] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b7dadcf8277]
+[or-condo-c73:35383] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b7dadcf9968]
+[or-condo-c73:35383] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b7dad29f8cd]
+[or-condo-c73:35383] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b7dad29d906]
+[or-condo-c73:35383] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b7dad29d951]
+[or-condo-c73:35383] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b7dad29db69]
+[or-condo-c73:35383] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35383] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b7d9f5fcda0]
+[or-condo-c73:35383] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35383] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35383] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35383] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35383] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35383] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35383] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35383] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b7dadce4445]
+[or-condo-c73:35383] [17] ats[0x553dcd]
+[or-condo-c73:35383] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35384] *** Process received signal ***
+[or-condo-c73:35384] Signal: Aborted (6)
+[or-condo-c73:35384] Signal code:  (-6)
+[or-condo-c73:35384] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2acddcaf36d0]
+[or-condo-c73:35384] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2acddcd36277]
+[or-condo-c73:35384] [ 2] /lib64/libc.so.6(abort+0x148)[0x2acddcd37968]
+[or-condo-c73:35384] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2acddc2dd8cd]
+[or-condo-c73:35384] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2acddc2db906]
+[or-condo-c73:35384] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2acddc2db951]
+[or-condo-c73:35384] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2acddc2dbb69]
+[or-condo-c73:35384] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35384] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2acdce63ada0]
+[or-condo-c73:35384] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35384] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35384] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35384] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35384] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35384] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35384] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35384] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2acddcd22445]
+[or-condo-c73:35384] [17] ats[0x553dcd]
+[or-condo-c73:35384] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35385] *** Process received signal ***
+[or-condo-c73:35385] Signal: Aborted (6)
+[or-condo-c73:35385] Signal code:  (-6)
+[or-condo-c73:35385] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ae56d6086d0]
+[or-condo-c73:35385] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ae56d84b277]
+[or-condo-c73:35385] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ae56d84c968]
+[or-condo-c73:35385] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ae56cdf28cd]
+[or-condo-c73:35385] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ae56cdf0906]
+[or-condo-c73:35385] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ae56cdf0951]
+[or-condo-c73:35385] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ae56cdf0b69]
+[or-condo-c73:35385] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35385] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ae55f14fda0]
+[or-condo-c73:35385] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35385] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35385] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35385] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35385] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35385] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35385] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35385] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ae56d837445]
+[or-condo-c73:35385] [17] ats[0x553dcd]
+[or-condo-c73:35385] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35386] *** Process received signal ***
+[or-condo-c73:35386] Signal: Aborted (6)
+[or-condo-c73:35386] Signal code:  (-6)
+[or-condo-c73:35386] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b29e406c6d0]
+[or-condo-c73:35386] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b29e42af277]
+[or-condo-c73:35386] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b29e42b0968]
+[or-condo-c73:35386] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b29e38568cd]
+[or-condo-c73:35386] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b29e3854906]
+[or-condo-c73:35386] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b29e3854951]
+[or-condo-c73:35386] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b29e3854b69]
+[or-condo-c73:35386] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35386] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b29d5bb3da0]
+[or-condo-c73:35386] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35386] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35386] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35386] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35386] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35386] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35386] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35386] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b29e429b445]
+[or-condo-c73:35386] [17] ats[0x553dcd]
+[or-condo-c73:35386] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35387] *** Process received signal ***
+[or-condo-c73:35387] Signal: Aborted (6)
+[or-condo-c73:35387] Signal code:  (-6)
+[or-condo-c73:35387] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b22a838b6d0]
+[or-condo-c73:35387] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b22a85ce277]
+[or-condo-c73:35387] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b22a85cf968]
+[or-condo-c73:35387] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b22a7b758cd]
+[or-condo-c73:35387] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b22a7b73906]
+[or-condo-c73:35387] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b22a7b73951]
+[or-condo-c73:35387] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b22a7b73b69]
+[or-condo-c73:35387] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35387] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b2299ed2da0]
+[or-condo-c73:35387] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35387] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35387] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35387] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35387] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35387] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35387] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35387] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b22a85ba445]
+[or-condo-c73:35387] [17] ats[0x553dcd]
+[or-condo-c73:35387] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35388] *** Process received signal ***
+[or-condo-c73:35388] Signal: Aborted (6)
+[or-condo-c73:35388] Signal code:  (-6)
+[or-condo-c73:35388] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2aad0b1886d0]
+[or-condo-c73:35388] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aad0b3cb277]
+[or-condo-c73:35388] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aad0b3cc968]
+[or-condo-c73:35388] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aad0a9728cd]
+[or-condo-c73:35388] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2aad0a970906]
+[or-condo-c73:35388] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2aad0a970951]
+[or-condo-c73:35388] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2aad0a970b69]
+[or-condo-c73:35388] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35388] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2aacfcccfda0]
+[or-condo-c73:35388] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35388] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35388] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35388] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35388] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35388] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35388] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35388] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aad0b3b7445]
+[or-condo-c73:35388] [17] ats[0x553dcd]
+[or-condo-c73:35388] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35389] *** Process received signal ***
+[or-condo-c73:35389] Signal: Aborted (6)
+[or-condo-c73:35389] Signal code:  (-6)
+[or-condo-c73:35389] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b24e40716d0]
+[or-condo-c73:35389] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b24e42b4277]
+[or-condo-c73:35389] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b24e42b5968]
+[or-condo-c73:35389] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b24e385b8cd]
+[or-condo-c73:35389] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b24e3859906]
+[or-condo-c73:35389] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b24e3859951]
+[or-condo-c73:35389] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b24e3859b69]
+[or-condo-c73:35389] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35389] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b24d5bb8da0]
+[or-condo-c73:35389] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35389] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35389] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35389] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35389] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35389] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35389] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35389] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b24e42a0445]
+[or-condo-c73:35389] [17] ats[0x553dcd]
+[or-condo-c73:35389] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35390] *** Process received signal ***
+[or-condo-c73:35390] Signal: Aborted (6)
+[or-condo-c73:35390] Signal code:  (-6)
+[or-condo-c73:35390] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b14ff68d6d0]
+[or-condo-c73:35390] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b14ff8d0277]
+[or-condo-c73:35390] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b14ff8d1968]
+[or-condo-c73:35390] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b14fee778cd]
+[or-condo-c73:35390] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b14fee75906]
+[or-condo-c73:35390] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b14fee75951]
+[or-condo-c73:35390] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b14fee75b69]
+[or-condo-c73:35390] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35390] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b14f11d4da0]
+[or-condo-c73:35390] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35390] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35390] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35390] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35390] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35390] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35390] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35390] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b14ff8bc445]
+[or-condo-c73:35390] [17] ats[0x553dcd]
+[or-condo-c73:35390] *** End of error message ***
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35391] *** Process received signal ***
+[or-condo-c73:35391] Signal: Aborted (6)
+[or-condo-c73:35391] Signal code:  (-6)
+[or-condo-c73:35391] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ba0900796d0]
+[or-condo-c73:35391] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ba0902bc277]
+[or-condo-c73:35391] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ba0902bd968]
+[or-condo-c73:35391] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ba08f8638cd]
+[or-condo-c73:35391] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ba08f861906]
+[or-condo-c73:35391] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ba08f861951]
+[or-condo-c73:35391] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ba08f861b69]
+[or-condo-c73:35391] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35391] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2ba081bc0da0]
+[or-condo-c73:35391] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35391] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35391] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35391] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35391] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35391] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35391] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35391] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ba0902a8445]
+[or-condo-c73:35391] [17] ats[0x553dcd]
+[or-condo-c73:35391] *** End of error message ***
+terminate called after throwing an instance of 'Errors::Message'
+  what():  Timestep failed: Time step crash
+[or-condo-c73:35376] *** Process received signal ***
+[or-condo-c73:35376] Signal: Aborted (6)
+[or-condo-c73:35376] Signal code:  (-6)
+[or-condo-c73:35376] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b1d160436d0]
+[or-condo-c73:35376] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b1d16286277]
+[or-condo-c73:35376] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b1d16287968]
+[or-condo-c73:35376] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b1d1582d8cd]
+[or-condo-c73:35376] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b1d1582b906]
+[or-condo-c73:35376] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b1d1582b951]
+[or-condo-c73:35376] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b1d1582bb69]
+[or-condo-c73:35376] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x4b)[0x55d30b]
+[or-condo-c73:35376] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libtime_integration.so(_ZN6Amanzi25TimestepControllerSmarter12get_timestepEdi+0x1f0)[0x2b1d07b8ada0]
+[or-condo-c73:35376] [ 9] ats(_ZN6Amanzi7BDF1_TIINS_10TreeVectorENS_15TreeVectorSpaceEE8TimeStepEdRKN7Teuchos3RCPIS1_EES8_Rd+0x4e6)[0x885286]
+[or-condo-c73:35376] [10] ats(_ZN6Amanzi14PK_BDF_Default11AdvanceStepEddb+0x180)[0x87e220]
+[or-condo-c73:35376] [11] ats(_ZN6Amanzi7WeakMPC11AdvanceStepEddb+0x54)[0x59f704]
+[or-condo-c73:35376] [12] ats(_ZN3ATS11Coordinator7advanceEdd+0x60)[0x592660]
+[or-condo-c73:35376] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x2df)[0x59afff]
+[or-condo-c73:35376] [14] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c73:35376] [15] ats(main+0x15b)[0x54912b]
+[or-condo-c73:35376] [16] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b1d16272445]
+[or-condo-c73:35376] [17] ats[0x553dcd]
+[or-condo-c73:35376] *** End of error message ***

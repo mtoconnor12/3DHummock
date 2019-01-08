@@ -20,11 +20,13 @@ t2 = t2*365
 ndays = (t2-t1)
 y = np.nan*np.ones([ndays,nruns],'d')
 meany = np.nan*np.ones([ndays,len(runPrefixList)],'d')
-t = np.nan*np.ones([ndays,nruns],'d')
+#t = np.nan*np.ones([ndays,nruns],'d')
+fig, axes = plt.subplots(4,2,sharex=True)
+
 for i in range(len(runPrefixList)):
+	y = np.nan*np.ones([ndays,nruns],'d')
 	for j in range(nruns):
 		directory = runPrefixList[i] + '_' + runDate + '.' + str(j+1)
-                #print directory
                 isDir = os.path.isdir(os.getcwd() + '/' + directory)
                 if not isDir:
                         continue
@@ -33,25 +35,31 @@ for i in range(len(runPrefixList)):
                         continue
 		matSubset = mat[t1:-1,:]
 		matShape = matSubset.shape
-		if matShape[0] > ndays:
-			t = mat[t1:t2,0]/86400/365  # time in days
-			y[:,j] = mat[t1:t2,1] # thing we're plotting
-		else:
-			y[0:matShape[0],j] = mat[t1:-1,1]
-	meany[:,i]= stats.nanmean(y,1) # in the 1st dimension
-	print(meany[:,i])
-	if i > 3:
-                plt.plot(t,np.log10(meany[:,i]),linestyle='-.')
-                plt.hold(True)
-        else:
-                plt.plot(t,np.log10(meany[:,i]))
-                plt.hold(True)
-plt.legend(runPrefixList,loc='upper left')
-plt.title('Integrated Flux out Outlet of Each Domain')
-plt.xlabel('Time [yrs]')
-plt.ylabel('Total water content [m^3]')
+		t = mat[t1:t2,0]/86400/365  # time in days
+		y_part[:,j] = mat[t1:t2,1] # thing we're plotting
+		y[j] = sum(y_part[:,j])
+		if(j < 8):
+			axes[i%4,i/4].plot(t,np.log10(y[:,j]),color='k')
+			plt.hold(True)
+                elif(j < 16):
+                        axes[i%4,i/4].plot(t,np.log10(y[:,j]),color='m')
+                        plt.hold(True)
+                elif(j < 24):
+                        axes[i%4,i/4].plot(t,np.log10(y[:,j]),color='b')
+                        plt.hold(True)
+                else:
+                        axes[i%4,i/4].plot(t,np.log10(y[:,j]),color='g')
+                        plt.hold(True)
+		plt.hold(True)
+		axes[i%4,i/4].set_xlim([9.35,10])
+#	plt.legend(runPrefixList,loc='upper left')
+	axes[i%4,i/4].set_title(runPrefixList[i])
+#	axes.xlabel('Time [yrs]')
+#	plt.ylabel('Total water content [m^3]')
+
+
 plt.show() 
 
 foldername = os.path.basename(os.getcwd())
-plt.savefig(foldername + '_Subsurface_Outlet_Flux.eps', format = 'eps', dpi = 1000)
+#plt.savefig(foldername + '_Subsurface_Outlet_Flux.eps', format = 'eps', dpi = 1000)
 
