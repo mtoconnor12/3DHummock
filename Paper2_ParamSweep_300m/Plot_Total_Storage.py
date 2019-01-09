@@ -34,8 +34,8 @@ for i in range(len(runPrefixList)):
                 if not isDir:
                         continue
                 mat = np.loadtxt(runPrefixList[i] + '_' + runDate + '.' + str(j+1) + '/subsurface_water_content.dat')
-                if i == 6 and j > 21:
-                        continue
+                #if i == 6 and j > 21:
+                #        continue
 		#matSubset = mat[t1:-1,:]
 		#matShape = matSubset.shape
 		t = mat[t1:t2,0]/86400/365  # time in days

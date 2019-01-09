@@ -58,7 +58,7 @@ for i in range(len(runPrefixList)):
 		z_surf = col_dat[1,0,:,-1] + (col_dat[1,0,:,-1] - col_dat[1,0,:,-2])/2. # average of the uppermost and second-to-uppermost rows, shifted up to the top row
                 z_bott = col_dat[1,0,:,0] - (col_dat[1,0,:,1] - col_dat[1,0,:,0])/2. # average of the bottom and second-to-bottom rows, shifted up to the bottom row
        	        for k in range(len(trange)):
-			where_unsat = np.where(col_dat[2,k,xPos,:] == 0)[0]
+			where_unsat = np.where(col_dat[2,k,xPos,:] == 0)[-1]
 	                #print(where_unsat)
         	        if len(where_unsat) == 0:
 			        y[k,j] = 0.
