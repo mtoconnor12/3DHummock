@@ -206,7 +206,7 @@
     <Parameter name="start time" type="double" value="0.0" />
     <Parameter name="start time units" type="string" value="s" />
     <Parameter name="end time" type="double" value="41638.0" />
-    <!-- <Parameter name="end cycle" type="int" value="1000" /> -->
+    <Parameter name="end cycle" type="int" value="1000" /> <!-- add this to the last cycle number in the checkpoint file -->
     <Parameter name="end time units" type="string" value="d" />
     <Parameter name="restart from checkpoint file" type="string" value="../run01_04Jan19/checkpoint33429.h5" />
     <ParameterList name="required times" type="ParameterList">
