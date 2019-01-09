@@ -1,0 +1,932 @@
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (32/1) 
+ASCEMIO_Info: Preferred group size is set to 32 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (32/1) 
+ASCEMIO_Info: Preferred group size is set to 32 
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50339] *** Process received signal ***
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50349] *** Process received signal ***
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50351] *** Process received signal ***
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50353] *** Process received signal ***
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50357] *** Process received signal ***
+[or-condo-c168:50357] Signal: Aborted (6)
+[or-condo-c168:50357] Signal code:  (-6)
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50348] *** Process received signal ***
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50330] *** Process received signal ***
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50359] *** Process received signal ***
+[or-condo-c168:50359] Signal: Aborted (6)
+[or-condo-c168:50359] Signal code:  (-6)
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50332] *** Process received signal ***
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50331] *** Process received signal ***
+[or-condo-c168:50331] Signal: Aborted (6)
+[or-condo-c168:50331] Signal code:  (-6)
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50334] *** Process received signal ***
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50333] *** Process received signal ***
+[or-condo-c168:50333] Signal: Aborted (6)
+[or-condo-c168:50333] Signal code:  (-6)
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50336] *** Process received signal ***
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50335] *** Process received signal ***
+[or-condo-c168:50335] Signal: Aborted (6)
+[or-condo-c168:50335] Signal code:  (-6)
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50338] *** Process received signal ***
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50337] *** Process received signal ***
+[or-condo-c168:50337] Signal: Aborted (6)
+[or-condo-c168:50337] Signal code:  (-6)
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50340] *** Process received signal ***
+[or-condo-c168:50340] Signal: Aborted (6)
+[or-condo-c168:50340] Signal code:  (-6)
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50342] *** Process received signal ***
+[or-condo-c168:50342] Signal: Aborted (6)
+[or-condo-c168:50342] Signal code:  (-6)
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50341] *** Process received signal ***
+[or-condo-c168:50341] Signal: Aborted (6)
+[or-condo-c168:50341] Signal code:  (-6)
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50343] *** Process received signal ***
+[or-condo-c168:50343] Signal: Aborted (6)
+[or-condo-c168:50343] Signal code:  (-6)
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50345] *** Process received signal ***
+[or-condo-c168:50345] Signal: Aborted (6)
+[or-condo-c168:50345] Signal code:  (-6)
+[or-condo-c168:50345] [ 0]   what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50347] *** Process received signal ***
+[or-condo-c168:50347] Signal: Aborted (6)
+[or-condo-c168:50347] Signal code:  (-6)
+[or-condo-c168:50347] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b883a0546d0]
+[or-condo-c168:50347] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b883a297277]
+[or-condo-c168:50347] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b883a298968]
+[or-condo-c168:50347] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b883983e8cd]
+[or-condo-c168:50347] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b883983c906]
+[or-condo-c168:50347] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b883983c951]
+[or-condo-c168:50347] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b883983cb69]
+[or-condo-c168:50347] [ 7] [or-condo-c168:50348] Signal: Aborted (6)
+[or-condo-c168:50348] Signal code:  (-6)
+[or-condo-c168:50348] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ac73be006d0]
+[or-condo-c168:50348] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ac73c043277]
+[or-condo-c168:50348] [ 2] [or-condo-c168:50330] Signal: Aborted (6)
+[or-condo-c168:50330] Signal code:  (-6)
+[or-condo-c168:50330] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ac4e269b6d0]
+[or-condo-c168:50330] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ac4e28de277]
+[or-condo-c168:50330] [ 2] [or-condo-c168:50359] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ba9a58b66d0]
+[or-condo-c168:50359] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ba9a5af9277]
+[or-condo-c168:50359] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ba9a5afa968]
+[or-condo-c168:50359] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ba9a50a08cd]
+[or-condo-c168:50359] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ba9a509e906]
+[or-condo-c168:50359] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ba9a509e951]
+[or-condo-c168:50359] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ba9a509eb69]
+[or-condo-c168:50359] [ 7] [or-condo-c168:50332] Signal: Aborted (6)
+[or-condo-c168:50332] Signal code:  (-6)
+[or-condo-c168:50332] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ac00c48f6d0]
+[or-condo-c168:50332] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ac00c6d2277]
+[or-condo-c168:50332] [ 2] [or-condo-c168:50334] Signal: Aborted (6)
+[or-condo-c168:50334] Signal code:  (-6)
+[or-condo-c168:50334] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b30774ff6d0]
+[or-condo-c168:50334] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b3077742277]
+[or-condo-c168:50334] [ 2] [or-condo-c168:50333] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ab946dae6d0]
+[or-condo-c168:50333] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ab946ff1277]
+[or-condo-c168:50333] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ab946ff2968]
+[or-condo-c168:50333] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ab9465988cd]
+[or-condo-c168:50333] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ab946596906]
+[or-condo-c168:50333] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ab946596951]
+[or-condo-c168:50333] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ab946596b69]
+[or-condo-c168:50333] [ 7] [or-condo-c168:50336] Signal: Aborted (6)
+[or-condo-c168:50336] Signal code:  (-6)
+[or-condo-c168:50336] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2acdfd7826d0]
+[or-condo-c168:50336] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2acdfd9c5277]
+[or-condo-c168:50336] [ 2] [or-condo-c168:50335] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b61fc4996d0]
+[or-condo-c168:50335] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b61fc6dc277]
+[or-condo-c168:50335] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b61fc6dd968]
+[or-condo-c168:50335] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b61fbc838cd]
+[or-condo-c168:50335] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b61fbc81906]
+[or-condo-c168:50335] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b61fbc81951]
+[or-condo-c168:50335] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b61fbc81b69]
+[or-condo-c168:50335] [ 7] [or-condo-c168:50338] Signal: Aborted (6)
+[or-condo-c168:50338] Signal code:  (-6)
+[or-condo-c168:50338] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b28b0b206d0]
+[or-condo-c168:50338] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b28b0d63277]
+[or-condo-c168:50338] [ 2] [or-condo-c168:50337] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b6e783d46d0]
+[or-condo-c168:50337] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b6e78617277]
+[or-condo-c168:50337] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b6e78618968]
+[or-condo-c168:50337] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b6e77bbe8cd]
+[or-condo-c168:50337] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b6e77bbc906]
+[or-condo-c168:50337] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b6e77bbc951]
+[or-condo-c168:50337] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b6e77bbcb69]
+[or-condo-c168:50337] [ 7]   what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50360] *** Process received signal ***
+[or-condo-c168:50360] Signal: Aborted (6)
+[or-condo-c168:50360] Signal code:  (-6)
+[or-condo-c168:50360] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b00d61856d0]
+[or-condo-c168:50360] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b00d63c8277]
+[or-condo-c168:50360] [ 2] [or-condo-c168:50341] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ad5103576d0]
+[or-condo-c168:50341] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ad51059a277]
+[or-condo-c168:50341] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ad51059b968]
+[or-condo-c168:50341] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ad50fb418cd]
+[or-condo-c168:50341] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ad50fb3f906]
+[or-condo-c168:50341] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ad50fb3f951]
+[or-condo-c168:50341] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ad50fb3fb69]
+[or-condo-c168:50341] [ 7]   what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50344] *** Process received signal ***
+[or-condo-c168:50344] Signal: Aborted (6)
+[or-condo-c168:50344] Signal code:  (-6)
+[or-condo-c168:50344] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ac1f60c26d0]
+[or-condo-c168:50344] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ac1f6305277]
+[or-condo-c168:50344] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ac1f6306968]
+[or-condo-c168:50343] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ae1ccc906d0]
+[or-condo-c168:50343] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ae1cced3277]
+[or-condo-c168:50343] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ae1cced4968]
+[or-condo-c168:50343] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ae1cc47a8cd]
+[or-condo-c168:50343] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ae1cc478906]
+[or-condo-c168:50343] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ae1cc478951]
+[or-condo-c168:50343] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ae1cc478b69]
+[or-condo-c168:50343] [ 7]   what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50346] *** Process received signal ***
+[or-condo-c168:50346] Signal: Aborted (6)
+[or-condo-c168:50346] Signal code:  (-6)
+[or-condo-c168:50346] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b1ce69a46d0]
+[or-condo-c168:50346] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b1ce6be7277]
+[or-condo-c168:50346] [ 2] [or-condo-c168:50358] *** Process received signal ***
+[or-condo-c168:50358] Signal: Aborted (6)
+[or-condo-c168:50358] Signal code:  (-6)
+[or-condo-c168:50358] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b59aeb3e6d0]
+[or-condo-c168:50358] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b59aed81277]
+[or-condo-c168:50358] [ 2] [or-condo-c168:50339] Signal: Aborted (6)
+[or-condo-c168:50339] Signal code:  (-6)
+[or-condo-c168:50349] Signal: Aborted (6)
+[or-condo-c168:50349] Signal code:  (-6)
+[or-condo-c168:50349] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b911ec996d0]
+[or-condo-c168:50349] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b911eedc277]
+[or-condo-c168:50349] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b911eedd968]
+[or-condo-c168:50349] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b911e4838cd]
+[or-condo-c168:50349] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b911e481906]
+[or-condo-c168:50349] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b911e481951]
+[or-condo-c168:50349] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b911e481b69]
+[or-condo-c168:50349] [ 7] [or-condo-c168:50350] *** Process received signal ***
+[or-condo-c168:50350] Signal: Aborted (6)
+[or-condo-c168:50350] Signal code:  (-6)
+[or-condo-c168:50350] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2af91b1686d0]
+[or-condo-c168:50350] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2af91b3ab277]
+[or-condo-c168:50350] [ 2] /lib64/libc.so.6(abort+0x148)[0x2af91b3ac968]
+[or-condo-c168:50350] [ 3] [or-condo-c168:50351] Signal: Aborted (6)
+[or-condo-c168:50351] Signal code:  (-6)
+[or-condo-c168:50351] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ae02c5af6d0]
+[or-condo-c168:50351] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ae02c7f2277]
+[or-condo-c168:50351] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ae02c7f3968]
+[or-condo-c168:50351] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ae02bd998cd]
+[or-condo-c168:50351] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ae02bd97906]
+[or-condo-c168:50351] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ae02bd97951]
+[or-condo-c168:50351] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ae02bd97b69]
+[or-condo-c168:50351] [ 7]   what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50354] *** Process received signal ***
+[or-condo-c168:50354] Signal: Aborted (6)
+[or-condo-c168:50354] Signal code:  (-6)
+[or-condo-c168:50354] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2af8244596d0]
+[or-condo-c168:50354] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2af82469c277]
+[or-condo-c168:50354] [ 2] /lib64/libc.so.6(abort+0x148)[0x2af82469d968]
+[or-condo-c168:50354] [ 3] [or-condo-c168:50352] *** Process received signal ***
+[or-condo-c168:50352] Signal: Aborted (6)
+[or-condo-c168:50352] Signal code:  (-6)
+[or-condo-c168:50352] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2afcdd8e46d0]
+[or-condo-c168:50352] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2afcddb27277]
+[or-condo-c168:50352] [ 2] /lib64/libc.so.6(abort+0x148)[0x2afcddb28968]
+[or-condo-c168:50352] [ 3] [or-condo-c168:50353] Signal: Aborted (6)
+[or-condo-c168:50353] Signal code:  (-6)
+[or-condo-c168:50353] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ae949ef96d0]
+[or-condo-c168:50353] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ae94a13c277]
+[or-condo-c168:50353] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ae94a13d968]
+[or-condo-c168:50353] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ae9496e38cd]
+[or-condo-c168:50353] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ae9496e1906]
+[or-condo-c168:50353] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ae9496e1951]
+[or-condo-c168:50353] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ae9496e1b69]
+[or-condo-c168:50353] [ 7] [or-condo-c168:50356] *** Process received signal ***
+[or-condo-c168:50356] Signal: Aborted (6)
+[or-condo-c168:50356] Signal code:  (-6)
+[or-condo-c168:50356] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b73d6e8c6d0]
+[or-condo-c168:50356] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b73d70cf277]
+[or-condo-c168:50356] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b73d70d0968]
+[or-condo-c168:50356] [ 3] [or-condo-c168:50357] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b14766916d0]
+[or-condo-c168:50357] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b14768d4277]
+[or-condo-c168:50357] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b14768d5968]
+[or-condo-c168:50357] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b1475e7b8cd]
+[or-condo-c168:50357] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b1475e79906]
+[or-condo-c168:50357] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b1475e79951]
+[or-condo-c168:50357] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b1475e79b69]
+[or-condo-c168:50357] [ 7] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2af91a9528cd]
+[or-condo-c168:50350] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2af91a950906]
+[or-condo-c168:50350] [ 5] terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+/software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2af823c438cd]
+[or-condo-c168:50354] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2af823c41906]
+[or-condo-c168:50354] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2afcdd0ce8cd]
+[or-condo-c168:50352] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2afcdd0cc906]
+[or-condo-c168:50352] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b73d66768cd]
+[or-condo-c168:50356] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b73d6674906]
+[or-condo-c168:50356] [ 5] /lib64/libc.so.6(abort+0x148)[0x2ac73c044968]
+[or-condo-c168:50348] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ac73b5ea8cd]
+[or-condo-c168:50348] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ac73b5e8906]
+[or-condo-c168:50348] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ac73b5e8951]
+[or-condo-c168:50348] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ac73b5e8b69]
+[or-condo-c168:50348] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50348] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ac737ca1c16]
+[or-condo-c168:50348] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ac737ca311b]
+[or-condo-c168:50348] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ac72fd9e37a]
+[or-condo-c168:50348] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50348] [12] /lib64/libc.so.6(abort+0x148)[0x2ac4e28df968]
+[or-condo-c168:50330] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ac4e1e858cd]
+[or-condo-c168:50330] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ac4e1e83906]
+[or-condo-c168:50330] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ac4e1e83951]
+[or-condo-c168:50330] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ac4e1e83b69]
+[or-condo-c168:50330] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50330] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ac4de53cc16]
+[or-condo-c168:50330] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ac4de53e11b]
+[or-condo-c168:50330] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ac4d663937a]
+[or-condo-c168:50330] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50330] [12] [or-condo-c168:50331] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ad46c00e6d0]
+[or-condo-c168:50331] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ad46c251277]
+[or-condo-c168:50331] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ad46c252968]
+[or-condo-c168:50331] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ad46b7f88cd]
+[or-condo-c168:50331] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ad46b7f6906]
+[or-condo-c168:50331] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ad46b7f6951]
+[or-condo-c168:50331] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ad46b7f6b69]
+[or-condo-c168:50331] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50331] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ad467eafc16]
+[or-condo-c168:50331] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ad467eb111b]
+[or-condo-c168:50331] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ad45ffac37a]
+[or-condo-c168:50331] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50331] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50331] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50331] [14] /lib64/libc.so.6(abort+0x148)[0x2ac00c6d3968]
+[or-condo-c168:50332] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ac00bc798cd]
+[or-condo-c168:50332] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ac00bc77906]
+[or-condo-c168:50332] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ac00bc77951]
+[or-condo-c168:50332] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ac00bc77b69]
+[or-condo-c168:50332] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50332] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ac008330c16]
+[or-condo-c168:50332] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ac00833211b]
+[or-condo-c168:50332] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ac00042d37a]
+[or-condo-c168:50332] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50332] [12] /lib64/libc.so.6(abort+0x148)[0x2b3077743968]
+[or-condo-c168:50334] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b3076ce98cd]
+[or-condo-c168:50334] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b3076ce7906]
+[or-condo-c168:50334] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b3076ce7951]
+[or-condo-c168:50334] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b3076ce7b69]
+[or-condo-c168:50334] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50334] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b30733a0c16]
+[or-condo-c168:50334] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b30733a211b]
+[or-condo-c168:50334] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b306b49d37a]
+[or-condo-c168:50334] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50334] [12] /lib64/libc.so.6(abort+0x148)[0x2acdfd9c6968]
+[or-condo-c168:50336] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2acdfcf6c8cd]
+[or-condo-c168:50336] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2acdfcf6a906]
+[or-condo-c168:50336] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2acdfcf6a951]
+[or-condo-c168:50336] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2acdfcf6ab69]
+[or-condo-c168:50336] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50336] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2acdf9623c16]
+[or-condo-c168:50336] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2acdf962511b]
+[or-condo-c168:50336] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2acdf172037a]
+[or-condo-c168:50336] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50336] [12] /lib64/libc.so.6(abort+0x148)[0x2b28b0d64968]
+[or-condo-c168:50338] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b28b030a8cd]
+[or-condo-c168:50338] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b28b0308906]
+[or-condo-c168:50338] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b28b0308951]
+[or-condo-c168:50338] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b28b0308b69]
+[or-condo-c168:50338] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50338] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b28ac9c1c16]
+[or-condo-c168:50338] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b28ac9c311b]
+[or-condo-c168:50338] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b28a4abe37a]
+[or-condo-c168:50338] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50338] [12] [or-condo-c168:50340] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b27f72c26d0]
+[or-condo-c168:50340] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b27f7505277]
+[or-condo-c168:50340] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b27f7506968]
+[or-condo-c168:50340] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b27f6aac8cd]
+[or-condo-c168:50340] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b27f6aaa906]
+[or-condo-c168:50340] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b27f6aaa951]
+[or-condo-c168:50340] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b27f6aaab69]
+[or-condo-c168:50340] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50340] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b27f3163c16]
+[or-condo-c168:50340] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b27f316511b]
+[or-condo-c168:50340] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b27eb26037a]
+[or-condo-c168:50340] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50340] [12] [or-condo-c168:50342] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b6e0353f6d0]
+[or-condo-c168:50342] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b6e03782277]
+[or-condo-c168:50342] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b6e03783968]
+[or-condo-c168:50342] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b6e02d298cd]
+[or-condo-c168:50342] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b6e02d27906]
+[or-condo-c168:50342] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b6e02d27951]
+[or-condo-c168:50342] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b6e02d27b69]
+[or-condo-c168:50342] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50342] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b6dff3e0c16]
+[or-condo-c168:50342] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b6dff3e211b]
+[or-condo-c168:50342] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b6df74dd37a]
+[or-condo-c168:50342] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50342] [12] /lib64/libc.so.6(abort+0x148)[0x2b00d63c9968]
+[or-condo-c168:50360] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b00d596f8cd]
+[or-condo-c168:50360] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b00d596d906]
+[or-condo-c168:50360] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b00d596d951]
+[or-condo-c168:50360] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b00d596db69]
+[or-condo-c168:50360] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50360] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b00d2026c16]
+[or-condo-c168:50360] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b00d202811b]
+[or-condo-c168:50360] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b00ca12337a]
+[or-condo-c168:50360] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50360] [12] [or-condo-c168:50344] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ac1f58ac8cd]
+[or-condo-c168:50344] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ac1f58aa906]
+[or-condo-c168:50344] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ac1f58aa951]
+[or-condo-c168:50344] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ac1f58aab69]
+[or-condo-c168:50344] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50344] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ac1f1f63c16]
+[or-condo-c168:50344] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ac1f1f6511b]
+[or-condo-c168:50344] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ac1ea06037a]
+[or-condo-c168:50344] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50344] [12] /lib64/libpthread.so.0(+0xf6d0)[0x2b94f53f96d0]
+[or-condo-c168:50345] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b94f563c277]
+[or-condo-c168:50345] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b94f563d968]
+[or-condo-c168:50345] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b94f4be38cd]
+[or-condo-c168:50345] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b94f4be1906]
+[or-condo-c168:50345] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b94f4be1951]
+[or-condo-c168:50345] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b94f4be1b69]
+[or-condo-c168:50345] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50345] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b94f129ac16]
+[or-condo-c168:50345] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b94f129c11b]
+[or-condo-c168:50345] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b94e939737a]
+[or-condo-c168:50345] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50345] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50345] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50345] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50345] [15] /lib64/libc.so.6(abort+0x148)[0x2b1ce6be8968]
+[or-condo-c168:50346] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b1ce618e8cd]
+[or-condo-c168:50346] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b1ce618c906]
+[or-condo-c168:50346] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b1ce618c951]
+[or-condo-c168:50346] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b1ce618cb69]
+[or-condo-c168:50346] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50346] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b1ce2845c16]
+[or-condo-c168:50346] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b1ce284711b]
+[or-condo-c168:50346] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b1cda94237a]
+[or-condo-c168:50346] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50346] [12] /lib64/libc.so.6(abort+0x148)[0x2b59aed82968]
+[or-condo-c168:50358] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b59ae3288cd]
+[or-condo-c168:50358] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b59ae326906]
+[or-condo-c168:50358] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b59ae326951]
+[or-condo-c168:50358] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b59ae326b69]
+[or-condo-c168:50358] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50358] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b59aa9dfc16]
+[or-condo-c168:50358] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b59aa9e111b]
+[or-condo-c168:50358] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b59a2adc37a]
+[or-condo-c168:50358] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50358] [12] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50357] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b1472532c16]
+[or-condo-c168:50357] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b147253411b]
+[or-condo-c168:50357] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b146a62f37a]
+[or-condo-c168:50357] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50357] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50357] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50357] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50357] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b14768c0445]
+[or-condo-c168:50357] [16] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2af91a950951]
+[or-condo-c168:50350] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2af91a950b69]
+[or-condo-c168:50350] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50350] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2af917009c16]
+[or-condo-c168:50350] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2af91700b11b]
+[or-condo-c168:50350] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2af90f10637a]
+[or-condo-c168:50350] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50350] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50350] [13] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50351] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ae028450c16]
+[or-condo-c168:50351] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ae02845211b]
+[or-condo-c168:50351] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ae02054d37a]
+[or-condo-c168:50351] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50351] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50351] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50351] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50351] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ae02c7de445]
+[or-condo-c168:50351] [16]   what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50355] *** Process received signal ***
+[or-condo-c168:50355] Signal: Aborted (6)
+[or-condo-c168:50355] Signal code:  (-6)
+[or-condo-c168:50355] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b19b106d6d0]
+[or-condo-c168:50355] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b19b12b0277]
+[or-condo-c168:50355] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b19b12b1968]
+[or-condo-c168:50355] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b19b08578cd]
+[or-condo-c168:50355] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2af823c41951]
+[or-condo-c168:50354] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2af823c41b69]
+[or-condo-c168:50354] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50354] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2af8202fac16]
+[or-condo-c168:50354] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2af8202fc11b]
+[or-condo-c168:50354] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2af8183f737a]
+[or-condo-c168:50354] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50354] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50354] [13] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50353] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ae945d9ac16]
+[or-condo-c168:50353] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ae945d9c11b]
+[or-condo-c168:50353] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ae93de9737a]
+[or-condo-c168:50353] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50353] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50353] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50353] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50353] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ae94a128445]
+[or-condo-c168:50353] [16] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2afcdd0cc951]
+[or-condo-c168:50352] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2afcdd0ccb69]
+[or-condo-c168:50352] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50352] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2afcd9785c16]
+[or-condo-c168:50352] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2afcd978711b]
+[or-condo-c168:50352] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2afcd188237a]
+[or-condo-c168:50352] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50352] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50352] [13] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50358] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50358] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50358] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b59aed6d445]
+[or-condo-c168:50358] [16] ats[0x553dcd]
+[or-condo-c168:50358] *** End of error message ***
+ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50347] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b8835ef5c16]
+[or-condo-c168:50347] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b8835ef711b]
+[or-condo-c168:50347] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b882dff237a]
+[or-condo-c168:50347] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50347] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50347] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50347] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50347] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b883a283445]
+[or-condo-c168:50347] [16] ats[0x553dcd]
+[or-condo-c168:50347] *** End of error message ***
+/software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b73d6674951]
+[or-condo-c168:50356] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b73d6674b69]
+[or-condo-c168:50356] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50356] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b73d2d2dc16]
+[or-condo-c168:50356] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b73d2d2f11b]
+[or-condo-c168:50356] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b73cae2a37a]
+[or-condo-c168:50356] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50356] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50356] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50356] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50356] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b73d70bb445]
+[or-condo-c168:50356] [16] ats[0x553dcd]
+[or-condo-c168:50356] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50348] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50348] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50348] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ac73c02f445]
+[or-condo-c168:50348] [16] ats[0x553dcd]
+[or-condo-c168:50348] *** End of error message ***
+ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50359] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ba9a1757c16]
+[or-condo-c168:50359] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ba9a175911b]
+[or-condo-c168:50359] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ba99985437a]
+[or-condo-c168:50359] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50359] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50359] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50359] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50359] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ba9a5ae5445]
+[or-condo-c168:50359] [16] ats[0x553dcd]
+[or-condo-c168:50359] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50330] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50330] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50330] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ac4e28ca445]
+[or-condo-c168:50330] [16] ats[0x553dcd]
+[or-condo-c168:50330] *** End of error message ***
+ats(main+0x15b)[0x54912b]
+[or-condo-c168:50331] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ad46c23d445]
+[or-condo-c168:50331] [16] ats[0x553dcd]
+[or-condo-c168:50331] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50332] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50332] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50332] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ac00c6be445]
+[or-condo-c168:50332] [16] ats[0x553dcd]
+[or-condo-c168:50332] *** End of error message ***
+ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50333] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ab942c4fc16]
+[or-condo-c168:50333] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ab942c5111b]
+[or-condo-c168:50333] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ab93ad4c37a]
+[or-condo-c168:50333] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50333] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50333] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50333] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50333] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ab946fdd445]
+[or-condo-c168:50333] [16] ats[0x553dcd]
+[or-condo-c168:50333] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50334] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50334] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50334] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b307772e445]
+[or-condo-c168:50334] [16] ats[0x553dcd]
+[or-condo-c168:50334] *** End of error message ***
+ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50335] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b61f833ac16]
+[or-condo-c168:50335] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b61f833c11b]
+[or-condo-c168:50335] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b61f043737a]
+[or-condo-c168:50335] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50335] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50335] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50335] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50335] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b61fc6c8445]
+[or-condo-c168:50335] [16] ats[0x553dcd]
+[or-condo-c168:50335] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50336] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50336] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50336] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2acdfd9b1445]
+[or-condo-c168:50336] [16] ats[0x553dcd]
+[or-condo-c168:50336] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50338] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50338] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50338] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b28b0d4f445]
+[or-condo-c168:50338] [16] ats[0x553dcd]
+[or-condo-c168:50338] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50340] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50340] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50340] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b27f74f1445]
+[or-condo-c168:50340] [16] ats[0x553dcd]
+[or-condo-c168:50340] *** End of error message ***
+ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50337] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b6e74275c16]
+[or-condo-c168:50337] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b6e7427711b]
+[or-condo-c168:50337] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b6e6c37237a]
+[or-condo-c168:50337] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50337] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50337] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50337] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50337] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b6e78603445]
+[or-condo-c168:50337] [16] ats[0x553dcd]
+[or-condo-c168:50337] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50342] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50342] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50342] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b6e0376e445]
+[or-condo-c168:50342] [16] ats[0x553dcd]
+[or-condo-c168:50342] *** End of error message ***
+ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50341] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ad50c1f8c16]
+[or-condo-c168:50341] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ad50c1fa11b]
+[or-condo-c168:50341] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ad5042f537a]
+[or-condo-c168:50341] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50341] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50341] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50341] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50341] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ad510586445]
+[or-condo-c168:50341] [16] ats[0x553dcd]
+[or-condo-c168:50341] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50360] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50360] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50360] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b00d63b4445]
+[or-condo-c168:50360] [16] ats[0x553dcd]
+[or-condo-c168:50360] *** End of error message ***
+ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50343] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2ae1c8b31c16]
+[or-condo-c168:50343] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2ae1c8b3311b]
+[or-condo-c168:50343] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2ae1c0c2e37a]
+[or-condo-c168:50343] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50343] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50343] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50343] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50343] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ae1ccebf445]
+[or-condo-c168:50343] [16] ats[0x553dcd]
+[or-condo-c168:50343] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50344] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50344] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50344] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ac1f62f1445]
+[or-condo-c168:50344] [16] ats[0x553dcd]
+[or-condo-c168:50344] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b94f5628445]
+[or-condo-c168:50345] [16] ats[0x553dcd]
+[or-condo-c168:50345] *** End of error message ***
+ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50346] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50346] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50346] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b1ce6bd3445]
+[or-condo-c168:50346] [16] ats[0x553dcd]
+[or-condo-c168:50346] *** End of error message ***
+ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50349] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b911ab3ac16]
+[or-condo-c168:50349] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b911ab3c11b]
+[or-condo-c168:50349] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b9112c3737a]
+[or-condo-c168:50349] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50349] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50349] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50349] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50349] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b911eec8445]
+[or-condo-c168:50349] [16] ats[0x553dcd]
+[or-condo-c168:50349] *** End of error message ***
+/software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b19b0855906]
+[or-condo-c168:50355] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b19b0855951]
+[or-condo-c168:50355] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b19b0855b69]
+[or-condo-c168:50355] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50355] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b19acf0ec16]
+[or-condo-c168:50355] [ 9] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50354] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50354] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2af824688445]
+[or-condo-c168:50354] [16] ats[0x553dcd]
+[or-condo-c168:50354] *** End of error message ***
+ats[0x553dcd]
+[or-condo-c168:50353] *** End of error message ***
+[or-condo-c168:50339] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b8c685056d0]
+[or-condo-c168:50339] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b8c68748277]
+[or-condo-c168:50339] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b8c68749968]
+[or-condo-c168:50339] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b8c67cef8cd]
+[or-condo-c168:50339] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b8c67ced906]
+[or-condo-c168:50339] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b8c67ced951]
+[or-condo-c168:50339] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b8c67cedb69]
+[or-condo-c168:50339] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50339] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2b8c643a6c16]
+[or-condo-c168:50339] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b8c643a811b]
+[or-condo-c168:50339] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b8c5c4a337a]
+[or-condo-c168:50339] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50339] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50339] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50352] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50352] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2afcddb13445]
+[or-condo-c168:50352] [16] ats[0x553dcd]
+[or-condo-c168:50352] *** End of error message ***
+ats[0x553dcd]
+[or-condo-c168:50357] *** End of error message ***
+ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50350] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50350] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2af91b397445]
+[or-condo-c168:50350] [16] ats[0x553dcd]
+[or-condo-c168:50350] *** End of error message ***
+ats[0x553dcd]
+[or-condo-c168:50351] *** End of error message ***
+ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50339] [14] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2b19acf1011b]
+[or-condo-c168:50355] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2b19a500b37a]
+[or-condo-c168:50355] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50355] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50355] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50355] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50355] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b19b129c445]
+[or-condo-c168:50355] [16] ats[0x553dcd]
+[or-condo-c168:50355] *** End of error message ***
+ats(main+0x15b)[0x54912b]
+[or-condo-c168:50339] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b8c68734445]
+[or-condo-c168:50339] [16] ats[0x553dcd]
+[or-condo-c168:50339] *** End of error message ***
+terminate called after throwing an instance of 'Teuchos::Exceptions::InvalidParameterType'
+  what():  Error!  An attempt was made to access parameter "times start period stop" of type "Array(int)"
+in the parameter (sub)list "ANONYMOUS->visualization->surface"
+using the incorrect type "Array(double)"!
+
+Throw number = 1
+
+
+[or-condo-c168:50329] *** Process received signal ***
+[or-condo-c168:50329] Signal: Aborted (6)
+[or-condo-c168:50329] Signal code:  (-6)
+[or-condo-c168:50329] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2abd9629a6d0]
+[or-condo-c168:50329] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2abd964dd277]
+[or-condo-c168:50329] [ 2] /lib64/libc.so.6(abort+0x148)[0x2abd964de968]
+[or-condo-c168:50329] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2abd95a848cd]
+[or-condo-c168:50329] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2abd95a82906]
+[or-condo-c168:50329] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2abd95a82951]
+[or-condo-c168:50329] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2abd95a82b69]
+[or-condo-c168:50329] [ 7] ats(_ZN7Teuchos13ParameterList3getINS_5ArrayIdEEEERT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x28a)[0x7c8e5a]
+[or-condo-c168:50329] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEvent15ReadParameters_Ev+0x1e16)[0x2abd9213bc16]
+[or-condo-c168:50329] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libatk.so(_ZN6Amanzi7IOEventC2ERN7Teuchos13ParameterListE+0x41b)[0x2abd9213d11b]
+[or-condo-c168:50329] [10] /software/user_tools/current/cades-ccsi/ats/amanzi/install-as-tpl-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/lib/libstate.so(_ZN6Amanzi13VisualizationC1ERN7Teuchos13ParameterListE+0x6a)[0x2abd8a23837a]
+[or-condo-c168:50329] [11] ats(_ZN3ATS11Coordinator10initializeEv+0xa1e)[0x59406e]
+[or-condo-c168:50329] [12] ats(_ZN3ATS11Coordinator12cycle_driverEv+0x51)[0x59ad71]
+[or-condo-c168:50329] [13] ats(_ZN16SimulationDriver3RunERKP19ompi_communicator_tRN7Teuchos13ParameterListE+0x3d1)[0x58f9a1]
+[or-condo-c168:50329] [14] ats(main+0x15b)[0x54912b]
+[or-condo-c168:50329] [15] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2abd964c9445]
+[or-condo-c168:50329] [16] ats[0x553dcd]
+[or-condo-c168:50329] *** End of error message ***

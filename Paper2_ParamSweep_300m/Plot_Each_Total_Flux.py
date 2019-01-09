@@ -24,7 +24,7 @@ meany = np.nan*np.ones([ndays,len(runPrefixList)],'d')
 fig, axes = plt.subplots(4,2,sharex=True,sharey=True)
 
 for i in range(len(runPrefixList)):
-	y = np.nan*np.ones([ndays,nruns],'d')
+	y = np.nan*np.ones([nruns],'d')
 	for j in range(nruns):
 		directory = runPrefixList[i] + '_' + runDate + '.' + str(j+1)
                 isDir = os.path.isdir(os.getcwd() + '/' + directory)
@@ -37,22 +37,31 @@ for i in range(len(runPrefixList)):
 		matShape = matSubset.shape
 		t = mat[t1:t2,0]/86400/365  # time in days
 		y_part = mat[t1:t2,1] # thing we're plotting
-		#y[j] = sum(y_part)
-		y[:,j] = y_part
-		if(j < 8):
-			axes[i%4,i/4].plot(t,np.log10(y[:,j]),color='k')
-			plt.hold(True)
-                elif(j < 16):
-                        axes[i%4,i/4].plot(t,np.log10(y[:,j]),color='m')
-                        plt.hold(True)
-                elif(j < 24):
-                        axes[i%4,i/4].plot(t,np.log10(y[:,j]),color='b')
-                        plt.hold(True)
+		y[j] = sum(y_part)
+		if(j<8):
+                        cVal = 'k'
+                elif(j<16):
+                        cVal = 'r'
+                elif(j<24):
+                        cVal = 'b'
                 else:
-                        axes[i%4,i/4].plot(t,np.log10(y[:,j]),color='g')
-                        plt.hold(True)
-		plt.hold(True)
-		axes[i%4,i/4].set_xlim([9.35,10])
+                        cVal = 'g'
+                if(j%4 < 2):
+                        shapeVal = 's'
+                else:
+                        shapeVal = '*'
+                if(j%8 < 4):
+                        fillColor = 'none'
+                else:
+                        fillColor = cVal
+                if(j%2 == 0):
+                        sizeVal = 25
+                else:
+                        sizeVal = 75
+		#print(j)
+		#print(y[j])
+                axes[i%4,i/4].scatter(j,y[j],color=cVal,facecolors=fillColor, marker=shapeVal,s=sizeVal)
+                plt.hold(True)
 #	plt.legend(runPrefixList,loc='upper left')
 	axes[i%4,i/4].set_title(runPrefixList[i])
 #	axes.xlabel('Time [yrs]')

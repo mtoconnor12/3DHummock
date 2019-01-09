@@ -1,0 +1,864 @@
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89042] *** Process received signal ***
+[or-condo-c174:89042] Signal: Aborted (6)
+[or-condo-c174:89042] Signal code:  (-6)
+[or-condo-c174:89042] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2aff9c0416d0]
+[or-condo-c174:89042] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aff9c284277]
+[or-condo-c174:89042] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aff9c285968]
+[or-condo-c174:89042] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aff9b82b8cd]
+[or-condo-c174:89042] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2aff9b829906]
+[or-condo-c174:89042] [ 5]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89039] *** Process received signal ***
+[or-condo-c174:89039] Signal: Aborted (6)
+[or-condo-c174:89039] Signal code:  (-6)
+[or-condo-c174:89039] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ab5ace666d0]
+[or-condo-c174:89039] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ab5ad0a9277]
+[or-condo-c174:89039] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ab5ad0aa968]
+[or-condo-c174:89039] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ab5ac6508cd]
+[or-condo-c174:89039] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ab5ac64e906]
+[or-condo-c174:89039] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ab5ac64e951]
+[or-condo-c174:89039] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ab5ac64eb69]
+[or-condo-c174:89039] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2ab5ab910499]
+[or-condo-c174:89039] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2ab5ab916bc8]
+[or-condo-c174:89039] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2ab5ab8fa4e5]
+[or-condo-c174:89039] [10]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89043] *** Process received signal ***
+[or-condo-c174:89043] Signal: Aborted (6)
+[or-condo-c174:89043] Signal code:  (-6)
+[or-condo-c174:89043] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b3bbe0a26d0]
+[or-condo-c174:89043] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b3bbe2e5277]
+[or-condo-c174:89043] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b3bbe2e6968]
+[or-condo-c174:89043] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b3bbd88c8cd]
+[or-condo-c174:89043] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b3bbd88a906]
+[or-condo-c174:89043] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b3bbd88a951]
+[or-condo-c174:89043] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b3bbd88ab69]
+[or-condo-c174:89043] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b3bbcb4c499]
+[or-condo-c174:89043] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b3bbcb52bc8]
+[or-condo-c174:89043] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b3bbcb364e5]
+[or-condo-c174:89043] [10] terminate called after throwing an instance of 'std::runtime_error'
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89045] *** Process received signal ***
+[or-condo-c174:89045] Signal: Aborted (6)
+[or-condo-c174:89045] Signal code:  (-6)
+[or-condo-c174:89045] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b6d9ba836d0]
+[or-condo-c174:89045] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b6d9bcc6277]
+[or-condo-c174:89045] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b6d9bcc7968]
+[or-condo-c174:89045] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b6d9b26d8cd]
+[or-condo-c174:89045] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b6d9b26b906]
+[or-condo-c174:89045] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b6d9b26b951]
+[or-condo-c174:89045] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b6d9b26bb69]
+[or-condo-c174:89045] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b6d9a52d499]
+[or-condo-c174:89045] [ 8]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89044] *** Process received signal ***
+[or-condo-c174:89044] Signal: Aborted (6)
+[or-condo-c174:89044] Signal code:  (-6)
+[or-condo-c174:89044] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b7908b876d0]
+[or-condo-c174:89044] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b7908dca277]
+[or-condo-c174:89044] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b7908dcb968]
+[or-condo-c174:89044] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b79083718cd]
+[or-condo-c174:89044] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b790836f906]
+[or-condo-c174:89044] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b790836f951]
+[or-condo-c174:89044] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b790836fb69]
+[or-condo-c174:89044] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b7907631499]
+[or-condo-c174:89044] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b7907637bc8]
+[or-condo-c174:89044] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b790761b4e5]
+[or-condo-c174:89044] [10]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89046] *** Process received signal ***
+[or-condo-c174:89046] Signal: Aborted (6)
+[or-condo-c174:89046] Signal code:  (-6)
+[or-condo-c174:89046] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2acba03896d0]
+[or-condo-c174:89046] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2acba05cc277]
+[or-condo-c174:89046] [ 2] /lib64/libc.so.6(abort+0x148)[0x2acba05cd968]
+[or-condo-c174:89046] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2acb9fb738cd]
+[or-condo-c174:89046] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2acb9fb71906]
+[or-condo-c174:89046] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2acb9fb71951]
+[or-condo-c174:89046] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2acb9fb71b69]
+[or-condo-c174:89046] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2acb9ee33499]
+[or-condo-c174:89046] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2acb9ee39bc8]
+[or-condo-c174:89046] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2acb9ee1d4e5]
+[or-condo-c174:89046] [10]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89054] *** Process received signal ***
+[or-condo-c174:89054] Signal: Aborted (6)
+[or-condo-c174:89054] Signal code:  (-6)
+[or-condo-c174:89054] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b29a9a566d0]
+[or-condo-c174:89054] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b29a9c99277]
+[or-condo-c174:89054] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b29a9c9a968]
+[or-condo-c174:89054] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b29a92408cd]
+[or-condo-c174:89054] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b29a923e906]
+[or-condo-c174:89054] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b29a923e951]
+[or-condo-c174:89054] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b29a923eb69]
+[or-condo-c174:89054] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b29a8500499]
+[or-condo-c174:89054] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b29a8506bc8]
+[or-condo-c174:89054] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b29a84ea4e5]
+[or-condo-c174:89054] [10]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89056] *** Process received signal ***
+[or-condo-c174:89056] Signal: Aborted (6)
+[or-condo-c174:89056] Signal code:  (-6)
+[or-condo-c174:89056] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2aeabd86b6d0]
+[or-condo-c174:89056] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2aeabdaae277]
+[or-condo-c174:89056] [ 2] /lib64/libc.so.6(abort+0x148)[0x2aeabdaaf968]
+[or-condo-c174:89056] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2aeabd0558cd]
+[or-condo-c174:89056] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2aeabd053906]
+[or-condo-c174:89056] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2aeabd053951]
+[or-condo-c174:89056] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2aeabd053b69]
+[or-condo-c174:89056] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2aeabc315499]
+[or-condo-c174:89056] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2aeabc31bbc8]
+[or-condo-c174:89056] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2aeabc2ff4e5]
+[or-condo-c174:89056] [10] terminate called after throwing an instance of 'std::runtime_error'
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89028] *** Process received signal ***
+[or-condo-c174:89028] Signal: Aborted (6)
+[or-condo-c174:89028] Signal code:  (-6)
+[or-condo-c174:89028] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b854aabd6d0]
+[or-condo-c174:89028] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b854ad00277]
+[or-condo-c174:89028] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b854ad01968]
+[or-condo-c174:89028] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b854a2a78cd]
+[or-condo-c174:89028] [ 4]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89033] *** Process received signal ***
+[or-condo-c174:89033] Signal: Aborted (6)
+[or-condo-c174:89033] Signal code:  (-6)
+[or-condo-c174:89033] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b548db8a6d0]
+[or-condo-c174:89033] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b548ddcd277]
+[or-condo-c174:89033] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b548ddce968]
+[or-condo-c174:89033] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b548d3748cd]
+[or-condo-c174:89033] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b548d372906]
+[or-condo-c174:89033] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b548d372951]
+[or-condo-c174:89033] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b548d372b69]
+[or-condo-c174:89033] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b548c634499]
+[or-condo-c174:89033] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b548c63abc8]
+[or-condo-c174:89033] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b548c61e4e5]
+[or-condo-c174:89033] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b548c6295bc]
+[or-condo-c174:89033] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b548c629719]
+[or-condo-c174:89033] [12] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2aeabc30a5bc]
+[or-condo-c174:89056] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2aeabc30a719]
+[or-condo-c174:89056] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89056] [13] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b29a84f55bc]
+[or-condo-c174:89054] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b29a84f5719]
+[or-condo-c174:89054] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89054] [13] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2aff9b829951]
+[or-condo-c174:89042] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2aff9b829b69]
+[or-condo-c174:89042] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2aff9aaeb499]
+[or-condo-c174:89042] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b79076265bc]
+[or-condo-c174:89044] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b7907626719]
+[or-condo-c174:89044] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89044] [13] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2acb9ee285bc]
+[or-condo-c174:89046] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2acb9ee28719]
+[or-condo-c174:89046] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89046] [13] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2ab5ab9055bc]
+[or-condo-c174:89039] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2ab5ab905719]
+[or-condo-c174:89039] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89039] [13] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b3bbcb415bc]
+[or-condo-c174:89043] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b3bbcb41719]
+[or-condo-c174:89043] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89043] [13] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b6d9a533bc8]
+[or-condo-c174:89045] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b6d9a5174e5]
+[or-condo-c174:89045] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2aff9aaf1bc8]
+[or-condo-c174:89042] [ 9] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b7908db6445]
+[or-condo-c174:89044] [14] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2acba05b8445]
+[or-condo-c174:89046] [14] ats[0x553dcd]
+[or-condo-c174:89046] *** End of error message ***
+/software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b854a2a5906]
+[or-condo-c174:89028] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b854a2a5951]
+[or-condo-c174:89028] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b854a2a5b69]
+[or-condo-c174:89028] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b8549567499]
+[or-condo-c174:89028] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b854956dbc8]
+[or-condo-c174:89028] [ 9] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aeabda9a445]
+[or-condo-c174:89056] [14] ats[0x553dcd]
+[or-condo-c174:89056] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b29a9c85445]
+[or-condo-c174:89054] [14] ats[0x553dcd]
+[or-condo-c174:89054] *** End of error message ***
+ats[0x553dcd]
+[or-condo-c174:89044] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2ab5ad095445]
+[or-condo-c174:89039] [14] ats[0x553dcd]
+[or-condo-c174:89039] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b3bbe2d1445]
+[or-condo-c174:89043] [14] ats[0x553dcd]
+[or-condo-c174:89043] *** End of error message ***
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b6d9a5225bc]
+[or-condo-c174:89045] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b6d9a522719]
+[or-condo-c174:89045] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89045] [13] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2aff9aad54e5]
+[or-condo-c174:89042] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2aff9aae05bc]
+[or-condo-c174:89042] [11] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89033] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b548ddb9445]
+[or-condo-c174:89033] [14] ats[0x553dcd]
+[or-condo-c174:89033] *** End of error message ***
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b85495514e5]
+[or-condo-c174:89028] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b854955c5bc]
+[or-condo-c174:89028] [11] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b6d9bcb2445]
+[or-condo-c174:89045] [14] ats[0x553dcd]
+[or-condo-c174:89045] *** End of error message ***
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2aff9aae0719]
+[or-condo-c174:89042] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89042] [13] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b854955c719]
+[or-condo-c174:89028] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89028] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2aff9c270445]
+[or-condo-c174:89042] [14] ats[0x553dcd]
+[or-condo-c174:89042] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b854acec445]
+[or-condo-c174:89028] [14] ats[0x553dcd]
+[or-condo-c174:89028] *** End of error message ***
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89048] *** Process received signal ***
+[or-condo-c174:89048] Signal: Aborted (6)
+[or-condo-c174:89048] Signal code:  (-6)
+[or-condo-c174:89059] *** Process received signal ***
+[or-condo-c174:89059] Signal: Aborted (6)
+[or-condo-c174:89059] Signal code:  (-6)
+[or-condo-c174:89048] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2abecf57e6d0]
+[or-condo-c174:89048] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2abecf7c1277]
+[or-condo-c174:89048] [ 2] /lib64/libc.so.6(abort+0x148)[0x2abecf7c2968]
+[or-condo-c174:89059] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b59b4e016d0]
+[or-condo-c174:89059] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b59b5044277]
+[or-condo-c174:89059] [ 2] [or-condo-c174:89048] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2abeced688cd]
+[or-condo-c174:89048] [ 4] /lib64/libc.so.6(abort+0x148)[0x2b59b5045968]
+[or-condo-c174:89059] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b59b45eb8cd]
+[or-condo-c174:89059] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2abeced66906]
+[or-condo-c174:89048] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2abeced66951]
+[or-condo-c174:89048] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2abeced66b69]
+[or-condo-c174:89048] [ 7] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b59b45e9906]
+[or-condo-c174:89059] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b59b45e9951]
+[or-condo-c174:89059] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b59b45e9b69]
+[or-condo-c174:89059] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2abece028499]
+[or-condo-c174:89048] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2abece02ebc8]
+[or-condo-c174:89048] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b59b38ab499]
+[or-condo-c174:89059] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b59b38b1bc8]
+[or-condo-c174:89059] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2abece0124e5]
+[or-condo-c174:89048] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b59b38954e5]
+[or-condo-c174:89059] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2abece01d5bc]
+[or-condo-c174:89048] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b59b38a05bc]
+[or-condo-c174:89059] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2abece01d719]
+[or-condo-c174:89048] [12] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b59b38a0719]
+[or-condo-c174:89059] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89048] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2abecf7ad445]
+[or-condo-c174:89048] [14] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89059] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b59b5030445]
+[or-condo-c174:89059] [14] ats[0x553dcd]
+[or-condo-c174:89048] *** End of error message ***
+ats[0x553dcd]
+[or-condo-c174:89059] *** End of error message ***
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89036] *** Process received signal ***
+[or-condo-c174:89036] Signal: Aborted (6)
+[or-condo-c174:89036] Signal code:  (-6)
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89052] *** Process received signal ***
+[or-condo-c174:89052] Signal: Aborted (6)
+[or-condo-c174:89052] Signal code:  (-6)
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89035] *** Process received signal ***
+[or-condo-c174:89035] Signal: Aborted (6)
+[or-condo-c174:89035] Signal code:  (-6)
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89035] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2af7185db6d0]
+[or-condo-c174:89035] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2af71881e277]
+[or-condo-c174:89035] [ 2] [or-condo-c174:89055] *** Process received signal ***
+[or-condo-c174:89055] Signal: Aborted (6)
+[or-condo-c174:89055] Signal code:  (-6)
+[or-condo-c174:89032] *** Process received signal ***
+[or-condo-c174:89032] Signal: Aborted (6)
+[or-condo-c174:89032] Signal code:  (-6)
+[or-condo-c174:89032] [ 0] [or-condo-c174:89036] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b744a73b6d0]
+[or-condo-c174:89036] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b744a97e277]
+[or-condo-c174:89036] [ 2] [or-condo-c174:89052] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b4eec5a96d0]
+[or-condo-c174:89052] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b4eec7ec277]
+[or-condo-c174:89052] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b4eec7ed968]
+[or-condo-c174:89052] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b4eebd938cd]
+[or-condo-c174:89052] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b4eebd91906]
+[or-condo-c174:89052] [ 5] /lib64/libc.so.6(abort+0x148)[0x2b744a97f968]
+[or-condo-c174:89036] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b7449f258cd]
+[or-condo-c174:89036] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b7449f23906]
+[or-condo-c174:89036] [ 5] /lib64/libc.so.6(abort+0x148)[0x2af71881f968]
+[or-condo-c174:89035] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2af717dc58cd]
+[or-condo-c174:89035] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2af717dc3906]
+[or-condo-c174:89035] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2af717dc3951]
+[or-condo-c174:89035] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2af717dc3b69]
+[or-condo-c174:89035] [ 7] /lib64/libpthread.so.0(+0xf6d0)[0x2ab3376a06d0]
+[or-condo-c174:89032] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ab3378e3277]
+[or-condo-c174:89032] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ab3378e4968]
+[or-condo-c174:89032] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ab336e8a8cd]
+[or-condo-c174:89032] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ab336e88906]
+[or-condo-c174:89032] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b4eebd91951]
+[or-condo-c174:89052] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b4eebd91b69]
+[or-condo-c174:89052] [ 7] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b7449f23951]
+[or-condo-c174:89036] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b7449f23b69]
+[or-condo-c174:89036] [ 7] [or-condo-c174:89055] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b25a9bfa6d0]
+[or-condo-c174:89055] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b25a9e3d277]
+[or-condo-c174:89055] [ 2] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ab336e88951]
+[or-condo-c174:89032] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ab336e88b69]
+[or-condo-c174:89032] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b74491e5499]
+[or-condo-c174:89036] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2af717085499]
+[or-condo-c174:89035] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2af71708bbc8]
+[or-condo-c174:89035] [ 9] /lib64/libc.so.6(abort+0x148)[0x2b25a9e3e968]
+[or-condo-c174:89055] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b25a93e48cd]
+[or-condo-c174:89055] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b25a93e2906]
+[or-condo-c174:89055] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b25a93e2951]
+[or-condo-c174:89055] [ 6] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b4eeb053499]
+[or-condo-c174:89052] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2ab33614a499]
+[or-condo-c174:89032] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b4eeb059bc8]
+[or-condo-c174:89052] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b4eeb03d4e5]
+[or-condo-c174:89052] [10] terminate called after throwing an instance of 'std::runtime_error'
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2ab336150bc8]
+[or-condo-c174:89032] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b74491ebbc8]
+[or-condo-c174:89036] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b74491cf4e5]
+[or-condo-c174:89036] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2af71706f4e5]
+[or-condo-c174:89035] [10] terminate called after throwing an instance of 'std::runtime_error'
+/software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b25a93e2b69]
+[or-condo-c174:89055] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b25a86a4499]
+[or-condo-c174:89055] [ 8] terminate called after throwing an instance of 'std::runtime_error'
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b25a86aabc8]
+[or-condo-c174:89055] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b4eeb0485bc]
+[or-condo-c174:89052] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b4eeb048719]
+[or-condo-c174:89052] [12]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2ab3361344e5]
+[or-condo-c174:89032] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2ab33613f5bc]
+[or-condo-c174:89032] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b74491da5bc]
+[or-condo-c174:89036] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b74491da719]
+[or-condo-c174:89036] [12] terminate called after throwing an instance of 'std::runtime_error'
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2af71707a5bc]
+[or-condo-c174:89035] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2af71707a719]
+[or-condo-c174:89035] [12] terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+terminate called after throwing an instance of 'std::runtime_error'
+ats(main+0x109)[0x5490d9]
+[or-condo-c174:89035] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2af71880a445]
+[or-condo-c174:89035] [14] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b25a868e4e5]
+[or-condo-c174:89055] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b25a86995bc]
+[or-condo-c174:89055] [11] [or-condo-c174:89031] *** Process received signal ***
+[or-condo-c174:89031] Signal: Aborted (6)
+[or-condo-c174:89031] Signal code:  (-6)
+[or-condo-c174:89031] [ 0] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2ab33613f719]
+[or-condo-c174:89032] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89032] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ab3378cf445]
+[or-condo-c174:89032] [14] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89036] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b744a96a445]
+[or-condo-c174:89036] [14] ats[0x553dcd]
+[or-condo-c174:89036] *** End of error message ***
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89041] *** Process received signal ***
+[or-condo-c174:89041] Signal: Aborted (6)
+[or-condo-c174:89041] Signal code:  (-6)
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89057] *** Process received signal ***
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89049] *** Process received signal ***
+[or-condo-c174:89049] Signal: Aborted (6)
+[or-condo-c174:89049] Signal code:  (-6)
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89051] *** Process received signal ***
+[or-condo-c174:89051] Signal: Aborted (6)
+[or-condo-c174:89051] Signal code:  (-6)
+[or-condo-c174:89047] *** Process received signal ***
+[or-condo-c174:89047] Signal: Aborted (6)
+[or-condo-c174:89047] Signal code:  (-6)
+[or-condo-c174:89047] [ 0] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b25a8699719]
+[or-condo-c174:89055] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89055] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b25a9e29445]
+[or-condo-c174:89055] [14]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89030] *** Process received signal ***
+[or-condo-c174:89030] Signal: Aborted (6)
+[or-condo-c174:89030] Signal code:  (-6)
+[or-condo-c174:89030] [ 0] ats[0x553dcd]
+[or-condo-c174:89035] *** End of error message ***
+ats(main+0x109)[0x5490d9]
+[or-condo-c174:89052] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b4eec7d8445]
+[or-condo-c174:89052] [14] ats[0x553dcd]
+[or-condo-c174:89052] *** End of error message ***
+[or-condo-c174:89041] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b65bfeb96d0]
+[or-condo-c174:89041] [ 1] [or-condo-c174:89057] Signal: Aborted (6)
+[or-condo-c174:89057] Signal code:  (-6)
+[or-condo-c174:89057] [ 0] [or-condo-c174:89049] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2abc68cc16d0]
+[or-condo-c174:89049] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2abc68f04277]
+[or-condo-c174:89049] [or-condo-c174:89051] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b65c95756d0]
+[or-condo-c174:89051] [ 1] /lib64/libpthread.so.0(+0xf6d0)[0x2abb6366c6d0]
+[or-condo-c174:89047] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2abb638af277]
+[or-condo-c174:89047] [ 2] /lib64/libc.so.6(abort+0x148)[0x2abb638b0968]
+[or-condo-c174:89047] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2abb62e568cd]
+[or-condo-c174:89047] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2abb62e54906]
+[or-condo-c174:89047] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2abb62e54951]
+[or-condo-c174:89047] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2abb62e54b69]
+[or-condo-c174:89047] [ 7] /lib64/libpthread.so.0(+0xf6d0)[0x2b32d8ea46d0]
+[or-condo-c174:89031] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b32d90e7277]
+[or-condo-c174:89031] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b32d90e8968]
+[or-condo-c174:89031] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b32d868e8cd]
+[or-condo-c174:89031] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b32d868c906]
+[or-condo-c174:89031] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b32d868c951]
+[or-condo-c174:89031] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b32d868cb69]
+[or-condo-c174:89031] [ 7] ats[0x553dcd]
+[or-condo-c174:89032] *** End of error message ***
+/lib64/libc.so.6(gsignal+0x37)[0x2b65c00fc277]
+[or-condo-c174:89041] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b65c00fd968]
+[or-condo-c174:89041] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b65bf6a38cd]
+[or-condo-c174:89041] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b65bf6a1906]
+[or-condo-c174:89041] [ 5] /lib64/libpthread.so.0(+0xf6d0)[0x2b0d5a2d86d0]
+[or-condo-c174:89057] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b0d5a51b277]
+[or-condo-c174:89057] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b0d5a51c968]
+[or-condo-c174:89057] [ 3] [ 2] /lib64/libc.so.6(abort+0x148)[0x2abc68f05968]
+[or-condo-c174:89049] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2abc684ab8cd]
+[or-condo-c174:89049] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2abc684a9906]
+[or-condo-c174:89049] [ 5] ats[0x553dcd]
+[or-condo-c174:89055] *** End of error message ***
+/lib64/libpthread.so.0(+0xf6d0)[0x2b571b2696d0]
+[or-condo-c174:89030] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b571b4ac277]
+[or-condo-c174:89030] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b571b4ad968]
+[or-condo-c174:89030] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b571aa538cd]
+[or-condo-c174:89030] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b571aa51906]
+[or-condo-c174:89030] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b571aa51951]
+[or-condo-c174:89030] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b571aa51b69]
+[or-condo-c174:89030] [ 7] /lib64/libc.so.6(gsignal+0x37)[0x2b65c97b8277]
+[or-condo-c174:89051] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b65c97b9968]
+[or-condo-c174:89051] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b65c8d5f8cd]
+[or-condo-c174:89051] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b65c8d5d906]
+[or-condo-c174:89051] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b65c8d5d951]
+[or-condo-c174:89051] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b65c8d5db69]
+[or-condo-c174:89051] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b32d794e499]
+[or-condo-c174:89031] [ 8] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b65bf6a1951]
+[or-condo-c174:89041] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b65bf6a1b69]
+[or-condo-c174:89041] [ 7] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b0d59ac28cd]
+[or-condo-c174:89057] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b0d59ac0906]
+[or-condo-c174:89057] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b0d59ac0951]
+[or-condo-c174:89057] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b0d59ac0b69]
+[or-condo-c174:89057] [ 7] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2abc684a9951]
+[or-condo-c174:89049] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2abc684a9b69]
+[or-condo-c174:89049] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2abc6776b499]
+[or-condo-c174:89049] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2abb62116499]
+[or-condo-c174:89047] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2abb6211cbc8]
+[or-condo-c174:89047] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b0d58d82499]
+[or-condo-c174:89057] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b5719d13499]
+[or-condo-c174:89030] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b65c801f499]
+[or-condo-c174:89051] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b32d7954bc8]
+[or-condo-c174:89031] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b32d79384e5]
+[or-condo-c174:89031] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b65be963499]
+[or-condo-c174:89041] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b65be969bc8]
+[or-condo-c174:89041] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2abb621004e5]
+[or-condo-c174:89047] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2abc67771bc8]
+[or-condo-c174:89049] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b5719d19bc8]
+[or-condo-c174:89030] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b65c8025bc8]
+[or-condo-c174:89051] [ 9] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b32d79435bc]
+[or-condo-c174:89031] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b65be94d4e5]
+[or-condo-c174:89041] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b0d58d88bc8]
+[or-condo-c174:89057] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b0d58d6c4e5]
+[or-condo-c174:89057] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2abb6210b5bc]
+[or-condo-c174:89047] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2abc677554e5]
+[or-condo-c174:89049] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2abc677605bc]
+[or-condo-c174:89049] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b5719cfd4e5]
+[or-condo-c174:89030] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b65c80094e5]
+[or-condo-c174:89051] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b65c80145bc]
+[or-condo-c174:89051] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b5719d085bc]
+[or-condo-c174:89030] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b32d7943719]
+[or-condo-c174:89031] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89031] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b32d90d3445]
+[or-condo-c174:89031] [14] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b65be9585bc]
+[or-condo-c174:89041] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b65be958719]
+[or-condo-c174:89041] [12] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2abb6210b719]
+[or-condo-c174:89047] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89047] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2abb6389b445]
+[or-condo-c174:89047] [14] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2abc67760719]
+[or-condo-c174:89049] [12] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b65c8014719]
+[or-condo-c174:89051] [12] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b5719d08719]
+[or-condo-c174:89030] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89030] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b571b498445]
+[or-condo-c174:89030] [14] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b0d58d775bc]
+[or-condo-c174:89057] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b0d58d77719]
+[or-condo-c174:89057] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89057] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b0d5a507445]
+[or-condo-c174:89057] [14] ats[0x553dcd]
+[or-condo-c174:89047] *** End of error message ***
+ats(main+0x109)[0x5490d9]
+[or-condo-c174:89049] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2abc68ef0445]
+[or-condo-c174:89049] [14] ats[0x553dcd]
+[or-condo-c174:89049] *** End of error message ***
+ats(main+0x109)[0x5490d9]
+[or-condo-c174:89051] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b65c97a4445]
+[or-condo-c174:89051] [14] ats[0x553dcd]
+[or-condo-c174:89051] *** End of error message ***
+ats[0x553dcd]
+[or-condo-c174:89031] *** End of error message ***
+ats[0x553dcd]
+[or-condo-c174:89030] *** End of error message ***
+ats(main+0x109)[0x5490d9]
+[or-condo-c174:89041] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b65c00e8445]
+[or-condo-c174:89041] [14] ats[0x553dcd]
+[or-condo-c174:89041] *** End of error message ***
+ats[0x553dcd]
+[or-condo-c174:89057] *** End of error message ***
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89058] *** Process received signal ***
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89040] *** Process received signal ***
+[or-condo-c174:89040] Signal: Aborted (6)
+[or-condo-c174:89040] Signal code:  (-6)
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89038] *** Process received signal ***
+[or-condo-c174:89038] Signal: Aborted (6)
+[or-condo-c174:89038] Signal code:  (-6)
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89037] *** Process received signal ***
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89050] *** Process received signal ***
+[or-condo-c174:89050] Signal: Aborted (6)
+[or-condo-c174:89050] Signal code:  (-6)
+[or-condo-c174:89050] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ab183f0f6d0]
+[or-condo-c174:89050] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ab184152277]
+[or-condo-c174:89050] [ 2] [or-condo-c174:89029] *** Process received signal ***
+[or-condo-c174:89029] Signal: Aborted (6)
+[or-condo-c174:89029] Signal code:  (-6)
+[or-condo-c174:89029] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2ab8b49916d0]
+[or-condo-c174:89029] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ab8b4bd4277]
+[or-condo-c174:89029] [ 2] [or-condo-c174:89058] Signal: Aborted (6)
+[or-condo-c174:89058] Signal code:  (-6)
+[or-condo-c174:89058] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b79577746d0]
+[or-condo-c174:89058] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b79579b7277]
+[or-condo-c174:89058] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b79579b8968]
+[or-condo-c174:89058] [ 3] [or-condo-c174:89040] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2afc57ef86d0]
+[or-condo-c174:89040] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2afc5813b277]
+[or-condo-c174:89040] [ 2] /lib64/libc.so.6(abort+0x148)[0x2afc5813c968]
+[or-condo-c174:89040] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2afc576e28cd]
+[or-condo-c174:89040] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2afc576e0906]
+[or-condo-c174:89040] [ 5] [or-condo-c174:89038] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b5e320716d0]
+[or-condo-c174:89038] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b5e322b4277]
+[or-condo-c174:89038] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b5e322b5968]
+[or-condo-c174:89038] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b5e3185b8cd]
+[or-condo-c174:89038] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b5e31859906]
+[or-condo-c174:89038] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b5e31859951]
+[or-condo-c174:89038] [ 6] [or-condo-c174:89037] Signal: Aborted (6)
+[or-condo-c174:89037] Signal code:  (-6)
+[or-condo-c174:89037] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b5074ec66d0]
+[or-condo-c174:89037] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b5075109277]
+[or-condo-c174:89037] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b507510a968]
+[or-condo-c174:89037] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b50746b08cd]
+[or-condo-c174:89037] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b50746ae906]
+[or-condo-c174:89037] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b50746ae951]
+[or-condo-c174:89037] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b50746aeb69]
+[or-condo-c174:89037] [ 7]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89053] *** Process received signal ***
+[or-condo-c174:89053] Signal: Aborted (6)
+[or-condo-c174:89053] Signal code:  (-6)
+[or-condo-c174:89053] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b18aa33a6d0]
+[or-condo-c174:89053] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b18aa57d277]
+[or-condo-c174:89053] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ab184153968]
+[or-condo-c174:89050] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ab1836f98cd]
+[or-condo-c174:89050] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ab1836f7906]
+[or-condo-c174:89050] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ab1836f7951]
+[or-condo-c174:89050] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ab1836f7b69]
+[or-condo-c174:89050] [ 7] /lib64/libc.so.6(abort+0x148)[0x2ab8b4bd5968]
+[or-condo-c174:89029] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2ab8b417b8cd]
+[or-condo-c174:89029] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2ab8b4179906]
+[or-condo-c174:89029] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2ab8b4179951]
+[or-condo-c174:89029] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2ab8b4179b69]
+[or-condo-c174:89029] [ 7] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b7956f5e8cd]
+[or-condo-c174:89058] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b7956f5c906]
+[or-condo-c174:89058] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b7956f5c951]
+[or-condo-c174:89058] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b7956f5cb69]
+[or-condo-c174:89058] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b795621e499]
+[or-condo-c174:89058] [ 8] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2afc576e0951]
+[or-condo-c174:89040] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2afc576e0b69]
+[or-condo-c174:89040] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2afc569a2499]
+[or-condo-c174:89040] [ 8] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b5e31859b69]
+[or-condo-c174:89038] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b5e30b1b499]
+[or-condo-c174:89038] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b5e30b21bc8]
+[or-condo-c174:89038] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b5e30b054e5]
+[or-condo-c174:89038] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2ab1829b9499]
+[or-condo-c174:89050] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2ab1829bfbc8]
+[or-condo-c174:89050] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2ab8b343b499]
+[or-condo-c174:89029] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2ab8b3441bc8]
+[or-condo-c174:89029] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2afc569a8bc8]
+[or-condo-c174:89040] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2afc5698c4e5]
+[or-condo-c174:89040] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b5073970499]
+[or-condo-c174:89037] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b5073976bc8]
+[or-condo-c174:89037] [ 9] /lib64/libc.so.6(abort+0x148)[0x2b18aa57e968]
+[or-condo-c174:89053] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b18a9b248cd]
+[or-condo-c174:89053] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b18a9b22906]
+[or-condo-c174:89053] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b18a9b22951]
+[or-condo-c174:89053] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b18a9b22b69]
+[or-condo-c174:89053] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b7956224bc8]
+[or-condo-c174:89058] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b79562084e5]
+[or-condo-c174:89058] [10] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2afc569975bc]
+[or-condo-c174:89040] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b507395a4e5]
+[or-condo-c174:89037] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b5e30b105bc]
+[or-condo-c174:89038] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b5e30b10719]
+[or-condo-c174:89038] [12] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2ab1829a34e5]
+[or-condo-c174:89050] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b18a8de4499]
+[or-condo-c174:89053] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2ab8b34254e5]
+[or-condo-c174:89029] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2ab8b34305bc]
+[or-condo-c174:89029] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b79562135bc]
+[or-condo-c174:89058] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b50739655bc]
+[or-condo-c174:89037] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b5073965719]
+[or-condo-c174:89037] [12] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2ab1829ae5bc]
+[or-condo-c174:89050] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2ab1829ae719]
+[or-condo-c174:89050] [12] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2afc56997719]
+[or-condo-c174:89040] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89040] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2afc58127445]
+[or-condo-c174:89040] [14] ats[0x553dcd]
+[or-condo-c174:89040] *** End of error message ***
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b7956213719]
+[or-condo-c174:89058] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89058] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b79579a3445]
+[or-condo-c174:89058] [14] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89038] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b5e322a0445]
+[or-condo-c174:89038] [14] ats[0x553dcd]
+[or-condo-c174:89038] *** End of error message ***
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b18a8deabc8]
+[or-condo-c174:89053] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b18a8dce4e5]
+[or-condo-c174:89053] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2ab8b3430719]
+[or-condo-c174:89029] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89029] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ab8b4bc0445]
+[or-condo-c174:89029] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89037] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b50750f5445]
+[or-condo-c174:89037] [14] [14] ats[0x553dcd]
+[or-condo-c174:89029] *** End of error message ***
+ats(main+0x109)[0x5490d9]
+[or-condo-c174:89050] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ab18413e445]
+[or-condo-c174:89050] [14] ats[0x553dcd]
+[or-condo-c174:89050] *** End of error message ***
+terminate called after throwing an instance of 'std::runtime_error'
+ats[0x553dcd]
+[or-condo-c174:89058] *** End of error message ***
+ats[0x553dcd]
+[or-condo-c174:89037] *** End of error message ***
+/software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b18a8dd95bc]
+[or-condo-c174:89053] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b18a8dd9719]
+[or-condo-c174:89053] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89053] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b18aa569445]
+[or-condo-c174:89053] [14]   what():  /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/build-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos/trilinos-12-12-1-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:465:
+
+Throw number = 1
+
+Throw test that evaluated to true: assertChar('>')!=0
+
+XML parse error at line 209: comment not well-formed: missing expected '>' at line 209
+[or-condo-c174:89034] *** Process received signal ***
+[or-condo-c174:89034] Signal: Aborted (6)
+[or-condo-c174:89034] Signal code:  (-6)
+ats[0x553dcd]
+[or-condo-c174:89053] *** End of error message ***
+[or-condo-c174:89034] [ 0] /lib64/libpthread.so.0(+0xf6d0)[0x2b98d3ebd6d0]
+[or-condo-c174:89034] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b98d4100277]
+[or-condo-c174:89034] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b98d4101968]
+[or-condo-c174:89034] [ 3] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d)[0x2b98d36a78cd]
+[or-condo-c174:89034] [ 4] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c906)[0x2b98d36a5906]
+[or-condo-c174:89034] [ 5] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8c951)[0x2b98d36a5951]
+[or-condo-c174:89034] [ 6] /software/dev_tools/swtree/cs400_centos7.2_pe2016-08/gcc/5.3.0/centos7.2_gcc4.8.5/lib64/libstdc++.so.6(+0x8cb69)[0x2b98d36a5b69]
+[or-condo-c174:89034] [ 7] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser10getCommentEl+0xfd9)[0x2b98d2967499]
+[or-condo-c174:89034] [ 8] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos9XMLParser5parseEv+0x1638)[0x2b98d296dbc8]
+[or-condo-c174:89034] [ 9] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZNK7Teuchos14XMLInputSource9getObjectEv+0x85)[0x2b98d29514e5]
+[or-condo-c174:89034] [10] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x4c)[0x2b98d295c5bc]
+[or-condo-c174:89034] [11] /software/user_tools/current/cades-ccsi/ats/amanzi-tpls/install-0.88/RelWithDebInfo/gcc-5.3.0_openmpi-1.10.3/trilinos-12-12-1/lib/libteuchosparameterlist.so.12(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x79)[0x2b98d295c719]
+[or-condo-c174:89034] [12] ats(main+0x109)[0x5490d9]
+[or-condo-c174:89034] [13] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b98d40ec445]
+[or-condo-c174:89034] [14] ats[0x553dcd]
+[or-condo-c174:89034] *** End of error message ***
