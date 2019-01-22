@@ -9,6 +9,7 @@ from scipy import stats
 import os
 
 runPrefixList = ['TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslope','WoodyShrubsRiparianHi','FrostBoils','SedgeHi','SedgeLo']
+titleList = ['Tussock Tundra High','Tussock Tundra Low','Water Track','Woody Shrubs, Hillslope','Woody Shrubs, Riparian','Frost Boils','Sedge High','Sedge Low']
 runDate = '18Dec18'
 
 nruns = 32
@@ -24,7 +25,7 @@ ndays = (t2-t1)
 y_part = np.nan*np.ones([ndays,nruns],'d')
 meany = np.nan*np.ones([ndays,len(runPrefixList)],'d')
 #t = np.nan*np.ones([ndays,nruns],'d')
-fig, axes = plt.subplots(4,2,sharex=True)
+fig, axes = plt.subplots(4,2,sharex=True,sharey=True)
 
 for i in range(len(runPrefixList)):
 	y = np.nan*np.ones([trange.size-1,nruns],'d')
@@ -74,9 +75,10 @@ for i in range(len(runPrefixList)):
 	plt.hold(True)
 	#axes[i%4,i/4].set_ylim([9,11])
 #	plt.legend(runPrefixList,loc='upper left')
-	axes[i%4,i/4].set_title(runPrefixList[i])
-#	axes.xlabel('Time [yrs]')
-#	plt.ylabel('Total water content [m^3]')
+	axes[i%4,i/4].set_title(titleList[i])
+	if(i%4 == 3):
+		axes[i%4,i/4].set_xlabel('Time [yrs]')
+	axes[i%4,i/4].set_ylabel('m water')
 
 
 plt.show() 

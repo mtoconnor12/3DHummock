@@ -8,7 +8,9 @@ import math
 from scipy import stats
 import os
 
-runPrefixList = ['TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslope','WoodyShrubsRiparianHi','FrostBoils','SedgeHi','SedgeLo']
+#runPrefixList = ['TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslope','WoodyShrubsRiparianHi','FrostBoils','SedgeHi','SedgeLo']
+runPrefixList = ['TussockTundraHi','TussockTundraLo','WaterTrack','WoodyShrubsHillslope','SedgeHi','WoodyShrubsRiparianHi','SedgeLo','FrostBoils']
+
 runDate = '18Dec18'
 
 nruns = 32
@@ -22,6 +24,9 @@ y_part = np.nan*np.ones([ndays,nruns],'d')
 meany = np.nan*np.ones([ndays,len(runPrefixList)],'d')
 #t = np.nan*np.ones([ndays,nruns],'d')
 fig, axes = plt.subplots(4,2,sharex=True)
+
+bac = [[0.09,0.17],[0.07,0.12],[0.05,0.10],[0.10,0.20],[0.10,0.17],[0.08,0.16],[0.03,0.12],[0.01,0.02]]
+bct = [[0.06,0.14],[0.06,0.16],[0.14,0.26],[0.02,0.12],[0.20,0.34],[0.10,0.20],[0.18,0.46],[0.02,0.04]]
 
 for i in range(len(runPrefixList)):
 	y = np.nan*np.ones([nruns,1],'d')
@@ -39,6 +44,7 @@ for i in range(len(runPrefixList)):
 		y_part = mat[t1:t2,1] # thing we're plotting
 		y[j] = sum(y_part)
 		if(j<8):
+			bOM[
 			cVal = 'k'
 		elif(j<16):
 			cVal = 'r'
