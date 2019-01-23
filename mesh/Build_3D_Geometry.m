@@ -34,23 +34,23 @@ figure;
 surf(X,Y,Z);
 axis equal;
 
-% Insert this unit cell into the domain
-x2 = linspace(lenX,lenXDomain,40);
-y2 = linspace(0,lenY,40);
-
-% Test in 2D
-z2 = m.*x2;
-figure(1);
-hold all;
-plot(x2,z2);
-
-% Test in 3D
-[X2,Y2] = meshgrid(x2,y2);
-Z2 = m.*X2;
-figure(2);
-hold all;
-surf(X2,Y2,Z2);
-xlim([0 10])
-zlim([-0.5 2]);
-%axis equal;
+% % Insert this unit cell into the domain
+% x2 = linspace(lenX,lenXDomain,40);
+% y2 = linspace(0,lenY,40);
+% 
+% % Test in 2D
+% z2 = m.*x2;
+% figure(1);
+% hold all;
+% plot(x2,z2);
+% 
+% % Test in 3D
+% [X2,Y2] = meshgrid(x2,y2);
+% Z2 = m.*X2;
+% figure(2);
+% hold all;
+% surf(X2,Y2,Z2);
+% xlim([0 10])
+% zlim([-0.5 2]);
+% %axis equal;
 
